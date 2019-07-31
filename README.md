@@ -1,7 +1,6 @@
 # DS-Algo-interview-preparation
 
-**This is my own challenge to do 3 coding problems a day for 150 days.  
-**
+**This is my own challenge to do 3 coding problems a day for 150 days**
 
 | #  | Day num |Question| Solution | Category |Difficulty | Notes |
 | -- |-------|----- | -------- | ---------- |-----|-------|
