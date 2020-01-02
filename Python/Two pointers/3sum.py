@@ -6,7 +6,7 @@ class Solution:
             # handling duplicates in 3sum
             if i > 0 and nums[i] == nums[i-1]:
                 continue
-                
+            # two pointers approach    
             l, r = i+1, len(nums)-1
             
             while l < r:
@@ -16,7 +16,7 @@ class Solution:
                 elif s > 0:
                     r -= 1
                 else:
-                    
+                    # if equal to zero
                     res.append([nums[i], nums[l], nums[r]])
                     # to handle duplicates in 2sum
                     while l < r and nums[l] == nums[l+1]:

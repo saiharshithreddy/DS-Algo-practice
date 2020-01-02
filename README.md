@@ -2,7 +2,7 @@
 
 **This is my own challenge to do 3 coding problems a day for 60 days**
 
-| #  | Day num |Question| Category |Difficulty | Notes |
+| #  | Day num |Question| Solution |Difficulty | Notes |
 | -- |---------|----- | ---------- |-----|-------|
 | 1. | Day 1|[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](https://github.com/saiharshithreddy/150-days-of-coding/blob/master/Python/Sliding%20window/Maximum%20sum%20of%20subarray.ipynb) | Easy | |
 | 2. |  |[Smallest Subarray with a given sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](https://github.com/saiharshithreddy/150-days-of-coding/blob/master/Python/Sliding%20window/Smallest%20subarray%20with%20given%20sum.ipynb)|  Easy |[Algo](https://github.com/saiharshithreddy/Notes/150-days-of-coding/blob/master/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
