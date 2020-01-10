@@ -1,6 +1,5 @@
 import math
 
-
 def smallest_subarray_with_given_sum(s, arr):
     window_sum = 0
     min_length = math.inf

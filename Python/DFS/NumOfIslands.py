@@ -1,7 +1,7 @@
   
 '''
 Did it run on leetcode: Yes
-Did you face any problem: How we do mimimum  moves with BFS
+Did you face any problem: None
 Time Compelxity: 0(m*n)
 Space Complexity: 0(m*n)
 Algorithm:
