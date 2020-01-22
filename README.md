@@ -4,12 +4,18 @@
 
 | #  | Day num |Question| Solution |Difficulty | Notes |
 | -- |---------|----- | ---------- |-----|-------|
-| 1. | Day 1|[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](https://github.com/saiharshithreddy/150-days-of-coding/blob/master/Python/Sliding%20window/max_sum_subarray.py) | Easy | |
-| 2. |  |[Smallest Subarray with a given sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](https://github.com/saiharshithreddy/150-days-of-coding/blob/master/Python/Sliding%20window/smallest_sub_array_with_given_sum.py)|  Easy |[Algo](https://github.com/saiharshithreddy/150-days-of-coding/blob/master/Notes/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
-| 3. |  |[Longest Substring with at most K Distinct Characters *](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | [Sliding window](https://github.com/saiharshithreddy/150-days-of-coding/blob/master/Python/Sliding%20window/Longest_substring_withK_distinct_characters.py) | Hard | | 
-|4. |Day 2 |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](https://github.com/saiharshithreddy/150-days-of-coding/blob/master/Python/Sliding%20window/fruits_into_baskets.py) | Medium |[Algo](https://github.com/saiharshithreddy/150-days-of-coding/blob/master/Notes/Fruits_into_baskets.pdf) |
-|5. | | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](https://github.com/saiharshithreddy/150-days-of-coding/blob/master/Python/Sliding%20window/Longest_repeating_character_replacement.py)| Medium | |
-|6. | | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Sliding Window](https://github.com/saiharshithreddy/150-days-of-coding/blob/master/Python/Sliding%20window/permutation_in_string.py)| Medium | |
+| 1. | Day 1|[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/max_sum_subarray.py) | Easy | |
+| 2. |  |[Smallest Subarray with a given sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/smallest_sub_array_with_given_sum.py)|  Easy |[Algo](https://github.com/saiharshithreddy/DS-Algo-practice
+/blob/master/Notes/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
+| 3. |  |[Longest Substring with at most K Distinct Characters *](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | [Sliding window](https://github.com/saiharshithreddy/DS-Algo-practice
+/blob/master/Python/Sliding%20window/Longest_substring_withK_distinct_characters.py) | Hard | | 
+|4. |Day 2 |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice
+/blob/master/Python/Sliding%20window/fruits_into_baskets.py) | Medium |[Algo](https://github.com/saiharshithreddy/DS-Algo-practice
+/blob/master/Notes/Fruits_into_baskets.pdf) |
+|5. | | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice
+/blob/master/Python/Sliding%20window/Longest_repeating_character_replacement.py)| Medium | |
+|6. | | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice
+/blob/master/Python/Sliding%20window/permutation_in_string.py)| Medium | |
 |7. |Day 3  | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Sliding Window ]() | | |
 |8. |  | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | [Sliding Window]() | | |
 |9. |  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Sliding Window]() | | |
@@ -18,16 +24,24 @@
 |12. | | [Minimum Window substring](https://leetcode.com/problems/) | [Sliding Window ]() | Hard| |
 |13.|  | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Sliding window]() | Hard |  | |
 |14. |Day 5  | [Two sum II ](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Two pointers]() | | |
-|15. | | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ]()|Easy | |
-|16. |  | [3 Sum](https://leetcode.com/problems/3sum/) | [Two pointers]() | | |
-|17. |  | [3 Sum closest](https://leetcode.com/problems/3sum/) | [Two pointers]() | | |
-|18. |  | [3 Sum smaller](https://leetcode.com/problems/3sum/) | [Two pointers]() | | |
-|19. |  | [Squaring of a sorted array](https://leetcode.com/problems/squares-of-a-sorted-array) | [Two pointers](https://github.com/saiharshithreddy/150-days-of-coding/blob/master/Python/Two%20pointers/Squares_of_sorted_array.py) |Easy | Insert largest square in the first of the array |
-|20. |  | [Merge sorted array]() | [Two pointers]() | Easy | |
+|15. | | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Remove_duplicates_from_sortedarray.py)|Easy |  |
+|16. |  | [3 Sum](https://leetcode.com/problems/3sum/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice
+/blob/master/Python/Two%20pointers/3sum.py) | Medium | |
+|17. |  | [3 Sum closest](https://leetcode.com/problems/3sum-closest/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum_closest.py) | Medium | |
+|18. |  | [3 Sum smaller](https://leetcode.com/problems/3sum-smaller/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3-sum-smaller.py) | Medium | |
+|19. |  | [Squaring of a sorted array](https://leetcode.com/problems/squares-of-a-sorted-array) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Squares_of_sorted_array.py) |Easy | Insert largest square in the first of the array |
+|20. |  | [Merge sorted array](https://leetcode.com/problems/merge-sorted-array) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/merge_sorted_array.py) | Easy | |
 |21. |  | [Dutch national flag/Sort colors](https://leetcode.com/problems/sort-colors/) | [Two pointers]() | | |
-|20. |  | [4sum]() | []() | | |
-|20. |  | [Backspace string compare](https://leetcode.com/problems/backspace-string-compare/) | [Two pointers]() | | |
-|20. |  | [Shortest unsorted continuous subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Two pointers]() | | |
+|20. |  | [4sum](https://leetcode.com/problems/4sum) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/4sum.py) | Medium | Extension of 3sum |
+|20.| | [Trapping water](https://leetcode.com/problems/trapping-rain-water)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/trapping_water.py)| Hard | Use left_max and right_max|
+|20. |  | [Backspace string compare](https://leetcode.com/problems/backspace-string-compare/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/backspace_string_compare.py) | | |
+|20. |  | [Shortest unsorted continuous subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/) | | |
+|20. | | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium||
+|20.| | [Reverse string](https://leetcode.com/problems/reverse-string)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Easy||
+|20.| | [Reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Easy ||
+|20.| | [Move zeros]()|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| ||
+|20.| | [Minimum size subarray sum]()|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Medium||
+|20.| | [Candy crush]()|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| ||
 |20. |  | [Linkedlist cycle](https://leetcode.com/problems/linked-list-cycle) | [Fast & slow ptrs]() | Easy | |
 |20. |  | [Linkedlist cycle 2](https://leetcode.com/problems/linked-list-cycle-ii) | [Fast & slow ptrs]() | Medium | |
 |20. |  | [Middle of Linkedlist](https://leetcode.com/problems/middle-of-the-linked-list) | []() | | |
@@ -50,7 +64,8 @@
 | 22. | | [Flatten Binary tree to LL](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | []()| | |
 | 22. | | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | []()| | |
 | 22. | | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | []()| | |
-| 22. | | [Merge intervals](https://leetcode.com/problems/merge-intervals) | []()|Easy | |
+|20.| | [Remove Nth node from the end]()|[]()| ||
+| 22. | | [Merge intervals](https://leetcode.com/problems/merge-intervals) | [Merge intervals]()|Easy | |
 | 22. | | [Insert intervals](https://leetcode.com/problems/insert-interval/) | []()| Hard| |
 | 22. | | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | []()| Medium| |
 | 22. | | [Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | []()| Medium| |
@@ -185,4 +200,35 @@
 | 22. | | [longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | [Topological sort]()| | |
 | 22. | | [sort-items-by-groups-respecting-dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) | [Topological sort]()| | |
 | 22. | | [sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction) | [Topological sort]()| | |
+|22.| |[generate-parentheses](https://leetcode.com/problems/generate-parentheses)|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+|22.| |[]()|[Backtracking]()|||
+
 

@@ -1,3 +1,10 @@
+'''
+Approach 1:  
+TC:
+SC:
+'''
+
+
 import math
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:

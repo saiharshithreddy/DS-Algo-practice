@@ -2,7 +2,7 @@
 
 1. Useful in solving the problems in a single pass. O(n) 
 2. Use a dictionary to store the count of nums/chars in a list or string.
-3.  
+3. 
 
 Questions:
 1. 
