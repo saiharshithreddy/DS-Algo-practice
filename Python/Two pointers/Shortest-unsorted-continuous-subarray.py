@@ -1,3 +1,9 @@
+'''
+Approach 1: two pointers
+TC: O(n)
+SC: O(1)
+'''
+
 import math
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:

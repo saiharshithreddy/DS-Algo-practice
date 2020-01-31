@@ -28,6 +28,7 @@ class Solution:
         return count 
 
     def dfs(self, grid, i , j):
+        # boundary condiitons
         if i < 0 or j < 0 or i >= len(grid) or j>= len(grid[0]) or grid[i][j] != '1':
             return
         # Visited node values are changed

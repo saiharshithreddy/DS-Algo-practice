@@ -23,29 +23,31 @@
 |17. | Day 6 | [3 Sum closest](https://leetcode.com/problems/3sum-closest/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum_closest.py) | Medium | |
 |18. |  | [3 Sum smaller](https://leetcode.com/problems/3sum-smaller/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3-sum-smaller.py) | Medium | |
 |19. |  | [Squaring of a sorted array](https://leetcode.com/problems/squares-of-a-sorted-array) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Squares_of_sorted_array.py) |Easy | Insert largest square in the first of the array |
-|20. |  | [Merge sorted array](https://leetcode.com/problems/merge-sorted-array) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/merge_sorted_array.py) | Easy | |
-|21. |  | [Dutch national flag/Sort colors](https://leetcode.com/problems/sort-colors/) | [Two pointers]() | | |
+|20. | Day 7  | [Merge sorted array](https://leetcode.com/problems/merge-sorted-array) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/merge_sorted_array.py) | Easy | |
+|21. |  | [Dutch national flag/Sort colors](https://leetcode.com/problems/sort-colors/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/dutch_national_flag.py) | | |
 |20. |  | [4sum](https://leetcode.com/problems/4sum) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/4sum.py) | Medium | Extension of 3sum |
-|20.| | [Trapping water](https://leetcode.com/problems/trapping-rain-water)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/trapping_water.py)| Hard | Use left_max and right_max|
-|20. |  | [Backspace string compare](https://leetcode.com/problems/backspace-string-compare/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/backspace_string_compare.py) | | |
-|20. |  | [Shortest unsorted continuous subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/) | | |
-|20. | | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium||
+|20.| Day 8| [Trapping water](https://leetcode.com/problems/trapping-rain-water)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/trapping_water.py)| Hard | Use left_max and right_max|
+|20. |  | [Backspace string compare](https://leetcode.com/problems/backspace-string-compare/) | [Using stack](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Stack/backspace_string_compare.py) |Easy |  |
+|20.| |[k-diff-pairs](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/k-diff-pairs-array.py)|Easy| |
+|20. |  | [Shortest unsorted continuous subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Shortest-unsorted-continuous-subarray.py) | Easy| |
+|20. |Day 9 | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium||
 |20.| | [Reverse string](https://leetcode.com/problems/reverse-string)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Easy||
-|20.| | [Reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Easy ||
-|20.| | [Move zeros]()|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| ||
-|20.| | [Minimum size subarray sum]()|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Medium||
-|20.| | [Candy crush]()|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| ||
-|20. |  | [Linkedlist cycle](https://leetcode.com/problems/linked-list-cycle) | [Fast & slow ptrs]() | Easy | |
-|20. |  | [Linkedlist cycle 2](https://leetcode.com/problems/linked-list-cycle-ii) | [Fast & slow ptrs]() | Medium | |
-|20. |  | [Middle of Linkedlist](https://leetcode.com/problems/middle-of-the-linked-list) | []() | | |
-|20. |  | [Palindrome LL ](https://leetcode.com/problems/palindrome-linked-list) | []() | | |
-|20. |  | [Reorder List](https://leetcode.com/problems/reorder-list/) | []() | Medium | |
-|20. |  | [Circular array loop](https://leetcode.com/problems/circular-array-loop/) | []() | | |
-|20. |  | [Reverse LL](https://leetcode.com/problems/reverse-linked-list) | [In-place reverse]() |Easy | |
-|20. |  | [Reverse LL 2](https://leetcode.com/problems/reverse-linked-list-ii) | []() | Medium | |
-|20. |  | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | []() | Medium | |
-|20. |  | [Rotate LL](https://leetcode.com/problems/rotate-list) | []() | Medium| |
-|20. |  | Reverse nodes in k-alternating subgroup | []() | | |
+|20.| | [Reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Easy ||
+|20.| | [Move zeros](https://leetcode.com/problems/move-zeroes)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Easy ||
+|20.| | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Medium||
+|20.| | [Candy crush]()|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium ||
+|20. |  | [Linkedlist cycle](https://leetcode.com/problems/linked-list-cycle) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/linkedlist_cycle.py) | Easy | |
+|20. |  | [Linkedlist cycle 2](https://leetcode.com/problems/linked-list-cycle-ii) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
+|20. |  | [Middle of Linkedlist](https://leetcode.com/problems/middle-of-the-linked-list) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/middle_linkedlist.py) |Easy | |
+|20. |  | [Reverse LL](https://leetcode.com/problems/reverse-linked-list) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/reverseLL.py) |Easy | |
+|20. |  | [Palindrome LL ](https://leetcode.com/problems/palindrome-linked-list) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/palindrome_linkedlist.py) |Medium | Find middle and reverse the 2nd half of the list and compare both|
+|20. |  | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/reorder-list.py) | Medium | Find middle, reverse 2nd half and merge|
+|20. |  | [Circular array loop](https://leetcode.com/problems/circular-array-loop/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | | |
+
+|20. |  | [Reverse LL 2](https://leetcode.com/problems/reverse-linked-list-ii) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
+|20. |  | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
+|20. |  | [Rotate LL](https://leetcode.com/problems/rotate-list) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium| |
+|20. |  | Reverse nodes in k-alternating subgroup | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | | |
 |20. |  | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist]() | | |
 |20. |  | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | []() | | |
 |20. |  | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | []() | | |

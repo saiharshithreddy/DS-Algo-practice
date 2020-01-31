@@ -1,6 +1,6 @@
 '''
 Time complexity: O(n)
-Space complexity: O(1) if output is not considered as per the leetcode requirements. Otherwise O(n)
+Space complexity: O(1) if output array is not considered as per the leetcode requirements. Otherwise O(n)
 
 '''
 class Solution:
