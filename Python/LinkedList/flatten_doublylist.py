@@ -10,3 +10,4 @@ class Node:
 class Solution:
     def flatten(self, head: 'Node') -> 'Node':
         
+        
