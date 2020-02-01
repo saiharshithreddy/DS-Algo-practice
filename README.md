@@ -45,13 +45,13 @@
 |20. |  | [Circular array loop](https://leetcode.com/problems/circular-array-loop/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
 |20. |  | [Reverse LL 2](https://leetcode.com/problems/reverse-linked-list-ii) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
 |20. |  | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
-|20. |  | [Rotate LL](https://leetcode.com/problems/rotate-list) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium| |
+|20. |  | [Rotate LL](https://leetcode.com/problems/rotate-list) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/rotateLL.py) | Medium| Using two  |
 |20. |  | Reverse nodes in k-alternating subgroup | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | | |
-|20. |  | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist]() | | |
+|20. |  | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/oddevenLL.py) | Medium | Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
 |20. |  | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | []() | | |
 |20. |  | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | []() | | |
 |20. |  | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | []() | | |
-| 22. | | [Add two numbers ](https://leetcode.com/problems/add-two-numbers-ii) | []()| | |
+| 22. | | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) | []()| | |
 | 22. | | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | []()| | |
 | 22. | | [Partition list](https://leetcode.com/problems/partition-list) | []()| | |
 | 22. | | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | []()| | |
@@ -195,34 +195,34 @@
 | 22. | | [sort-items-by-groups-respecting-dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) | [Topological sort]()| | |
 | 22. | | [sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction) | [Topological sort]()| | |
 |22.| |[generate-parentheses](https://leetcode.com/problems/generate-parentheses)|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
-|22.| |[]()|[Backtracking]()|||
+|22.| |[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Backtracking]()|||
+|22.| |[word-search](https://leetcode.com/problems/word-search)|[Backtracking]()|||
+|22.| |[permutation](https://leetcode.com/problems/permutations)|[Backtracking]()|||
+|22.| |[regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)|[Backtracking]()|||
+|22.| |[word-search-ii](https://leetcode.com/problems/word-search-ii)|[Backtracking]()|||
+|22.| |[word-break-ii](https://leetcode.com/problems/word-break-ii)|[Backtracking]()|||
+|22.| |[restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses)|[Backtracking]()|||
+|22.| |[wildcard-matching](https://leetcode.com/problems/wildcard-matching))|[Backtracking]()|||
+|22.| |[word-ladder-ii](https://leetcode.com/problems/word-ladder-ii)|[Backtracking]()|||
+|22.| |[subsets](https://leetcode.com/problems/subsets)|[Backtracking]()|||
+|22.| |[combination-sum](https://leetcode.com/problems/combination-sum)|[Backtracking]()|||
+|22.| |[sudoku-solver](https://leetcode.com/problems/sudoku-solver)|[Backtracking]()|||
+|22.| |[n-queens](https://leetcode.com/problems/n-queens)|[Backtracking]()|||
+|22.| |[add-and-search-word-data-structure-design](https://leetcode.com/problems/add-and-search-word-data-structure-design)|[Backtracking]()|||
+|22.| |[tiling-a-rectangle-with-the-fewest-squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares)|[Backtracking]()|||
+|22.| |[permutations-ii](https://leetcode.com/problems/permutations-ii)|[Backtracking]()|||
+|22.| |[unique-paths-iii](https://leetcode.com/problems/unique-paths-iii)|[Backtracking]()|||
+|22.| |[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)|[Backtracking]()|||
+|22.| |[word-pattern-ii](https://leetcode.com/problems/word-pattern-ii)|[Backtracking]()|||
+|22.| |[beautiful-arrangement](https://leetcode.com/problems/beautiful-arrangement)|[Backtracking]()|||
+|22.| |[factor-combinations](https://leetcode.com/problems/factor-combinations)|[Backtracking]()|||
+|22.| |[confusing-number-ii](https://leetcode.com/problems/confusing-number-ii)|[Backtracking]()|||
+|22.| |[combinations](https://leetcode.com/problems/combinations)|[Backtracking]()|||
+|22.| |[combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)|[Backtracking]()|||
+|22.| |[path-with-maximum-gold](https://leetcode.com/problems/path-with-maximum-gold)|[Backtracking]()|||
+|22.| |[campus-bikes-ii](https://leetcode.com/problems/campus-bikes-ii)|[Backtracking]()|||
+|22.| |[brace-expansion](https://leetcode.com/problems/brace-expansion)|[Backtracking]()|||
+|22.| |[android-unlock-patterns](https://leetcode.com/problems/android-unlock-patterns)|[Backtracking]()|||
+|22.| |[n-queens-ii](https://leetcode.com/problems/n-queens-ii)|[Backtracking]()|||
 
 
