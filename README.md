@@ -31,7 +31,7 @@
 |20.| |[k-diff-pairs](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/k-diff-pairs-array.py)|Easy| |
 |20. |  | [Shortest unsorted continuous subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Shortest-unsorted-continuous-subarray.py) | Easy| |
 |20. |Day 9 | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium||
-|20.| | [Reverse string](https://leetcode.com/problems/reverse-string)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Easy||
+|20.| | [Reverse string](https://leetcode.com/problems/reverse-string)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/reverse_vowels_string.py)| Easy||
 |20.| | [Reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Easy ||
 |20.|Day 10 | [Move zeros](https://leetcode.com/problems/move-zeroes)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Easy ||
 |20.| | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Medium||
@@ -39,100 +39,100 @@
 |20.| Day 11 | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/median-sorted-arrays.py) [Binary search](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/median-2sortedarrays.py)|Hard |Two pointers is O(n+m). Using binary search O(log(min(n,m)) [Algo](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Notes/Median-of-2sortedarrays.pdf)|
 |20. |  | [Linkedlist cycle](https://leetcode.com/problems/linked-list-cycle) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/linkedlist_cycle.py) | Easy | |
 |20. |  | [Linkedlist cycle 2](https://leetcode.com/problems/linked-list-cycle-ii) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
-|20. |  | [Middle of Linkedlist](https://leetcode.com/problems/middle-of-the-linked-list) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/middle_linkedlist.py) |Easy | |
+|20. |  | [Middle of Linkedlist](https://leetcode.com/problems/middle-of-the-linked-list) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/middle_linkedlist.py) |Easy | |
 |20. | Day 12 | [Palindrome LL ](https://leetcode.com/problems/palindrome-linked-list) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/palindrome_linkedlist.py) |Medium | Find middle and reverse the 2nd half of the list and compare both|
 |20. |  | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/reorder-list.py) | Medium | Find middle, reverse 2nd half and merge|
 |20. |  | [Circular array loop](https://leetcode.com/problems/circular-array-loop/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
-|20. |  | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/oddevenLL.py) | Medium | Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
 |20. |  | [Reverse LL](https://leetcode.com/problems/reverse-linked-list) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverseLL.py) |Easy | Use prev and next to update the links |
 |20. |  | [Reverse LL between](https://leetcode.com/problems/reverse-linked-list-ii) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverseLL-between.py) | Medium | |
 |20. |  | [Rotate LL](https://leetcode.com/problems/rotate-list) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/rotateLL.py) | Medium| Move one ptr k times and then move start moving both ptrs. Update next of ptr1 to head and ptr2 to None |
 |20. |  | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverse-nodes-k-groups.py) | Hard |  |
 |20. |  | Reverse nodes in k-alternating subgroup | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverse-nodes-kgroups-alternatively.py) | Medium | Reverse k groups with a while loop to skip k nodes |
-|20. |  | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | []() | | |
-|20. |  | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | []() | | |
-|20. |  | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | []() | | |
-| 22. | | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) | []()| | |
-| 22. | | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | []()| | |
-| 22. | | [Partition list](https://leetcode.com/problems/partition-list) | []()| | |
-| 22. | | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | []()| | |
-| 22. | | [Flatten Binary tree to LL](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | []()| | |
-| 22. | | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | []()| | |
-| 22. | | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | []()| | |
-|20.| | [Remove Nth node from the end]()|[]()| ||
+|20. |  | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/flatten_doublylist.py) |Medium | |
+|20. |  | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/oddevenLL.py) | Medium | Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
+|20. |  | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/maxpoints-on-line.py) | Medium| |
+|20. |  | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/copy-list-with-random-pointer.py) | Medium | |
+| 22. | | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add2numbers.py)| | |
+| 22. | | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add-numbers-reverse.py)|Medium | |
+| 22. | | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/partition-list.py)|Medium | Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
+| 22. | | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/plus-one-LL.py)| Medium | Dummy nodes and move till non nine nodes and increment by 1. Set 9s to 0|
+| 22. | | [Flatten Binary tree to LL](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
+| 22. | | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
+| 22. | | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
+|20.| | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/remove-nth-node.py)| Medium |      |
 | 22. | | [Merge intervals](https://leetcode.com/problems/merge-intervals) | [Merge intervals]()|Easy | |
-| 22. | | [Insert intervals](https://leetcode.com/problems/insert-interval/) | []()| Hard| |
-| 22. | | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | []()| Medium| |
-| 22. | | [Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | []()| Medium| |
-| 22. | | [Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | []()| Easy| |
-| 22. | | [Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) | []()| Medium| |
-| 22. | | [Employee free time](https://leetcode.com/problems/employee-free-time/) | []()|Hard | |
+| 22. | | [Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals]()| Hard| |
+| 22. | | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [Merge intervals]()| Medium| |
+| 22. | | [Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Merge intervals]()| Medium| |
+| 22. | | [Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals]()| Easy| |
+| 22. | | [Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) | [Merge intervals]()| Medium| |
+| 22. | | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [Merge intervals]()|Hard | |
 | 22. | | [Missing number](https://leetcode.com/problems/missing-number/) | [Cyclic sort]()| Easy| |
-| 22. | | [Find all missing numbers](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | []()| Medium | |
-| 22. | | [Remove duplicates from a sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | []()| | |
-| 22. | | [Remove duplicates 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | []()| | |
-| 22. | | [Missing positive](https://leetcode.com/problems/first-missing-positive/) | []()| | |
-| 22. | | [k Missing elements in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | []()| | |
-| 22. | | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS]()| Medium| |
-| 22. | | [Binary tree level order traversal 2](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | []()|Medium | |
-| 22. | | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | []()| Medium| |
-| 22. | | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | []()| Easy | |
-| 22. | | [max depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | []()| | |
-| 22. | | [Populating next right ptrs in tree](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | []()| | |
-| 22. | | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | []()| | |
-| 22. | | [Tree boundary](https://leetcode.com/problems/boundary-of-binary-tree/) | []()| | |
+| 22. | | [Find all missing numbers](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Cyclic sort]()| Medium | |
+| 22. | | [Remove duplicates from a sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [Cyclic sort]()| | |
+| 22. | | [Remove duplicates 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Cyclic sort]()| | |
+| 22. | | [Missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort]()| | |
+| 22. | | [k Missing elements in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [Cyclic sort]()| | |
+| 22. | | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/binary-tree-level-order.py)| Medium| |
+| 22. | | [Reverse level order traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/reverse-level-order-traversal.py)|Medium | |
+| 22. | | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | [Tree BFS]()| Medium| |
+| 22. | | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [Tree BFS]()| Easy | |
+| 22. | | [max depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [Tree BFS]()| | |
+| 22. | | [Populating next right ptrs in tree](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Tree BFS]()| | |
+| 22. | | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [Tree BFS]()| | |
+| 22. | | [Tree boundary](https://leetcode.com/problems/boundary-of-binary-tree/) | [Tree BFS]()| | |
 | 22. | | [Path sum](https://leetcode.com/problems/path-sum/) | [Tree DFS]()| | |
-| 22. | | [Path sum 2](https://leetcode.com/problems/path-sum-ii) | []()| | |
-| 22. | | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | []()| | |
-| 22. | | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | []()| | |
-| 22. | | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | []()| | |
-| 22. | | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | []()| | |
-| 22. | | [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/) | []()| | |
-| 22. | | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | []()| | |
-| 22. | | [ipo](https://leetcode.com/problems/ipo/) | []()| | |
-| 22. | | Next interval | []()| | |
+| 22. | | [Path sum 2](https://leetcode.com/problems/path-sum-ii) | [Tree DFS]()| | |
+| 22. | | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | [Tree DFS]()| | |
+| 22. | | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [Tree DFS]()| | |
+| 22. | | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree DFS]()| | |
+| 22. | | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Tree DFS]()| | |
+| 22. | | [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Tree DFS]()| | |
+| 22. | | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | [Tree DFS]()| | |
+| 22. | | [ipo](https://leetcode.com/problems/ipo/) | [Tree DFS]()| | |
+| 22. | | Next interval | [Tree DFS]()| | |
 | 22. | | [Subsets](https://leetcode.com/problems/subsets/) | [Subsets]()| | |
-| 22. | | [Subsets 2](https://leetcode.com/problems/subsets-ii/) | []()| | |
-| 22. | | [Permutations](https://leetcode.com/problems/permutations) | []()| | |
-| 22. | | [Letter case permutation](https://leetcode.com/problems/letter-case-permutation/) | []()| | |
-| 22. | | [Generate parentheses ](https://leetcode.com/problems/generate-parentheses/) | []()| | |
-| 22. | | [Generalized abbreviation](https://leetcode.com/problems/generalized-abbreviation/) | []()| | |
-| 22. | | [Evaluate reverse polish notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | []()| | |
-| 22. | | [Uniquie BST](https://leetcode.com/problems/unique-binary-search-trees/) | []()| | |
-| 22. | | [Unique BST 2](https://leetcode.com/problems/unique-binary-search-trees-ii/) | []()| | |
-| 22. | | [Next permutation](https://leetcode.com/problems/next-permutation/) | []()|Medium | |
+| 22. | | [Subsets 2](https://leetcode.com/problems/subsets-ii/) | [Subsets]()| | |
+| 22. | | [Permutations](https://leetcode.com/problems/permutations) | [Subsets]()| | |
+| 22. | | [Letter case permutation](https://leetcode.com/problems/letter-case-permutation/) | [Subsets]()| | |
+| 22. | | [Generate parentheses ](https://leetcode.com/problems/generate-parentheses/) | [Subsets]()| | |
+| 22. | | [Generalized abbreviation](https://leetcode.com/problems/generalized-abbreviation/) | [Subsets]()| | |
+| 22. | | [Evaluate reverse polish notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Subsets]()| | |
+| 22. | | [Uniquie BST](https://leetcode.com/problems/unique-binary-search-trees/) | [Subsets]()| | |
+| 22. | | [Unique BST 2](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Subsets]()| | |
+| 22. | | [Next permutation](https://leetcode.com/problems/next-permutation/) | [Subsets]()|Medium | |
 | 22. | | Order agnostic binary search | [Modified binary search]()| | |
-| 22. | | [round-numbers](https://leetcode.com/discuss/interview-question/125001/round-numbers/123813) | []()| Easy| |
-| 22. | | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | []()| Easy| |
-| 22. | | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | []()| | |
-| 22. | | [single-element-in-a-sorted-array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | []()| | |
-| 22. | | [minimum-absolute-difference](https://leetcode.com/problems/minimum-absolute-difference/) | []()| | |
-| 22. | | Search Bitonic Array | []()| | |
-| 22. | | Bitonic array maximum[]() | []()| | |
-| 22. | | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | []()| | |
-| 22. | | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | []()| | |
-| 22. | | Rotation count | []()| | |
+| 22. | | [round-numbers](https://leetcode.com/discuss/interview-question/125001/round-numbers/123813) | [Modified binary search]()| Easy| |
+| 22. | | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Modified binary search]()| Easy| |
+| 22. | | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Modified binary search]()| | |
+| 22. | | [single-element-in-a-sorted-array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Modified binary search]()| | |
+| 22. | | [minimum-absolute-difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Modified binary search]()| | |
+| 22. | | Search Bitonic Array | [Modified binary search]()| | |
+| 22. | | Bitonic array maximum[]() | [Modified binary search]()| | |
+| 22. | | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Modified binary search]()| | |
+| 22. | | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Modified binary search]()| | |
+| 22. | | Rotation count | [Modified binary search]()| | |
 | 22. | | [single-number](https://leetcode.com/problems/single-number/) | [bitwise xor]()| | |
-| 22. | | [single-number-ii](https://leetcode.com/problems/single-number-ii/) | []()| | |
-| 22. | | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/) | []()| | |
-| 22. | | [rotate-image](https://leetcode.com/problems/rotate-image/) | []()| | |
-| 22. | | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | []()| | |
-| 22. | | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | []()| | |
-| 22. | | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | []()| | |
+| 22. | | [single-number-ii](https://leetcode.com/problems/single-number-ii/) | [bitwise xor]()| | |
+| 22. | | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/) | [bitwise xor]()| | |
+| 22. | | [rotate-image](https://leetcode.com/problems/rotate-image/) | [bitwise xor]()| | |
+| 22. | | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [bitwise xor]()| | |
+| 22. | | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [bitwise xor]()| | |
+| 22. | | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | [bitwise xor]()| | |
 | 22. | | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Top k elements]()| | |
-| 22. | | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | []()| | |
-| 22. | | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | []()| | |
-| 22. | | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | []()| | |
-| 22. | | [maximum-distinct-elements-removing-k-elements](https://www.geeksforgeeks.org/maximum-distinct-elements-removing-k-elements/) | []()| | |
-| 22. | | [reorganize-string](https://leetcode.com/problems/reorganize-string/) | []()| | |
-| 22. | | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | []()| | |
-| 22. | | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | []()| | |
-| 22. | | [maximum-frequency-stack](https://leetcode.com/problems/maximum-frequency-stack/) | []()| | |
+| 22. | | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements]()| | |
+| 22. | | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Top k elements]()| | |
+| 22. | | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Top k elements]()| | |
+| 22. | | [maximum-distinct-elements-removing-k-elements](https://www.geeksforgeeks.org/maximum-distinct-elements-removing-k-elements/) | [Top k elements]()| | |
+| 22. | | [reorganize-string](https://leetcode.com/problems/reorganize-string/) | [Top k elements]()| | |
+| 22. | | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | |
+| 22. | | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | [Top k elements]()| | |
+| 22. | | [maximum-frequency-stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Top k elements]()| | |
 | 22. | | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [k-way merge]()| | |
-| 22. | | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | []()| | |
-| 22. | | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | []()| | |
-| 22. | | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | []()| | |
-| 22. | | [partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/) | []()| | |
+| 22. | | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [k-way merge]()| | |
+| 22. | | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | [k-way merge]()| | |
+| 22. | | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [k-way merge]()| | |
+| 22. | | [partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [k-way merge]()| | |
 | 22. | | [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [Dynamic Programming]()| | |
 | 22. | | [coin-change](https://leetcode.com/problems/coin-change) | [Dynamic Programming]()| | |
 | 22. | | [frog-jump](https://leetcode.com/problems/frog-jump) | [Dynamic Programming]()| | |
