@@ -2,8 +2,8 @@
 
 **This is my own challenge to do 3 coding problems a day for 60 days**
 
-| #  | Day num |Question| Solution |Difficulty | Notes |
-| -- |---------|----- | ---------- |-----|-------|
+| #   |Question| Solution |Difficulty | Notes |
+| ----|----- | ---------- |-----|-------|
 | 1  |[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/max_sum_subarray.py) | Easy | |
 | 2   |[Smallest Subarray with a given sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/smallest_sub_array_with_given_sum.py)|  Easy |[Algo](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Notes/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
 | 3   |[Longest Substring with at most K Distinct Characters *](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | [Sliding window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/Longest_substring_withK_distinct_characters.py) | Hard | | 
