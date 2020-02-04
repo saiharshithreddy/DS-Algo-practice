@@ -1,10 +1,6 @@
 # Trees
 
-## About
-
-Data structure 
-
-### Operations  
+## Operations  
 
 1. Insert
 2. Search

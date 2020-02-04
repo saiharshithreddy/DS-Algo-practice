@@ -11,13 +11,24 @@ Space complexity: O(N)
 '''
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
-        if not root:
-            return False
 
-        if root.val > root.left.val or root.val < root.right.val:
-            return False
+        def helper(node, lower= float('-inf'), upper=float('inf')):
+            if not node:
+                return True
 
-         
-        
+            val = node.val
+            # main condition
+            if val <= lower or val>=upper:
+                return False
 
-        return self.isValidBST(root.left) and self.isValidBST(root.right)
+            # left node should be greater than - inf and less than its root
+            if not helper(node.left, lower, val):
+                return False
+
+            # left node should be greater than its root and less than inf
+            if not helper(node.right, val, upper):
+                return False
+            
+            return True
+
+        return helper(root)
