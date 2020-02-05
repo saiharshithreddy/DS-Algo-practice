@@ -6,7 +6,7 @@
 | -|----- | ---------- |-----|-------|
 | 1  |[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/max_sum_subarray.py) | Easy | |
 | 2   |[Smallest Subarray with a given sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/smallest_sub_array_with_given_sum.py)|  Easy |[Algo](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Notes/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
-| 3   |[Longest Substring with at most K Distinct Characters *](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | [Sliding window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/Longest_substring_withK_distinct_characters.py) | Hard | | 
+| 3   |[Longest Substring with at most K Distinct Characters *](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | [Sliding window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/Longest_substring_withK_distinct_characters.py) | Hard | |
 |4  |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/fruits_into_baskets.py) | Medium |[Algo](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Notes/Fruits_into_baskets.pdf) |
 |5  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/Longest_repeating_character_replacement.py)| Medium | |
 |6  | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/permutation_in_string.py)| Medium | |
@@ -85,7 +85,7 @@
 |22 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | []() |  |  |
 |22 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | []() |  |  |
 | 22  | [Valid BST](https://leetcode.com/problems/validate-binary-search-tree/) | [BST](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/valid-bst.py)| Medium| Use lower & upper, initialize them to extremes. Check val <= lower or val>= upper (recursively for all nodes) |
-| 22  | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/binary-tree-level-order.py)| Medium| |
+| 22  | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/binary-tree-level-order.py)| Medium|Use a queue |
 | 22  | [Reverse level order traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/reverse-level-order-traversal.py)|Medium | |
 | 22  | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | [Tree BFS]()| Medium| |
 | 22  | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [Tree BFS]()| Easy | |
@@ -237,5 +237,3 @@
 |22  |[brace-expansion](https://leetcode.com/problems/brace-expansion)|[Backtracking]()|||
 |22  |[android-unlock-patterns](https://leetcode.com/problems/android-unlock-patterns)|[Backtracking]()|||
 |22  |[n-queens-ii](https://leetcode.com/problems/n-queens-ii)|[Backtracking]()|||
-
-
