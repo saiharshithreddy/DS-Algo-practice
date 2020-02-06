@@ -1,4 +1,5 @@
 # DS-Algo-interview-preparation in Python
+
 <!-- TOC -->
 
 - [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
@@ -130,37 +131,37 @@
 |8|[search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[]()| | |
 |9|[path-sum](https://leetcode.com/problems/path-sum/)|[]()| | |
 |10|[minimum-depth-of-binary-tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/min_depth_BT.py)|Easy | |
-
-|1 | [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Tree DFS]() |  |  |
-|2 | [all-nodes-distance-k-in-binary-tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | []() |  |  |
-|3 | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | []() |  |  |
+|1 | [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|2 | [all-nodes-distance-k-in-binary-tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|3 | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
 |4 | [diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/diameter-BT.py) | Easy |  |
-|5 | [serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | []() |  |  |
-|6 | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | []() |  |  |
-|7 | [subtree-of-another-tree](https://leetcode.com/problems/subtree-of-another-tree) | []() |  |  |
-|8 | [binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator) | []() |  |  |
-|9 | [serialize-and-deserialize-bst](https://leetcode.com/problems/serialize-and-deserialize-bst) | []() |  |  |
-|10 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | []() |  |  |
-|11 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | []()
+|5 | [serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|6 | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|7 | [subtree-of-another-tree](https://leetcode.com/problems/subtree-of-another-tree) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|8 | [binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|9 | [serialize-and-deserialize-bst](https://leetcode.com/problems/serialize-and-deserialize-bst) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|10 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|11 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
 | 12  | [Valid BST](https://leetcode.com/problems/validate-binary-search-tree/) | [BST](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/valid-bst.py)| Medium| Use lower & upper, initialize them to extremes. Check val <= lower or val>= upper (recursively for all nodes) |
 | 13  | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/binary-tree-level-order.py)| Medium|Use a queue |
 | 14  | [Reverse level order traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/reverse-level-order-traversal.py)|Medium | |
-| 15  | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | [Tree BFS]()| Medium| |
-| 16  | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [Tree BFS]()| Easy | |
-| 17  | [max depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [Tree BFS]()| | |
-| 18  | [Populating next right ptrs in tree](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Tree BFS]()| | |
-| 19  | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [Tree BFS]()| | |
-| 20  | [Tree boundary](https://leetcode.com/problems/boundary-of-binary-tree/) | [Tree BFS]()| | |
-| 21  | [Path sum](https://leetcode.com/problems/path-sum/) | [Tree DFS]()| | |
-| 22  | [Path sum 2](https://leetcode.com/problems/path-sum-ii) | [Tree DFS]()| | |
-| 23  | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | [Tree DFS]()| | |
-| 24  | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [Tree DFS]()| | |
-| 25  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree DFS]()| | |
-| 26  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Tree DFS]()| | |
-| 27  | [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Tree DFS]()| | |
-| 28  | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | [Tree DFS]()| | |
-| 29  | [ipo](https://leetcode.com/problems/ipo/) | [Tree DFS]()| | |
-| 30  | Next interval | [Tree DFS]()| | |
+| 15  | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| Medium| |
+| 16  | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| Easy | |
+| 17  | [max depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 18  | [Populating next right ptrs in tree](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 19  | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 20  | [Tree boundary](https://leetcode.com/problems/boundary-of-binary-tree/) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 21  | [Path sum](https://leetcode.com/problems/path-sum/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 22  | [Path sum 2](https://leetcode.com/problems/path-sum-ii) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 23  | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 24  | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 25  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 26  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 27  | [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 28  | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 29  | [ipo](https://leetcode.com/problems/ipo/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 30  | Next interval | [Tree DFS]https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/()| | |
+
 
 ### Subsets
 | #   |Question| Solution |Difficulty | Notes |
