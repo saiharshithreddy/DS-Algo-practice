@@ -1,7 +1,27 @@
 # DS-Algo-interview-preparation in Python
+<!-- TOC -->
 
+- [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
+  - [Sliding Window](#sliding-window)
+  - [Two pointers](#two-pointers)
+  - [Fast and slow pointers](#fast-and-slow-pointers)
+  - [In-place reverse](#in-place-reverse)
+  - [LinkedList](#linkedlist)
+  - [Merge Intervals](#merge-intervals)
+  - [Cyclic sort](#cyclic-sort)
+  - [Trees](#trees)
+  - [Subsets](#subsets)
+  - [Modified Binary Search](#modified-binary-search)
+  - [Bitwise XOR](#bitwise-xor)
+  - [Top K elements](#top-k-elements)
+  - [K-way merge](#k-way-merge)
+  - [Dynamic Programming](#dynamic-programming)
+  - [Topological sort](#topological-sort)
+  - [Backtracking](#backtracking)
 
+<!-- /TOC -->
 
+### Sliding Window
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 | 1  |[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/max_sum_subarray.py) | Easy | |
@@ -25,7 +45,7 @@
 |3   | [3 Sum](https://leetcode.com/problems/3sum/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum.py) | Medium | |
 |4  | [3 Sum closest](https://leetcode.com/problems/3sum-closest/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum_closest.py) | Medium | |
 |5   | [3 Sum smaller](https://leetcode.com/problems/3sum-smaller/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3-sum-smaller.py) | Medium | |
-|6   | [Squaring of a sorted array](https://leetcode.com/problems/squares-of-a-sorted-array) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Squares_of_sorted_array.py) |Easy | Insert largest square in the first of the array |
+|6   | [Squaring of a sorted array](https://leetcode.com/problems/squares-of-a-sorted-array) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Squares_of_sorted_array.py) |Easy | Insert largest square in the first of the array. list.insert(0,val)|
 |7    | [Merge sorted array](https://leetcode.com/problems/merge-sorted-array) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/merge_sorted_array.py) | Easy | |
 |8   | [Dutch national flag/Sort colors](https://leetcode.com/problems/sort-colors/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/dutch_national_flag.py) | | |
 |9   | [4sum](https://leetcode.com/problems/4sum) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/4sum.py) | Medium | Extension of 3sum |
@@ -40,23 +60,26 @@
 |18  | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Medium||
 |19  | [Candy crush]()|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium ||
 |20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/median-sorted-arrays.py) [Binary search](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/median-2sortedarrays.py)|Hard |Two pointers is O(n+m). Using binary search O(log(min(n,m)) [Algo](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Notes/Median-of-2sortedarrays.pdf)|
+
 ### Fast and slow pointers
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1   | [Linkedlist cycle](https://leetcode.com/problems/linked-list-cycle) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/linkedlist_cycle.py) | Easy | |
-|2   | [Linkedlist cycle 2](https://leetcode.com/problems/linked-list-cycle-ii) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
-|3   | [Middle of Linkedlist](https://leetcode.com/problems/middle-of-the-linked-list) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/middle_linkedlist.py) |Easy | |
+|1   | [Linkedlist cycle](https://leetcode.com/problems/linked-list-cycle) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/linkedlist_cycle.py) | Easy | When slow and fast ptrs meet there is a cycle |
+|2   | [Linkedlist cycle 2](https://leetcode.com/problems/linked-list-cycle-ii) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | After checking for a cycle, re-initialize fast ptr to 1st node and increment both slow and fast. The node at which they meet is the start of the cycle |
+|3   | [Middle of Linkedlist](https://leetcode.com/problems/middle-of-the-linked-list) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/middle_linkedlist.py) |Easy | The node at which slow ptr stops |
 |4   | [Palindrome LL ](https://leetcode.com/problems/palindrome-linked-list) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/palindrome_linkedlist.py) |Medium | Find middle and reverse the 2nd half of the list and compare both|
-|5   | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/reorder-list.py) | Medium | Find middle, reverse 2nd half and merge|
+|5   | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/reorder-list.py) | Medium | Find middle, reverse 2nd half and merge one from 1st list and one from 2nd list|
 |6   | [Circular array loop](https://leetcode.com/problems/circular-array-loop/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
+
 ### In-place reverse
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | [Reverse LL](https://leetcode.com/problems/reverse-linked-list) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverseLL.py) |Easy | Use prev and next to update the links |
-|2   | [Reverse LL between](https://leetcode.com/problems/reverse-linked-list-ii) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverseLL-between.py) | Medium | |
+|2   | [Reverse LL between](https://leetcode.com/problems/reverse-linked-list-ii) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverseLL-between.py) | Medium | loop till k-1th node and reverse |
 |3   | [Rotate LL](https://leetcode.com/problems/rotate-list) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/rotateLL.py) | Medium| Move one ptr k times and then move start moving both ptrs. Update next of ptr1 to head and ptr2 to None |
-|4   | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverse-nodes-k-groups.py) | Hard |  |
+|4   | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverse-nodes-k-groups.py) | Hard | Check if nodes are multiple of k then only reverse |
 |5   | Reverse nodes in k-alternating subgroup | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverse-nodes-kgroups-alternatively.py) | Medium | Reverse k groups with a while loop to skip k nodes |
+
 ### LinkedList
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -64,13 +87,13 @@
 |2   | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/oddevenLL.py) | Medium | Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
 |3   | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/maxpoints-on-line.py) | Medium| |
 |4   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/copy-list-with-random-pointer.py) | Medium | |
-| 5  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add2numbers.py)| | |
+| 5  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add2numbers.py)|Medium | Create a new node after adding |
 | 6  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add-numbers-reverse.py)|Medium | |
 | 7  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/partition-list.py)|Medium | Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
 | 8  | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/plus-one-LL.py)| Medium | Dummy nodes and move till non nine nodes and increment by 1. Set 9s to 0|
 | 9  | [Flatten Binary tree to LL](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
 | 10  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
-| 11  | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
+| 11  | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/) | Medium | |
 |12  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/remove-nth-node.py)| Medium | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
 
 ### Merge Intervals
@@ -97,7 +120,18 @@
 ### Trees
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1 | [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | []() |  |  |
+|1|[Same Tree](https://leetcode.com/problems/same-tree/)|[Recursion](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/same-tree.py)| Easy | |
+|2|[Subtree](https://leetcode.com/problems/subtree-of-another-tree/)|[Tree](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/subtree.py)|Easy||
+|3|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Recursion](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/diameter.py)|Easy | |
+|4|[maximum-depth-of-n-ary-tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[]()| | |
+|5|[maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[]()| | |
+|6|[range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst/)|[]()| | |
+|7|[merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/)|[]()| | |
+|8|[search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[]()| | |
+|9|[path-sum](https://leetcode.com/problems/path-sum/)|[]()| | |
+|10|[minimum-depth-of-binary-tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/min_depth_BT.py)|Easy | |
+
+|1 | [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Tree DFS]() |  |  |
 |2 | [all-nodes-distance-k-in-binary-tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | []() |  |  |
 |3 | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | []() |  |  |
 |4 | [diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/diameter-BT.py) | Easy |  |
@@ -107,7 +141,7 @@
 |8 | [binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator) | []() |  |  |
 |9 | [serialize-and-deserialize-bst](https://leetcode.com/problems/serialize-and-deserialize-bst) | []() |  |  |
 |10 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | []() |  |  |
-|1 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | []() |  |  |
+|11 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | []()
 | 12  | [Valid BST](https://leetcode.com/problems/validate-binary-search-tree/) | [BST](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/valid-bst.py)| Medium| Use lower & upper, initialize them to extremes. Check val <= lower or val>= upper (recursively for all nodes) |
 | 13  | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/binary-tree-level-order.py)| Medium|Use a queue |
 | 14  | [Reverse level order traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/reverse-level-order-traversal.py)|Medium | |

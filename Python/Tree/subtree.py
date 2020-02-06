@@ -8,9 +8,8 @@
 '''
 Approach: Recursion
 Difficulties faced: Could not write recursive logic
-Steps to resolve Difficulties:
-Ran on Leetcode without help: No
-Time complexity: O(m*n) 
+Steps to resolve Difficulties: -
+Time complexity: O(m*n)
 Space complexity: O(n)
 '''
 
