@@ -60,236 +60,236 @@
 ### LinkedList
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|6   | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/flatten_doublylist.py) |Medium | |
-|1   | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/oddevenLL.py) | Medium | Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
-|2   | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/maxpoints-on-line.py) | Medium| |
-|3   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/copy-list-with-random-pointer.py) | Medium | |
-| 4  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add2numbers.py)| | |
-| 5  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add-numbers-reverse.py)|Medium | |
-| 6  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/partition-list.py)|Medium | Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
-| 7  | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/plus-one-LL.py)| Medium | Dummy nodes and move till non nine nodes and increment by 1. Set 9s to 0|
-| 8  | [Flatten Binary tree to LL](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
-| 9  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
-| 10  | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
-|11  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/remove-nth-node.py)| Medium | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
+|1   | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/flatten_doublylist.py) |Medium | |
+|2   | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/oddevenLL.py) | Medium | Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
+|3   | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/maxpoints-on-line.py) | Medium| |
+|4   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/copy-list-with-random-pointer.py) | Medium | |
+| 5  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add2numbers.py)| | |
+| 6  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add-numbers-reverse.py)|Medium | |
+| 7  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/partition-list.py)|Medium | Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
+| 8  | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/plus-one-LL.py)| Medium | Dummy nodes and move till non nine nodes and increment by 1. Set 9s to 0|
+| 9  | [Flatten Binary tree to LL](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
+| 10  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
+| 11  | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
+|12  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/remove-nth-node.py)| Medium | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
 
 ### Merge Intervals
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 22  | [Merge intervals](https://leetcode.com/problems/merge-intervals) | [Merge intervals]()|Easy | |
-| 22  | [Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals]()| Hard| |
-| 22  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [Merge intervals]()| Medium| |
-| 22  | [Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Merge intervals]()| Medium| |
-| 22  | [Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals]()| Easy| |
-| 22  | [Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) | [Merge intervals]()| Medium| |
-| 22  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [Merge intervals]()|Hard | |
+| 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) | [Merge intervals]()|Easy | |
+| 2  | [Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals]()| Hard| |
+| 3  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [Merge intervals]()| Medium| |
+| 4  | [Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Merge intervals]()| Medium| |
+| 5  | [Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals]()| Easy| |
+| 6  | [Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) | [Merge intervals]()| Medium| |
+| 7  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [Merge intervals]()|Hard | |
 
 ### Cyclic sort
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 22  | [Missing number](https://leetcode.com/problems/missing-number/) | [Cyclic sort]()| Easy| |
-| 22  | [Find all missing numbers](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Cyclic sort]()| Medium | |
-| 22  | [Remove duplicates from a sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [Cyclic sort]()| | |
-| 22  | [Remove duplicates 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Cyclic sort]()| | |
-| 22  | [Missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort]()| | |
-| 22  | [k Missing elements in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [Cyclic sort]()| | |
+| 1  | [Missing number](https://leetcode.com/problems/missing-number/) | [Cyclic sort]()| Easy| |
+| 2  | [Find all missing numbers](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Cyclic sort]()| Medium | |
+| 3  | [Remove duplicates from a sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [Cyclic sort]()| | |
+| 4  | [Remove duplicates 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Cyclic sort]()| | |
+| 5  | [Missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort]()| | |
+| 6  | [k Missing elements in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [Cyclic sort]()| | |
 
 ### Trees
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|22 | [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | []() |  |  |
-|22 | [all-nodes-distance-k-in-binary-tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | []() |  |  |
-|22 | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | []() |  |  |
-|22 | [diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/diameter-BT.py) | Easy |  |
-||
-|22 | [serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | []() |  |  |
-|22 | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | []() |  |  |
-|22 | [subtree-of-another-tree](https://leetcode.com/problems/subtree-of-another-tree) | []() |  |  |
-|22 | [binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator) | []() |  |  |
-|22 | [serialize-and-deserialize-bst](https://leetcode.com/problems/serialize-and-deserialize-bst) | []() |  |  |
-|22 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | []() |  |  |
-|22 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | []() |  |  |
-| 22  | [Valid BST](https://leetcode.com/problems/validate-binary-search-tree/) | [BST](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/valid-bst.py)| Medium| Use lower & upper, initialize them to extremes. Check val <= lower or val>= upper (recursively for all nodes) |
-| 22  | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/binary-tree-level-order.py)| Medium|Use a queue |
-| 22  | [Reverse level order traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/reverse-level-order-traversal.py)|Medium | |
-| 22  | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | [Tree BFS]()| Medium| |
-| 22  | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [Tree BFS]()| Easy | |
-| 22  | [max depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [Tree BFS]()| | |
-| 22  | [Populating next right ptrs in tree](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Tree BFS]()| | |
-| 22  | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [Tree BFS]()| | |
-| 22  | [Tree boundary](https://leetcode.com/problems/boundary-of-binary-tree/) | [Tree BFS]()| | |
-| 22  | [Path sum](https://leetcode.com/problems/path-sum/) | [Tree DFS]()| | |
+|1 | [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | []() |  |  |
+|2 | [all-nodes-distance-k-in-binary-tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | []() |  |  |
+|3 | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | []() |  |  |
+|4 | [diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/diameter-BT.py) | Easy |  |
+|5 | [serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | []() |  |  |
+|6 | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | []() |  |  |
+|7 | [subtree-of-another-tree](https://leetcode.com/problems/subtree-of-another-tree) | []() |  |  |
+|8 | [binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator) | []() |  |  |
+|9 | [serialize-and-deserialize-bst](https://leetcode.com/problems/serialize-and-deserialize-bst) | []() |  |  |
+|10 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | []() |  |  |
+|1 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | []() |  |  |
+| 12  | [Valid BST](https://leetcode.com/problems/validate-binary-search-tree/) | [BST](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/valid-bst.py)| Medium| Use lower & upper, initialize them to extremes. Check val <= lower or val>= upper (recursively for all nodes) |
+| 13  | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/binary-tree-level-order.py)| Medium|Use a queue |
+| 14  | [Reverse level order traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/reverse-level-order-traversal.py)|Medium | |
+| 15  | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | [Tree BFS]()| Medium| |
+| 16  | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [Tree BFS]()| Easy | |
+| 17  | [max depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [Tree BFS]()| | |
+| 18  | [Populating next right ptrs in tree](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Tree BFS]()| | |
+| 19  | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [Tree BFS]()| | |
+| 20  | [Tree boundary](https://leetcode.com/problems/boundary-of-binary-tree/) | [Tree BFS]()| | |
+| 21  | [Path sum](https://leetcode.com/problems/path-sum/) | [Tree DFS]()| | |
 | 22  | [Path sum 2](https://leetcode.com/problems/path-sum-ii) | [Tree DFS]()| | |
-| 22  | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | [Tree DFS]()| | |
-| 22  | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [Tree DFS]()| | |
-| 22  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree DFS]()| | |
-| 22  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Tree DFS]()| | |
-| 22  | [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Tree DFS]()| | |
-| 22  | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | [Tree DFS]()| | |
-| 22  | [ipo](https://leetcode.com/problems/ipo/) | [Tree DFS]()| | |
-| 22  | Next interval | [Tree DFS]()| | |
+| 23  | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | [Tree DFS]()| | |
+| 24  | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [Tree DFS]()| | |
+| 25  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree DFS]()| | |
+| 26  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Tree DFS]()| | |
+| 27  | [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Tree DFS]()| | |
+| 28  | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | [Tree DFS]()| | |
+| 29  | [ipo](https://leetcode.com/problems/ipo/) | [Tree DFS]()| | |
+| 30  | Next interval | [Tree DFS]()| | |
 
 ### Subsets
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 22  | [Subsets](https://leetcode.com/problems/subsets/) | [Subsets]()| | |
-| 22  | [Subsets 2](https://leetcode.com/problems/subsets-ii/) | [Subsets]()| | |
-| 22  | [Permutations](https://leetcode.com/problems/permutations) | [Subsets]()| | |
-| 22  | [Letter case permutation](https://leetcode.com/problems/letter-case-permutation/) | [Subsets]()| | |
-| 22  | [Generate parentheses ](https://leetcode.com/problems/generate-parentheses/) | [Subsets]()| | |
-| 22  | [Generalized abbreviation](https://leetcode.com/problems/generalized-abbreviation/) | [Subsets]()| | |
-| 22  | [Evaluate reverse polish notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Subsets]()| | |
-| 22  | [Uniquie BST](https://leetcode.com/problems/unique-binary-search-trees/) | [Subsets]()| | |
-| 22  | [Unique BST 2](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Subsets]()| | |
-| 22  | [Next permutation](https://leetcode.com/problems/next-permutation/) | [Subsets]()|Medium | |
-| 22  | Order agnostic binary search | [Modified binary search]()| | |
+| 1  | [Subsets](https://leetcode.com/problems/subsets/) | [Subsets]()| | |
+| 2  | [Subsets 2](https://leetcode.com/problems/subsets-ii/) | [Subsets]()| | |
+| 3  | [Permutations](https://leetcode.com/problems/permutations) | [Subsets]()| | |
+| 4  | [Letter case permutation](https://leetcode.com/problems/letter-case-permutation/) | [Subsets]()| | |
+| 5  | [Generate parentheses ](https://leetcode.com/problems/generate-parentheses/) | [Subsets]()| | |
+| 6  | [Generalized abbreviation](https://leetcode.com/problems/generalized-abbreviation/) | [Subsets]()| | |
+| 7  | [Evaluate reverse polish notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Subsets]()| | |
+| 8  | [Uniquie BST](https://leetcode.com/problems/unique-binary-search-trees/) | [Subsets]()| | |
+| 9  | [Unique BST 2](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Subsets]()| | |
+| 10  | [Next permutation](https://leetcode.com/problems/next-permutation/) | [Subsets]()|Medium | |
+| 11  | Order agnostic binary search | [Modified binary search]()| | |
 
 ### Modified Binary Search
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 22  | [round-numbers](https://leetcode.com/discuss/interview-question/125001/round-numbers/123813) | [Modified binary search]()| Easy| |
-| 22  | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Modified binary search]()| Easy| |
-| 22  | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Modified binary search]()| | |
-| 22  | [single-element-in-a-sorted-array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Modified binary search]()| | |
-| 22  | [minimum-absolute-difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Modified binary search]()| | |
-| 22  | Search Bitonic Array | [Modified binary search]()| | |
-| 22  | Bitonic array maximum[]() | [Modified binary search]()| | |
-| 22  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Modified binary search]()| | |
-| 22  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Modified binary search]()| | |
-| 22  | Rotation count | [Modified binary search]()| | |
+| 1  | [round-numbers](https://leetcode.com/discuss/interview-question/125001/round-numbers/123813) | [Modified binary search]()| Easy| |
+| 2  | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Modified binary search]()| Easy| |
+| 3  | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Modified binary search]()| | |
+| 4  | [single-element-in-a-sorted-array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Modified binary search]()| | |
+| 5  | [minimum-absolute-difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Modified binary search]()| | |
+| 6  | Search Bitonic Array | [Modified binary search]()| | |
+| 7  | Bitonic array maximum[]() | [Modified binary search]()| | |
+| 8  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Modified binary search]()| | |
+| 9  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Modified binary search]()| | |
+| 10  | Rotation count | [Modified binary search]()| | |
+
 ### Bitwise XOR
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 22  | [single-number](https://leetcode.com/problems/single-number/) | [bitwise xor]()| | |
-| 22  | [single-number-ii](https://leetcode.com/problems/single-number-ii/) | [bitwise xor]()| | |
-| 22  | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/) | [bitwise xor]()| | |
-| 22  | [rotate-image](https://leetcode.com/problems/rotate-image/) | [bitwise xor]()| | |
-| 22  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [bitwise xor]()| | |
-| 22  | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [bitwise xor]()| | |
-| 22  | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | [bitwise xor]()| | |
+| 1  | [single-number](https://leetcode.com/problems/single-number/) | [bitwise xor]()| | |
+| 2  | [single-number-ii](https://leetcode.com/problems/single-number-ii/) | [bitwise xor]()| | |
+| 3  | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/) | [bitwise xor]()| | |
+| 4 | [rotate-image](https://leetcode.com/problems/rotate-image/) | [bitwise xor]()| | |
+| 5  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [bitwise xor]()| | |
+| 6  | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [bitwise xor]()| | |
+| 7  | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | [bitwise xor]()| | |
 
 ### Top K elements
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 22  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Top k elements]()| | |
-| 22  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements]()| | |
-| 22  | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Top k elements]()| | |
-| 22  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Top k elements]()| | |
-| 22  | [maximum-distinct-elements-removing-k-elements](https://www.geeksforgeeks.org/maximum-distinct-elements-removing-k-elements/) | [Top k elements]()| | |
-| 22  | [reorganize-string](https://leetcode.com/problems/reorganize-string/) | [Top k elements]()| | |
-| 22  | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | |
-| 22  | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | [Top k elements]()| | |
-| 22  | [maximum-frequency-stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Top k elements]()| | |
+| 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Top k elements]()| | |
+| 2  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements]()| | |
+| 3 | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Top k elements]()| | |
+| 4  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Top k elements]()| | |
+| 5  | [maximum-distinct-elements-removing-k-elements](https://www.geeksforgeeks.org/maximum-distinct-elements-removing-k-elements/) | [Top k elements]()| | |
+| 6  | [reorganize-string](https://leetcode.com/problems/reorganize-string/) | [Top k elements]()| | |
+| 7  | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | |
+| 8  | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | [Top k elements]()| | |
+| 9  | [maximum-frequency-stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Top k elements]()| | |
 
 ### K-way merge
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 22  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [k-way merge]()| | |
-| 22  | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [k-way merge]()| | |
-| 22  | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | [k-way merge]()| | |
-| 22  | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [k-way merge]()| | |
-| 22  | [partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [k-way merge]()| | |
+| 1  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [k-way merge]()| | |
+| 2  | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [k-way merge]()| | |
+| 3  | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | [k-way merge]()| | |
+| 4 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [k-way merge]()| | |
+| 5  | [partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [k-way merge]()| | |
 
 ### Dynamic Programming
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 22  | [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [Dynamic Programming]()| | |
-| 22  | [coin-change](https://leetcode.com/problems/coin-change) | [Dynamic Programming]()| | |
-| 22  | [frog-jump](https://leetcode.com/problems/frog-jump) | [Dynamic Programming]()| | |
-| 22  | [longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring) | [Dynamic Programming]()| | |
-| 22  | [word-break](https://leetcode.com/problems/word-break) | [Dynamic Programming]()| | |
-| 22  | [cherry-pickup](https://leetcode.com/problems/cherry-pickup) | [Dynamic Programming]()| | |
-| 22  | [decode-ways](https://leetcode.com/problems/decode-ways) | [Dynamic Programming]()| | |
-| 22  | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | [Dynamic Programming]()| | |
-| 22  | [maximal-rectangle](https://leetcode.com/problems/maximal-rectangle) | [Dynamic Programming]()| | |
-| 22  | [maximal-square](https://leetcode.com/problems/maximal-square) | [Dynamic Programming]()| | |
-| 22  | [longest-string-chain](https://leetcode.com/problems/longest-string-chain) | [Dynamic Programming]()| | |
-| 22  | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching) | [Dynamic Programming]()| | |
-| 22  | [longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [Dynamic Programming]()| | |
-| 22  | [burst-balloons](https://leetcode.com/problems/burst-balloons) | [Dynamic Programming]()| | |
-| 22  | [word-break-ii](https://leetcode.com/problems/word-break-ii) | [Dynamic Programming]()| | |
-| 22  | [edit-distance)](https://leetcode.com/problems/edit-distance) | [Dynamic Programming]()| | |
-| 22  | [interleaving-string](https://leetcode.com/problems/interleaving-string) | [Dynamic Programming]()| | |
-| 22  | [wildcard-matching](https://leetcode.com/problems/wildcard-matching) | [Dynamic Programming]()| | |
-| 22  | [split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum) | [Dynamic Programming]()| | |
-| 22  | [climbing-stairs](https://leetcode.com/problems/climbing-stairs) | [Dynamic Programming]()| | |
-| 22  | [concatenated-words](https://leetcode.com/problems/concatenated-words) | [Dynamic Programming]()| | |
+| 1  | [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [Dynamic Programming]()| | |
+| 2  | [coin-change](https://leetcode.com/problems/coin-change) | [Dynamic Programming]()| | |
+| 3  | [frog-jump](https://leetcode.com/problems/frog-jump) | [Dynamic Programming]()| | |
+| 4  | [longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring) | [Dynamic Programming]()| | |
+| 5  | [word-break](https://leetcode.com/problems/word-break) | [Dynamic Programming]()| | |
+| 6  | [cherry-pickup](https://leetcode.com/problems/cherry-pickup) | [Dynamic Programming]()| | |
+| 7  | [decode-ways](https://leetcode.com/problems/decode-ways) | [Dynamic Programming]()| | |
+| 8  | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | [Dynamic Programming]()| | |
+| 9  | [maximal-rectangle](https://leetcode.com/problems/maximal-rectangle) | [Dynamic Programming]()| | |
+| 10  | [maximal-square](https://leetcode.com/problems/maximal-square) | [Dynamic Programming]()| | |
+| 11 | [longest-string-chain](https://leetcode.com/problems/longest-string-chain) | [Dynamic Programming]()| | |
+| 12 | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching) | [Dynamic Programming]()| | |
+| 13  | [longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [Dynamic Programming]()| | |
+| 14  | [burst-balloons](https://leetcode.com/problems/burst-balloons) | [Dynamic Programming]()| | |
+| 15  | [word-break-ii](https://leetcode.com/problems/word-break-ii) | [Dynamic Programming]()| | |
+| 16  | [edit-distance)](https://leetcode.com/problems/edit-distance) | [Dynamic Programming]()| | |
+| 17  | [interleaving-string](https://leetcode.com/problems/interleaving-string) | [Dynamic Programming]()| | |
+| 18  | [wildcard-matching](https://leetcode.com/problems/wildcard-matching) | [Dynamic Programming]()| | |
+| 19  | [split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum) | [Dynamic Programming]()| | |
+| 20  | [climbing-stairs](https://leetcode.com/problems/climbing-stairs) | [Dynamic Programming]()| | |
+| 21  | [concatenated-words](https://leetcode.com/problems/concatenated-words) | [Dynamic Programming]()| | |
 | 22  | [palindromic-substrings](https://leetcode.com/problems/palindromic-substrings) | [Dynamic Programming]()| | |
-| 22  | [longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | [Dynamic Programming]()| | |
-| 22  | [house-robber](https://leetcode.com/problems/house-robber) | [Dynamic Programming]()| | |
-| 22  | [paint-house](https://leetcode.com/problems/paint-house) | [Dynamic Programming]()| | |
-| 22  | [cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | [Dynamic Programming]()| | |
-| 22  | [maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray) | [Dynamic Programming]()| | |
-| 22  | [unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees) | [Dynamic Programming]()| | |
-| 22  | [super-egg-drop](https://leetcode.com/problems/super-egg-drop) | [Dynamic Programming]()| | |
-| 22  | [minimum-path-sum](https://leetcode.com/problems/minimum-path-sum) | [Dynamic Programming]()| | |
-| 22  | [longest-arithmetic-sequence](https://leetcode.com/problems/longest-arithmetic-sequence) | [Dynamic Programming]()| | |
-| 22  | [delete-and-earn](https://leetcode.com/problems/delete-and-earn) | [Dynamic Programming]()| | |
-| 22  | [continuous-subarray-sum](https://leetcode.com/problems/continuous-subarray-sum) | [Dynamic Programming]()| | |
-| 22  | [best-time-to-buy-and-sell-stock-iii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | [Dynamic Programming]()| | |
-| 22  | [knight-dialer](https://leetcode.com/problems/knight-dialer) | [Dynamic Programming]()| | |
-| 22  | [shortest-way-to-form-string](https://leetcode.com/problems/shortest-way-to-form-string) | [Dynamic Programming]()| | |
-| 22  | [unique-paths](https://leetcode.com/problems/unique-paths) | [Dynamic Programming]()| | |
-| 22  | [best-time-to-buy-and-sell-stock-iv](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [Dynamic Programming]()| | |
-| 22  | [range-sum-query-2d-immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | [Dynamic Programming]()| | |
-| 22  | [partition-to-k-equal-sum-subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | [Dynamic Programming]()| | |
-| 22  | [count-vowels-permutation](https://leetcode.com/problems/count-vowels-permutation) | [Dynamic Programming]()| | |
-| 22  | [minimum-window-subsequence](https://leetcode.com/problems/minimum-window-subsequence) | [Dynamic Programming]()| | |
-| 22  | [unique-binary-search-trees-ii](https://leetcode.com/problems/unique-binary-search-trees-ii) | [Dynamic Programming]()| | |
-| 22  | [best-time-to-buy-and-sell-stock-with-cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | [Dynamic Programming]()| | |
-| 22  | [longest-palindromic-subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | [Dynamic Programming]()| | |
-| 22  | [longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence) | [Dynamic Programming]()| | |
-| 22  | [tiling-a-rectangle-with-the-fewest-squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares) | [Dynamic Programming]()| | |
-| 22  | [dice-roll-simulation](https://leetcode.com/problems/dice-roll-simulation) | [Dynamic Programming]()| | |
-| 22  | [max-sum-of-rectangle-no-larger-than-k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k) | [Dynamic Programming]()| | |
-| 22  | [minimum-cost-to-merge-stones](https://leetcode.com/problems/minimum-cost-to-merge-stones) | [Dynamic Programming]()| | |
-| 22  | [perfect-squares](https://leetcode.com/problems/perfect-squares) | [Dynamic Programming]()| | |
-| 22  | [maximum-length-of-repeated-subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray) | [Dynamic Programming]()| | |
-| 22  | [knight-probability-in-chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) | [Dynamic Programming]()| | |
-| 22  | [count-different-palindromic-subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences) | [Dynamic Programming]()| | |
-| 22  | [best-time-to-buy-and-sell-stock-with-transaction-fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) | [Dynamic Programming]()| | |
-| 22  | [minimum-swaps-to-make-sequences-increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing) | [Dynamic Programming]()| | |
+| 23  | [longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | [Dynamic Programming]()| | |
+| 24  | [house-robber](https://leetcode.com/problems/house-robber) | [Dynamic Programming]()| | |
+| 25  | [paint-house](https://leetcode.com/problems/paint-house) | [Dynamic Programming]()| | |
+| 26  | [cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | [Dynamic Programming]()| | |
+| 27  | [maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray) | [Dynamic Programming]()| | |
+| 28  | [unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees) | [Dynamic Programming]()| | |
+| 29  | [super-egg-drop](https://leetcode.com/problems/super-egg-drop) | [Dynamic Programming]()| | |
+| 30  | [minimum-path-sum](https://leetcode.com/problems/minimum-path-sum) | [Dynamic Programming]()| | |
+| 31  | [longest-arithmetic-sequence](https://leetcode.com/problems/longest-arithmetic-sequence) | [Dynamic Programming]()| | |
+| 32  | [delete-and-earn](https://leetcode.com/problems/delete-and-earn) | [Dynamic Programming]()| | |
+| 33  | [continuous-subarray-sum](https://leetcode.com/problems/continuous-subarray-sum) | [Dynamic Programming]()| | |
+| 34  | [best-time-to-buy-and-sell-stock-iii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | [Dynamic Programming]()| | |
+| 35  | [knight-dialer](https://leetcode.com/problems/knight-dialer) | [Dynamic Programming]()| | |
+| 36  | [shortest-way-to-form-string](https://leetcode.com/problems/shortest-way-to-form-string) | [Dynamic Programming]()| | |
+| 37  | [unique-paths](https://leetcode.com/problems/unique-paths) | [Dynamic Programming]()| | |
+| 38  | [best-time-to-buy-and-sell-stock-iv](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [Dynamic Programming]()| | |
+| 39  | [range-sum-query-2d-immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | [Dynamic Programming]()| | |
+| 40  | [partition-to-k-equal-sum-subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | [Dynamic Programming]()| | |
+| 41  | [count-vowels-permutation](https://leetcode.com/problems/count-vowels-permutation) | [Dynamic Programming]()| | |
+| 42  | [minimum-window-subsequence](https://leetcode.com/problems/minimum-window-subsequence) | [Dynamic Programming]()| | |
+| 43  | [unique-binary-search-trees-ii](https://leetcode.com/problems/unique-binary-search-trees-ii) | [Dynamic Programming]()| | |
+| 44  | [best-time-to-buy-and-sell-stock-with-cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | [Dynamic Programming]()| | |
+| 45  | [longest-palindromic-subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | [Dynamic Programming]()| | |
+| 46  | [longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence) | [Dynamic Programming]()| | |
+| 47  | [tiling-a-rectangle-with-the-fewest-squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares) | [Dynamic Programming]()| | |
+| 48  | [dice-roll-simulation](https://leetcode.com/problems/dice-roll-simulation) | [Dynamic Programming]()| | |
+| 49  | [max-sum-of-rectangle-no-larger-than-k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k) | [Dynamic Programming]()| | |
+| 50  | [minimum-cost-to-merge-stones](https://leetcode.com/problems/minimum-cost-to-merge-stones) | [Dynamic Programming]()| | |
+| 51  | [perfect-squares](https://leetcode.com/problems/perfect-squares) | [Dynamic Programming]()| | |
+| 52  | [maximum-length-of-repeated-subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray) | [Dynamic Programming]()| | |
+| 53  | [knight-probability-in-chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) | [Dynamic Programming]()| | |
+| 54  | [count-different-palindromic-subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences) | [Dynamic Programming]()| | |
+| 55  | [best-time-to-buy-and-sell-stock-with-transaction-fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) | [Dynamic Programming]()| | |
+| 56  | [minimum-swaps-to-make-sequences-increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing) | [Dynamic Programming]()| | |
 
 ### Topological sort
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 22  | [alien-dictionary](https://leetcode.com/problems/alien-dictionary) | [Topological sort]()| | |
-| 22  | [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii) | [Topological sort]()| | |
-| 22  | [course-schedule](https://leetcode.com/problems/course-schedule) | [Topological sort]()| | |
-| 22  | [longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | [Topological sort]()| | |
-| 22  | [sort-items-by-groups-respecting-dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) | [Topological sort]()| | |
-| 22  | [sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction) | [Topological sort]()| | |
+| 1  | [alien-dictionary](https://leetcode.com/problems/alien-dictionary) | [Topological sort]()| | |
+| 2  | [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii) | [Topological sort]()| | |
+| 3 | [course-schedule](https://leetcode.com/problems/course-schedule) | [Topological sort]()| | |
+|  4 | [longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | [Topological sort]()| | |
+| 5  | [sort-items-by-groups-respecting-dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) | [Topological sort]()| | |
+| 6  | [sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction) | [Topological sort]()| | |
 
 ### Backtracking
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|22  |[generate-parentheses](https://leetcode.com/problems/generate-parentheses)|[Backtracking]()|||
-|22  |[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Backtracking]()|||
-|22  |[word-search](https://leetcode.com/problems/word-search)|[Backtracking]()|||
-|22  |[permutation](https://leetcode.com/problems/permutations)|[Backtracking]()|||
-|22  |[regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)|[Backtracking]()|||
-|22  |[word-search-ii](https://leetcode.com/problems/word-search-ii)|[Backtracking]()|||
-|22  |[word-break-ii](https://leetcode.com/problems/word-break-ii)|[Backtracking]()|||
-|22  |[restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses)|[Backtracking]()|||
-|22  |[wildcard-matching](https://leetcode.com/problems/wildcard-matching))|[Backtracking]()|||
-|22  |[word-ladder-ii](https://leetcode.com/problems/word-ladder-ii)|[Backtracking]()|||
-|22  |[subsets](https://leetcode.com/problems/subsets)|[Backtracking]()|||
-|22  |[combination-sum](https://leetcode.com/problems/combination-sum)|[Backtracking]()|||
-|22  |[sudoku-solver](https://leetcode.com/problems/sudoku-solver)|[Backtracking]()|||
-|22  |[n-queens](https://leetcode.com/problems/n-queens)|[Backtracking]()|||
-|22  |[add-and-search-word-data-structure-design](https://leetcode.com/problems/add-and-search-word-data-structure-design)|[Backtracking]()|||
-|22  |[tiling-a-rectangle-with-the-fewest-squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares)|[Backtracking]()|||
-|22  |[permutations-ii](https://leetcode.com/problems/permutations-ii)|[Backtracking]()|||
-|22  |[unique-paths-iii](https://leetcode.com/problems/unique-paths-iii)|[Backtracking]()|||
-|22  |[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)|[Backtracking]()|||
-|22  |[word-pattern-ii](https://leetcode.com/problems/word-pattern-ii)|[Backtracking]()|||
-|22  |[beautiful-arrangement](https://leetcode.com/problems/beautiful-arrangement)|[Backtracking]()|||
+|1  |[generate-parentheses](https://leetcode.com/problems/generate-parentheses)|[Backtracking]()|||
+|2  |[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Backtracking]()|||
+|3  |[word-search](https://leetcode.com/problems/word-search)|[Backtracking]()|||
+|4  |[permutation](https://leetcode.com/problems/permutations)|[Backtracking]()|||
+|5  |[regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)|[Backtracking]()|||
+|6  |[word-search-ii](https://leetcode.com/problems/word-search-ii)|[Backtracking]()|||
+|7  |[word-break-ii](https://leetcode.com/problems/word-break-ii)|[Backtracking]()|||
+|8  |[restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses)|[Backtracking]()|||
+|9  |[wildcard-matching](https://leetcode.com/problems/wildcard-matching))|[Backtracking]()|||
+|10  |[word-ladder-ii](https://leetcode.com/problems/word-ladder-ii)|[Backtracking]()|||
+|11  |[subsets](https://leetcode.com/problems/subsets)|[Backtracking]()|||
+|12  |[combination-sum](https://leetcode.com/problems/combination-sum)|[Backtracking]()|||
+|13  |[sudoku-solver](https://leetcode.com/problems/sudoku-solver)|[Backtracking]()|||
+|14  |[n-queens](https://leetcode.com/problems/n-queens)|[Backtracking]()|||
+|15  |[add-and-search-word-data-structure-design](https://leetcode.com/problems/add-and-search-word-data-structure-design)|[Backtracking]()|||
+|16  |[tiling-a-rectangle-with-the-fewest-squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares)|[Backtracking]()|||
+|17  |[permutations-ii](https://leetcode.com/problems/permutations-ii)|[Backtracking]()|||
+|18  |[unique-paths-iii](https://leetcode.com/problems/unique-paths-iii)|[Backtracking]()|||
+|19  |[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)|[Backtracking]()|||
+|20  |[word-pattern-ii](https://leetcode.com/problems/word-pattern-ii)|[Backtracking]()|||
+|21  |[beautiful-arrangement](https://leetcode.com/problems/beautiful-arrangement)|[Backtracking]()|||
 |22  |[factor-combinations](https://leetcode.com/problems/factor-combinations)|[Backtracking]()|||
-|22  |[confusing-number-ii](https://leetcode.com/problems/confusing-number-ii)|[Backtracking]()|||
-|22  |[combinations](https://leetcode.com/problems/combinations)|[Backtracking]()|||
-|22  |[combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)|[Backtracking]()|||
-|22  |[path-with-maximum-gold](https://leetcode.com/problems/path-with-maximum-gold)|[Backtracking]()|||
-|22  |[campus-bikes-ii](https://leetcode.com/problems/campus-bikes-ii)|[Backtracking]()|||
-|22  |[brace-expansion](https://leetcode.com/problems/brace-expansion)|[Backtracking]()|||
-|22  |[android-unlock-patterns](https://leetcode.com/problems/android-unlock-patterns)|[Backtracking]()|||
-|22  |[n-queens-ii](https://leetcode.com/problems/n-queens-ii)|[Backtracking]()|||
+|23  |[confusing-number-ii](https://leetcode.com/problems/confusing-number-ii)|[Backtracking]()|||
+|24  |[combinations](https://leetcode.com/problems/combinations)|[Backtracking]()|||
+|25  |[combination-sum-ii](https://leetcode.com/problems/combination-sum-ii)|[Backtracking]()|||
+|26  |[path-with-maximum-gold](https://leetcode.com/problems/path-with-maximum-gold)|[Backtracking]()|||
+|27  |[campus-bikes-ii](https://leetcode.com/problems/campus-bikes-ii)|[Backtracking]()|||
+|28  |[brace-expansion](https://leetcode.com/problems/brace-expansion)|[Backtracking]()|||
+|29  |[android-unlock-patterns](https://leetcode.com/problems/android-unlock-patterns)|[Backtracking]()|||
+|30  |[n-queens-ii](https://leetcode.com/problems/n-queens-ii)|[Backtracking]()|||
