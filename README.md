@@ -17,7 +17,7 @@
 |11  | [Concatenated words](https://leetcode.com/problems/concatenated-words/) | [Sliding Window ]() | | |
 |12  | [Minimum Window substring](https://leetcode.com/problems/) | [Sliding Window ]() | Hard| |
 |13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Sliding window]() | Hard |  | |
-|||**Two pointers**|||
+### Two pointers
 |1 | [Two sum II ](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Two pointers]() | | |
 |2  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Remove_duplicates_from_sortedarray.py)|Easy |  |
 |3   | [3 Sum](https://leetcode.com/problems/3sum/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum.py) | Medium | |
