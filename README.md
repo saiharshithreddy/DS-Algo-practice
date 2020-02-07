@@ -92,31 +92,31 @@
 | 6  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add-numbers-reverse.py)|Medium | |
 | 7  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/partition-list.py)|Medium | Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
 | 8  | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/plus-one-LL.py)| Medium | Dummy nodes and move till non nine nodes and increment by 1. Set 9s to 0|
-| 9  | [Flatten Binary tree to LL](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
-| 10  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/)| | |
-| 11  | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/) | Medium | |
+| 9  | [Flatten Binary tree to LL](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/flatten_bt-LL.py)| | |
+| 10  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/insert-sorted-circularLL.py)| | |
+| 11  | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/BST-to-sorted-doublyLL.py) | Medium | |
 |12  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/remove-nth-node.py)| Medium | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
 
 ### Merge Intervals
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) | [Merge intervals]()|Easy | |
-| 2  | [Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals]()| Hard| |
-| 3  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [Merge intervals]()| Medium| |
-| 4  | [Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Merge intervals]()| Medium| |
-| 5  | [Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals]()| Easy| |
-| 6  | [Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) | [Merge intervals]()| Medium| |
-| 7  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [Merge intervals]()|Hard | |
+| 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/merge_intervals.py)|Easy | |
+| 2  | [Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/insert-intervals.py)| Hard| |
+| 3  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/interval-list-intersections.py)| Medium| |
+| 4  | [Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/non-overlapping-intervals.py)| Medium| |
+| 5  | [Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/meeting-rooms.py)| Easy| |
+| 6  | [Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/meeting-rooms2.py)| Medium| |
+| 7  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/employee-free-time.py)|Hard | |
 
 ### Cyclic sort
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [Missing number](https://leetcode.com/problems/missing-number/) | [Cyclic sort]()| Easy| |
-| 2  | [Find all missing numbers](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Cyclic sort]()| Medium | |
-| 3  | [Remove duplicates from a sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [Cyclic sort]()| | |
-| 4  | [Remove duplicates 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Cyclic sort]()| | |
-| 5  | [Missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort]()| | |
-| 6  | [k Missing elements in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [Cyclic sort]()| | |
+| 1  | [Missing number](https://leetcode.com/problems/missing-number/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| Easy| |
+| 2  | [Find all missing numbers](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| Medium | |
+| 3  | [Remove duplicates from a sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| | |
+| 4  | [Remove duplicates 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| | |
+| 5  | [Missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| | |
+| 6  | [k Missing elements in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| | |
 
 ### Trees
 | #   |Question| Solution |Difficulty | Notes |
@@ -127,40 +127,50 @@
 |4|[maximum-depth-of-n-ary-tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/max_depth-nary-tree.py)|Easy | Get the max depth of subtrees|
 |5|[maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/max_depth_BT.py)|Easy | |
 |6|[range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst/)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/range_sum.py)|Easy | |
-|7|[merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/merge_BT.py)|Easy | |
+|7|[merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/)|[DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/merge_BT.py)|Easy | |
 |8|[search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[]()| | |
 |9|[path-sum](https://leetcode.com/problems/path-sum/)|[DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/path_sum.py)| Easy |  |
 |10|[minimum-depth-of-binary-tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/min_depth_BT.py)|Easy | |
-|1 | [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/kth-smallest.py) | Medium | Push left tree nodes into stack and pop them by decrementing k. when k=0 return node.val  |
-|2 | [all-nodes-distance-k-in-binary-tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
-|3 | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
-|4 | [diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/diameter-BT.py) | Easy |  |
-|5 | [serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
-|6 | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
-|7 | [subtree-of-another-tree](https://leetcode.com/problems/subtree-of-another-tree) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
-|8 | [binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
-|9 | [serialize-and-deserialize-bst](https://leetcode.com/problems/serialize-and-deserialize-bst) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
-|10 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
-|11 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 12  | [Valid BST](https://leetcode.com/problems/validate-binary-search-tree/) | [BST](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/valid-bst.py)| Medium| Use lower & upper, initialize them to extremes. Check val <= lower or val>= upper (recursively for all nodes) |
-| 13  | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/binary-tree-level-order.py)| Medium|Use a queue |
-| 14  | [Reverse level order traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/reverse-level-order-traversal.py)|Medium | |
-| 15  | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| Medium| |
-| 16  | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| Easy | |
-| 18  | [Populating next right ptrs in tree](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 19  | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 20  | [Tree boundary](https://leetcode.com/problems/boundary-of-binary-tree/) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 21  | [Path sum](https://leetcode.com/problems/path-sum/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 22  | [Path sum 2](https://leetcode.com/problems/path-sum-ii) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 23  | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 24  | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 25  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 26  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 27  | [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 28  | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 29  | [ipo](https://leetcode.com/problems/ipo/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 30  | Next interval | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+|11 | [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/kth-smallest.py) | Medium | Push left tree nodes into stack and pop them by decrementing k. when k=0 return node.val  |
+|12 | [all-nodes-distance-k-in-binary-tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/nodes-k-distance.py) | Medium |  |
+|13 | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/lowest_common-ancestor.py) | Medium |  |
+|14 | [diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/diameter-BT.py) | Easy |  |
+|15 | [serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|16 | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|17 | [Iterative postorderTraversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)  |[DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/postorder_iterative.py)   | Hard  | Using stack |
+|18 | [binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|19 | [serialize-and-deserialize-bst](https://leetcode.com/problems/serialize-and-deserialize-bst) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|20 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
+|21 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 22  | [Valid BST](https://leetcode.com/problems/validate-binary-search-tree/) | [BST](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/valid-bst.py)| Medium| Use lower & upper, initialize them to extremes. Check val <= lower or val>= upper (recursively for all nodes) |
+| 23  | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/binary-tree-level-order.py)| Medium|Use a queue |
+| 24  | [Reverse level order traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BFS/reverse-level-order-traversal.py)|Medium | |
+| 25  | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| Medium| |
+| 26  | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| Easy | |
+| 27  | Next interval | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 28  | [Populating next right ptrs in tree](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 29  | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 30  | [Tree boundary](https://leetcode.com/problems/boundary-of-binary-tree/) | [Tree BFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 31  | [Path sum](https://leetcode.com/problems/path-sum/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 32  | [Path sum 2](https://leetcode.com/problems/path-sum-ii) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 33  | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 34  | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 35  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 36  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 37  | [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 38  | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 39  | [ipo](https://leetcode.com/problems/ipo/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)|
+|40   |
 
+### Topological sort
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+| 1  | [alien-dictionary](https://leetcode.com/problems/alien-dictionary) | [Topological sort]()| | |
+| 2  | [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii) | [Topological sort]()| | |
+| 3 | [course-schedule](https://leetcode.com/problems/course-schedule) | [Topological sort]()| | |
+|  4 | [longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | [Topological sort]()| | |
+| 5  | [sort-items-by-groups-respecting-dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) | [Topological sort]()| | |
+| 6  | [sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction) | [Topological sort]()| | |
 
 ### Subsets
 | #   |Question| Solution |Difficulty | Notes |
@@ -175,7 +185,7 @@
 | 8  | [Uniquie BST](https://leetcode.com/problems/unique-binary-search-trees/) | [Subsets]()| | |
 | 9  | [Unique BST 2](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Subsets]()| | |
 | 10  | [Next permutation](https://leetcode.com/problems/next-permutation/) | [Subsets]()|Medium | |
-| 11  | Order agnostic binary search | [Modified binary search]()| | |
+
 
 ### Modified Binary Search
 | #   |Question| Solution |Difficulty | Notes |
@@ -190,7 +200,7 @@
 | 8  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Modified binary search]()| | |
 | 9  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Modified binary search]()| | |
 | 10  | Rotation count | [Modified binary search]()| | |
-
+| 11  | Order agnostic binary search | [Modified binary search]()| | |
 ### Bitwise XOR
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -284,15 +294,6 @@
 | 55  | [best-time-to-buy-and-sell-stock-with-transaction-fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) | [Dynamic Programming]()| | |
 | 56  | [minimum-swaps-to-make-sequences-increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing) | [Dynamic Programming]()| | |
 
-### Topological sort
-| #   |Question| Solution |Difficulty | Notes |
-| -|----- | ---------- |-----|-------|
-| 1  | [alien-dictionary](https://leetcode.com/problems/alien-dictionary) | [Topological sort]()| | |
-| 2  | [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii) | [Topological sort]()| | |
-| 3 | [course-schedule](https://leetcode.com/problems/course-schedule) | [Topological sort]()| | |
-|  4 | [longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | [Topological sort]()| | |
-| 5  | [sort-items-by-groups-respecting-dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) | [Topological sort]()| | |
-| 6  | [sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction) | [Topological sort]()| | |
 
 ### Backtracking
 | #   |Question| Solution |Difficulty | Notes |
