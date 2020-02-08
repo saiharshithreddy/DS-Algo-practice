@@ -128,13 +128,13 @@
 |5|[maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/max_depth_BT.py)|Easy | |
 |6|[range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst/)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/range_sum.py)|Easy | |
 |7|[merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/)|[DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/merge_BT.py)|Easy | |
-|8|[search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[]()| | |
+|8|[search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/search-bst.py)| | |
 |9|[path-sum](https://leetcode.com/problems/path-sum/)|[DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/path_sum.py)| Easy |  |
-|10|[minimum-depth-of-binary-tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/min_depth_BT.py)|Easy | |
+|10|[diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/diameter-BT.py) | Easy |  |
 |11 | [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/kth-smallest.py) | Medium | Push left tree nodes into stack and pop them by decrementing k. when k=0 return node.val  |
 |12 | [all-nodes-distance-k-in-binary-tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/nodes-k-distance.py) | Medium |  |
-|13 | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/lowest_common-ancestor.py) | Medium |  |
-|14 | [diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/diameter-BT.py) | Easy |  |
+|13 | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/lowest_common-ancestor.py) | Medium |  |
+|14 |[minimum-depth-of-binary-tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/min_depth_BT.py)|Easy | |
 |15 | [serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
 |16 | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/) |  |  |
 |17 | [Iterative postorderTraversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)  |[DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/postorder_iterative.py)   | Hard  | Using stack |
