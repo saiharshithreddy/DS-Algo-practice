@@ -212,13 +212,13 @@
 | 6  | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [bitwise xor]()| | |
 | 7  | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | [bitwise xor]()| | |
 
-### Top K elements
+### Top K elements (Heap)
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Top k elements]()| | |
-| 2  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements]()| | |
-| 3 | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Top k elements]()| | |
-| 4  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Top k elements]()| | |
+| 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/top-k-elements.py) [Quickselect]()| Medium | Use dictionary O(nlogn). Quickselect O(N) |
+| 2  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/sort-characters-freq.py)| Medium | Use dictionary |
+| 3 | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)   |[Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/kth-smallest-in-list.py)   |Medium   | Use heapq  |
+| 4  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/k-closest-elements.py)|Medium | |
 | 5  | [maximum-distinct-elements-removing-k-elements](https://www.geeksforgeeks.org/maximum-distinct-elements-removing-k-elements/) | [Top k elements]()| | |
 | 6  | [reorganize-string](https://leetcode.com/problems/reorganize-string/) | [Top k elements]()| | |
 | 7  | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | |

@@ -14,22 +14,6 @@ Space complexity: O(N)
 
 class Solution:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
-        stack = []
 
-        result = []
-        if not root:
-            return None
 
-        # 1. add root to stack_a
-        stack.append(root)
-        while stack:
-            # 2. Pop from stack_a and add to result
-            root = stack.pop()
-            result.append(root.val)
-            # 3. If children exist. Push into stack_a
-            if root.left:
-                stack.append(root.left)
-            if root.right:
-                stack.append(root.right)
         
-        return result
