@@ -215,7 +215,7 @@
 ### Top K elements (Heap)
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/top-k-elements.py) [Quickselect]()| Medium | Use dictionary O(nlogn). Quickselect O(N) |
+| 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Dictionary](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/top-k-elements.py) []()| Medium | Use dictionary O(nlogn). Quickselect O(N) |
 | 2  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/sort-characters-freq.py)| Medium | Use dictionary |
 | 3 | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)   |[Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/kth-smallest-in-list.py)   |Medium   | Use heapq  |
 | 4  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/k-closest-elements.py)|Medium | |
