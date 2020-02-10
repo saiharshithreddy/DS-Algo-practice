@@ -1,26 +1,6 @@
 # DS-Algo-interview-preparation in Python
 
-<!-- TOC -->
 
-- [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
-  - [Sliding Window](#sliding-window)
-  - [Two pointers](#two-pointers)
-  - [Fast and slow pointers](#fast-and-slow-pointers)
-  - [In-place reverse](#in-place-reverse)
-  - [LinkedList](#linkedlist)
-  - [Merge Intervals](#merge-intervals)
-  - [Cyclic sort](#cyclic-sort)
-  - [Trees](#trees)
-  - [Subsets](#subsets)
-  - [Modified Binary Search](#modified-binary-search)
-  - [Bitwise XOR](#bitwise-xor)
-  - [Top K elements](#top-k-elements)
-  - [K-way merge](#k-way-merge)
-  - [Dynamic Programming](#dynamic-programming)
-  - [Topological sort](#topological-sort)
-  - [Backtracking](#backtracking)
-
-<!-- /TOC -->
 
 ### Sliding Window
 | #   |Question| Solution |Difficulty | Notes |
@@ -118,6 +98,55 @@
 | 5  | [Missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| | |
 | 6  | [k Missing elements in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| | |
 
+### Modified Binary Search
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+| 1  | [round-numbers](https://leetcode.com/discuss/interview-question/125001/round-numbers/123813) | [Modified binary search]()| Easy| |
+| 2  | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Modified binary search]()| Easy| |
+| 3  | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Modified binary search]()| | |
+| 4  | [single-element-in-a-sorted-array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Modified binary search]()| | |
+| 5  | [minimum-absolute-difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Modified binary search]()| | |
+| 6  | Search Bitonic Array | [Modified binary search]()| | |
+| 7  | Bitonic array maximum[]() | [Modified binary search]()| | |
+| 8  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Modified binary search]()| | |
+| 9  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Modified binary search]()| | |
+| 10  | Rotation count | [Modified binary search]()| | |
+| 11  | Order agnostic binary search | [Modified binary search]()| | |
+
+
+### Bitwise XOR
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+| 1  | [single-number](https://leetcode.com/problems/single-number/) | [bitwise xor]()| | |
+| 2  | [single-number-ii](https://leetcode.com/problems/single-number-ii/) | [bitwise xor]()| | |
+| 3  | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/) | [bitwise xor]()| | |
+| 4 | [rotate-image](https://leetcode.com/problems/rotate-image/) | [bitwise xor]()| | |
+| 5  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [bitwise xor]()| | |
+| 6  | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [bitwise xor]()| | |
+| 7  | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | [bitwise xor]()| | |
+
+### Top K elements (Heap)
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+| 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Dictionary](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/top-k-elements.py) []()| Medium | Use dictionary O(nlogn). Quickselect O(N) |
+| 2  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/sort-characters-freq.py)| Medium | Use dictionary |
+| 3 | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)   |[Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/kth-smallest-in-list.py)   |Medium   | Use heapq  |
+| 4  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/k-closest-elements.py)|Medium | |
+| 5  | [maximum-distinct-elements-removing-k-elements](https://www.geeksforgeeks.org/maximum-distinct-elements-removing-k-elements/) | [Top k elements]()| | |
+| 6  | [reorganize-string](https://leetcode.com/problems/reorganize-string/) | [Top k elements]()| | |
+| 7  | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | |
+| 8  | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | [Top k elements]()| | |
+| 9  | [maximum-frequency-stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Top k elements]()| | |
+
+### K-way merge
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+| 1  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [k-way merge]()| | |
+| 2  | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [k-way merge]()| | |
+| 3  | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | [k-way merge]()| | |
+| 4 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [k-way merge]()| | |
+| 5  | [partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [k-way merge]()| | |
+
 ### Trees
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -186,53 +215,21 @@
 | 9  | [Unique BST 2](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Subsets]()| | |
 | 10  | [Next permutation](https://leetcode.com/problems/next-permutation/) | [Subsets]()|Medium | |
 
-
-### Modified Binary Search
+### Graphs
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [round-numbers](https://leetcode.com/discuss/interview-question/125001/round-numbers/123813) | [Modified binary search]()| Easy| |
-| 2  | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Modified binary search]()| Easy| |
-| 3  | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Modified binary search]()| | |
-| 4  | [single-element-in-a-sorted-array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Modified binary search]()| | |
-| 5  | [minimum-absolute-difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Modified binary search]()| | |
-| 6  | Search Bitonic Array | [Modified binary search]()| | |
-| 7  | Bitonic array maximum[]() | [Modified binary search]()| | |
-| 8  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Modified binary search]()| | |
-| 9  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Modified binary search]()| | |
-| 10  | Rotation count | [Modified binary search]()| | |
-| 11  | Order agnostic binary search | [Modified binary search]()| | |
-### Bitwise XOR
-| #   |Question| Solution |Difficulty | Notes |
-| -|----- | ---------- |-----|-------|
-| 1  | [single-number](https://leetcode.com/problems/single-number/) | [bitwise xor]()| | |
-| 2  | [single-number-ii](https://leetcode.com/problems/single-number-ii/) | [bitwise xor]()| | |
-| 3  | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/) | [bitwise xor]()| | |
-| 4 | [rotate-image](https://leetcode.com/problems/rotate-image/) | [bitwise xor]()| | |
-| 5  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [bitwise xor]()| | |
-| 6  | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [bitwise xor]()| | |
-| 7  | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | [bitwise xor]()| | |
-
-### Top K elements (Heap)
-| #   |Question| Solution |Difficulty | Notes |
-| -|----- | ---------- |-----|-------|
-| 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Dictionary](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/top-k-elements.py) []()| Medium | Use dictionary O(nlogn). Quickselect O(N) |
-| 2  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/sort-characters-freq.py)| Medium | Use dictionary |
-| 3 | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)   |[Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Heap/kth-smallest-in-list.py)   |Medium   | Use heapq  |
-| 4  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Top k elements](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/k-closest-elements.py)|Medium | |
-| 5  | [maximum-distinct-elements-removing-k-elements](https://www.geeksforgeeks.org/maximum-distinct-elements-removing-k-elements/) | [Top k elements]()| | |
-| 6  | [reorganize-string](https://leetcode.com/problems/reorganize-string/) | [Top k elements]()| | |
-| 7  | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | |
-| 8  | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | [Top k elements]()| | |
-| 9  | [maximum-frequency-stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Top k elements]()| | |
-
-### K-way merge
-| #   |Question| Solution |Difficulty | Notes |
-| -|----- | ---------- |-----|-------|
-| 1  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [k-way merge]()| | |
-| 2  | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [k-way merge]()| | |
-| 3  | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | [k-way merge]()| | |
-| 4 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [k-way merge]()| | |
-| 5  | [partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [k-way merge]()| | |
+|1   | Breadth first search  | []()  |   |   |
+|2   | Depth first search  |[]()   |   |   |
+|3   | Detect cycle in a graph  |[]()   |   |   |
+|4   | Find mother vertex  | []()  |   |   |
+|5   | Count num of edges  | []()  |   |   |
+|6   | Path exists   | []()  |   |   |
+|7   | Graph is a tree?  |  []() |   |   |
+|8   | Shortest path between two vertices  |[]()   |   |   |
+|9   | Remove Edge  | []()  |   |   |
+|10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |   |   |   |
+|11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |   |   |
+|12   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   |   |   |
 
 ### Dynamic Programming
 | #   |Question| Solution |Difficulty | Notes |

@@ -1,8 +1,8 @@
 '''
-Did it run on leetcode: 
-Did you face any problem: 
-Time Compelxity: 
-Space Complexity: 
+Did it run on leetcode:
+Did you face any problem:
+Time Compelxity:
+Space Complexity:
 Algorithm:
 
 '''
@@ -15,5 +15,4 @@ class Solution:
             sublist = intervals[i]
             nextlist = intervals[i+1]
             nextlist[0] <= sublist[len(sublist)-1]
-            merged = list
-            
+            merged = 
