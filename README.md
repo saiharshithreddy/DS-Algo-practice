@@ -52,7 +52,8 @@
 |5   | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/reorder-list.py) | Medium | Find middle, reverse 2nd half and merge one from 1st list and one from 2nd list|
 |6   | [Circular array loop](https://leetcode.com/problems/circular-array-loop/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
 
-### In-place reverse [pattern]()
+### In-place reverse
+[Pattern]()
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | [Reverse LL](https://leetcode.com/problems/reverse-linked-list) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverseLL.py) |Easy | Use prev and next to update the links |
@@ -76,42 +77,42 @@
 | 10  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/insert-sorted-circularLL.py)| | |
 | 11  | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/BST-to-sorted-doublyLL.py) | Medium | |
 |12  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/remove-nth-node.py)| Medium | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
+| 13  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)|Medium | |
 
 ### Merge Intervals [pattern](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Patterns/merge-intervals.md)
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 | 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/merge_intervals.py)|Medium | |
-| 2  | [Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/insert-intervals.py)| Hard| |
+| 2  |[Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/non-overlapping-intervals.py)| Medium| |
 | 3  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/interval-list-intersections.py)| Medium| |
-| 4  | [Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/non-overlapping-intervals.py)| Medium| |
-| 5  | [Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/meeting-rooms.py)| Easy| |
-| 6  | [Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/meeting-rooms2.py)| Medium| |
+| 4  |[Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/meeting-rooms.py)| Easy| |
+| 5  |[Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/meeting-rooms2.py)| Medium| |
+| 6  |[Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/insert-intervals.py)| Hard| |
 | 7  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [Merge intervals](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/MergeIntervals/employee-free-time.py)|Hard | |
 
 ### Cyclic sort
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [Missing number](https://leetcode.com/problems/missing-number/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| Easy| |
-| 2  | [Find all missing numbers](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| Medium | |
-| 3  | [Remove duplicates from a sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| | |
-| 4  | [Remove duplicates 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| | |
-| 5  | [Missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| | |
-| 6  | [k Missing elements in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| | |
+| 1  | [Missing number](https://leetcode.com/problems/missing-number/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/)| Easy| n*n+1/2|
+| 2  | [Find all missing numbers](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/find-all-missing-nos.py)| Medium |index + 1 == nums[index]? |
+| 3  |[First missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/CyclicSort/first-missing-positive.py)| Hard | TC: O(N), SC: O(1) |
+
 
 ### Modified Binary Search
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 | 1  | [round-numbers](https://leetcode.com/discuss/interview-question/125001/round-numbers/123813) | [Modified binary search]()| Easy| |
 | 2  | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [Modified binary search]()| Easy| |
-| 3  | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Modified binary search]()| | |
+| 3  | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Modified binary search](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/find-first-last-in-sortedarray.py)| Medium |  |
 | 4  | [single-element-in-a-sorted-array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Modified binary search]()| | |
-| 5  | [minimum-absolute-difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Modified binary search]()| | |
+| 5  | [kth Missing element in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [BinarySearch](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/)| Medium | |
 | 6  | Search Bitonic Array | [Modified binary search]()| | |
 | 7  | Bitonic array maximum[]() | [Modified binary search]()| | |
 | 8  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Modified binary search]()| | |
 | 9  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Modified binary search]()| | |
 | 10  | Rotation count | [Modified binary search]()| | |
 | 11  | Order agnostic binary search | [Modified binary search]()| | |
+|  12 |
 
 
 ### Bitwise XOR
@@ -191,15 +192,6 @@
 | 39  | [ipo](https://leetcode.com/problems/ipo/) | [Tree DFS](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)|
 |40   |
 
-### Topological sort
-| #   |Question| Solution |Difficulty | Notes |
-| -|----- | ---------- |-----|-------|
-| 1  | [alien-dictionary](https://leetcode.com/problems/alien-dictionary) | [Topological sort]()| | |
-| 2  | [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii) | [Topological sort]()| | |
-| 3 | [course-schedule](https://leetcode.com/problems/course-schedule) | [Topological sort]()| | |
-|  4 | [longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | [Topological sort]()| | |
-| 5  | [sort-items-by-groups-respecting-dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) | [Topological sort]()| | |
-| 6  | [sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction) | [Topological sort]()| | |
 
 ### Subsets
 | #   |Question| Solution |Difficulty | Notes |
@@ -230,6 +222,16 @@
 |10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |   |   |   |
 |11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |   |   |
 |12   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   |   |   |
+
+### Topological sort
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+| 1  | [alien-dictionary](https://leetcode.com/problems/alien-dictionary) | [Topological sort]()| | |
+| 2  | [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii) | [Topological sort]()| | |
+| 3 | [course-schedule](https://leetcode.com/problems/course-schedule) | [Topological sort]()| | |
+|  4 | [longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | [Topological sort]()| | |
+| 5  | [sort-items-by-groups-respecting-dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) | [Topological sort]()| | |
+| 6  | [sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction) | [Topological sort]()| | |
 
 ### Dynamic Programming
 | #   |Question| Solution |Difficulty | Notes |
