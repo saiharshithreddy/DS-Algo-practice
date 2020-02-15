@@ -17,11 +17,22 @@
 |10 | [Minimum Window substring](https://leetcode.com/problems/minimum-window-substring/) | [Sliding Window]() || | |
 |11  | [Concatenated words](https://leetcode.com/problems/concatenated-words/) | [Sliding Window ]() | | |
 |12  | [Minimum Window substring](https://leetcode.com/problems/) | [Sliding Window ]() | Hard| |
-|13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Sliding window]() | Hard |  | |
-### Two pointers [pattern]()
+|13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Sliding window]() | Hard | Use max heap |
+
+### Arrays with unique approaches
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1 | [Two sum II ](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Two pointers]() | | |
+|1   |[Rotate Image](https://leetcode.com/problems/rotate-image)   | [Matrix transpose](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/rotate-image.py)  | Medium  | Reverse rows and swap elements on either side of diagonals  |
+|2    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/UniqueApproach/product_except_self.py)  | Medium  | Left product & right product  |
+
+### Two pointers
+```
+Two pointers approach works only when array is sorted.
+```
+[Notes]()
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+|1 | [Two sum II ](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum_sorted.py) | Easy | left & right ptrs |
 |2  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Remove_duplicates_from_sortedarray.py)|Easy |  |
 |3   | [3 Sum](https://leetcode.com/problems/3sum/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum.py) | Medium | |
 |4  | [3 Sum closest](https://leetcode.com/problems/3sum-closest/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum_closest.py) | Medium | |
