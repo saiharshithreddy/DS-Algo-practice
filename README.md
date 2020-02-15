@@ -2,7 +2,9 @@
 
 
 
-### Sliding Window [pattern]()
+### Sliding Window
+
+[Notes](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Patterns/sliding_window_patterns.md)
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 | 1  |[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/max_sum_subarray.py) | Easy | |
@@ -11,13 +13,13 @@
 |4  |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/fruits_into_baskets.py) | Medium |[Algo](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Notes/Fruits_into_baskets.pdf) |
 |5  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/Longest_repeating_character_replacement.py)| Medium | |
 |6  | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Sliding Window](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Sliding%20window/permutation_in_string.py)| Medium | |
-|7  | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Sliding Window ]() | | |
+|7  | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [ ]() | | |
 |8   | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | [Sliding Window]() | Medium | |
-|9   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Sliding Window]() | Medium | |
+|9   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | []() | Medium | |
 |10 | [Minimum Window substring](https://leetcode.com/problems/minimum-window-substring/) | [Sliding Window]() || | |
-|11  | [Concatenated words](https://leetcode.com/problems/concatenated-words/) | [Sliding Window ]() | | |
-|12  | [Minimum Window substring](https://leetcode.com/problems/) | [Sliding Window ]() | Hard| |
-|13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Sliding window]() | Hard | Use max heap |
+|11  | [Concatenated words](https://leetcode.com/problems/concatenated-words/) | [ ]() | | |
+|12  | [Minimum Window substring](https://leetcode.com/problems/) | []() | Hard| |
+|13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [ ]() | Hard | Use max heap |
 
 ### Arrays with unique approaches
 | #   |Question| Solution |Difficulty | Notes |
@@ -45,12 +47,12 @@ Two pointers approach works only when array is sorted.
 |11   | [Backspace string compare](https://leetcode.com/problems/backspace-string-compare/) | [Using stack](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Stack/backspace_string_compare.py) |Easy |  |
 |12  |[k-diff-pairs](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/k-diff-pairs-array.py)|Easy| |
 |13   | [Shortest unsorted continuous subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Shortest-unsorted-continuous-subarray.py) | Easy| |
-|14  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium||
+|14  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium||
 |15  |[Reverse string](https://leetcode.com/problems/reverse-string)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/reverse_vowels_string.py)| Easy||
-|16| [Reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Easy ||
-|17 | [Move zeros](https://leetcode.com/problems/move-zeroes)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Easy ||
+|16| [Reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[ ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Easy ||
+|17 | [Move zeros](https://leetcode.com/problems/move-zeroes)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Easy ||
 |18  | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Medium||
-|19  | [Candy crush]()|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium ||
+|19  | [Candy crush]()|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium ||
 |20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/median-sorted-arrays.py) [Binary search](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/median-2sortedarrays.py)|Hard |Two pointers is O(n+m). Using binary search O(log(min(n,m)) [Algo](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Notes/Median-of-2sortedarrays.pdf)|
 
 ### Fast and slow pointers [pattern]()
@@ -61,7 +63,7 @@ Two pointers approach works only when array is sorted.
 |3   | [Middle of Linkedlist](https://leetcode.com/problems/middle-of-the-linked-list) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/middle_linkedlist.py) |Easy | The node at which slow ptr stops |
 |4   | [Palindrome LL ](https://leetcode.com/problems/palindrome-linked-list) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/palindrome_linkedlist.py) |Medium | Find middle and reverse the 2nd half of the list and compare both|
 |5   | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/reorder-list.py) | Medium | Find middle, reverse 2nd half and merge one from 1st list and one from 2nd list|
-|6   | [Circular array loop](https://leetcode.com/problems/circular-array-loop/) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
+|6   | [Circular array loop](https://leetcode.com/problems/circular-array-loop/) | [ ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/) | Medium | |
 
 ### In-place reverse
 [Pattern]()
@@ -123,7 +125,7 @@ Two pointers approach works only when array is sorted.
 | 9  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Modified binary search]()| | |
 | 10  | Rotation count | [Modified binary search]()| | |
 | 11  | Order agnostic binary search | [Modified binary search]()| | |
-|  12 |
+
 
 
 ### Bitwise XOR
