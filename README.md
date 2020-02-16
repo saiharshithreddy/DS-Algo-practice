@@ -1,5 +1,28 @@
 # DS-Algo-interview-preparation in Python
+<!-- TOC -->
 
+- [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
+  - [Sliding Window](#sliding-window)
+  - [Arrays with unique approaches](#arrays-with-unique-approaches)
+  - [Math](#math)
+  - [Two pointers](#two-pointers)
+  - [Fast and slow pointers](#fast-and-slow-pointers)
+  - [In-place reverse](#in-place-reverse)
+  - [LinkedList](#linkedlist)
+  - [Merge Intervals](#merge-intervals)
+  - [Cyclic sort](#cyclic-sort)
+  - [Modified Binary Search](#modified-binary-search)
+  - [Bitwise XOR](#bitwise-xor)
+  - [Top K elements (Heap)](#top-k-elements-heap)
+  - [K-way merge](#k-way-merge)
+  - [Trees](#trees)
+  - [Subsets](#subsets)
+  - [Graphs](#graphs)
+  - [Topological sort](#topological-sort)
+  - [Dynamic Programming](#dynamic-programming)
+  - [Backtracking](#backtracking)
+
+<!-- /TOC -->
 
 
 ### Sliding Window
@@ -31,15 +54,12 @@
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | [Reverese Integer](https://leetcode.com/problems/reverse-integer/)  |  [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Math/reverse-interger.py) |  Easy |Overflow when the result is greater than 2147483647 or less than -2147483648.   |
+
 ### Two pointers
-```
-Two pointers approach works only when array is sorted.
-```
-[Notes]()
+[Notes](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Patterns/two_pointers_patterns.md)
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1 | [Two sum ](https://leetcode.com/problems/two-sum/) | [Dictionary](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum.py)[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum_sorted.py) | Easy | 1. Dictionary O(n) and O(n) space.
-2. Sort and search with two points O(n) and O(1) space. |
+|1 | [Two sum ](https://leetcode.com/problems/two-sum/) | [Dictionary](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum.py) [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum_sorted.py) | Easy | 1. Dictionary O(n) and O(n) space.  2. Sort and search with two points O(n) and O(1) space. |
 |2  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Remove_duplicates_from_sortedarray.py)|Easy |  |
 |3   | [3 Sum](https://leetcode.com/problems/3sum/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum.py) | Medium | |
 |4  | [3 Sum closest](https://leetcode.com/problems/3sum-closest/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum_closest.py) | Medium | |
@@ -60,7 +80,8 @@ Two pointers approach works only when array is sorted.
 |19  | [Candy crush](https://leetcode.com/problems/candy-crush)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium | |
 |20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/median-sorted-arrays.py) [Binary search](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/median-2sortedarrays.py)|Hard |1. Two pointers is O(n+m).  2. Binary search O(log(min(n,m)) [Algo](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Notes/Median-of-2sortedarrays.pdf)|
 
-### Fast and slow pointers [pattern]()
+### Fast and slow pointers
+[Notes]()
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | [Linkedlist cycle](https://leetcode.com/problems/linked-list-cycle) | [Fast & slow ptrs](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Fast_and_slow_pointers/linkedlist_cycle.py) | Easy | When slow and fast ptrs meet there is a cycle |
@@ -80,7 +101,8 @@ Two pointers approach works only when array is sorted.
 |4   | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverse-nodes-k-groups.py) | Hard | Check if nodes are multiple of k then only reverse |
 |5   | Reverse nodes in k-alternating subgroup | [In-place reverse](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/reverse-nodes-kgroups-alternatively.py) | Medium | Reverse k groups with a while loop to skip k nodes |
 
-### LinkedList [pattern]()
+### LinkedList
+[pattern]()
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [ ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/flatten_doublylist.py) |Medium | |
@@ -120,17 +142,15 @@ Two pointers approach works only when array is sorted.
 ### Modified Binary Search
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [round-numbers](https://leetcode.com/discuss/interview-question/125001/round-numbers/123813) | [ ]()| Easy| |
-| 2  | [find-smallest-letter-greater-than-target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | [ ]()| Easy| |
-| 3  | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Modified binary search](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/find-first-last-in-sortedarray.py)| Medium |  |
-| 4  | [single-element-in-a-sorted-array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [ ]()| | |
-| 5  | [kth Missing element in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [ ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/)| Medium | |
-| 6  | Search Bitonic Array | [ ]()| | |
-| 7  | Bitonic array maximum[]() | [ ]()| | |
-| 8  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [ ]()| | |
-| 9  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [ ]()| | |
-| 10  | Rotation count | [ ]()| | |
-| 11  | Order agnostic binary search | [ ]()| | |
+| 1  | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Modified binary search](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/find-first-last-in-sortedarray.py)| Medium |  |
+| 2  | [single-element-in-a-sorted-array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Modified BinarySearch ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/single-num-in-sortedarray.py)| Medium | |
+| 3  | [kth Missing element in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [ ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/)| Medium | |
+| 4  | Search Bitonic Array | [ ]()| | |
+| 5  | Bitonic array maximum[]() | [ ]()| | |
+| 6  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [ ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/search-rotated-sortedarray.py)|Medium | |
+| 7  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [ ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/min-rotated-sortedarray.py)| Medium | 1. O(N) updating minimum  2. O(logN) Binary search|
+| 8  | Rotation count | [ ]()| | |
+| 9  | Order agnostic binary search | [ ]()| | |
 
 
 
@@ -200,7 +220,7 @@ Two pointers approach works only when array is sorted.
 | 28  | [Populating next right ptrs in tree](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
 | 29  | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
 | 30  | [Tree boundary](https://leetcode.com/problems/boundary-of-binary-tree/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 31  | [Path sum](https://leetcode.com/problems/path-sum/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
+| 31  | [ipo](https://leetcode.com/problems/ipo/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)|
 | 32  | [Path sum 2](https://leetcode.com/problems/path-sum-ii) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
 | 33  | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
 | 34  | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
@@ -208,7 +228,7 @@ Two pointers approach works only when array is sorted.
 | 36  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
 | 37  | [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
 | 38  | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)| | |
-| 39  | [ipo](https://leetcode.com/problems/ipo/) | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Tree/)|
+
 
 
 
@@ -255,62 +275,62 @@ Two pointers approach works only when array is sorted.
 ### Dynamic Programming
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [  ]()| | |
-| 2  | [coin-change](https://leetcode.com/problems/coin-change) | [  ]()| | |
-| 3  | [frog-jump](https://leetcode.com/problems/frog-jump) | [  ]()| | |
-| 4  | [longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring) | [  ]()| | |
-| 5  | [word-break](https://leetcode.com/problems/word-break) | [  ]()| | |
-| 6  | [cherry-pickup](https://leetcode.com/problems/cherry-pickup) | [  ]()| | |
-| 7  | [decode-ways](https://leetcode.com/problems/decode-ways) | [  ]()| | |
-| 8  | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | [  ]()| | |
-| 9  | [maximal-rectangle](https://leetcode.com/problems/maximal-rectangle) | [  ]()| | |
-| 10  | [maximal-square](https://leetcode.com/problems/maximal-square) | [  ]()| | |
-| 11 | [longest-string-chain](https://leetcode.com/problems/longest-string-chain) | [  ]()| | |
-| 12 | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching) | [  ]()| | |
-| 13  | [longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [  ]()| | |
-| 14  | [burst-balloons](https://leetcode.com/problems/burst-balloons) | [  ]()| | |
-| 15  | [word-break-ii](https://leetcode.com/problems/word-break-ii) | [  ]()| | |
-| 16  | [edit-distance)](https://leetcode.com/problems/edit-distance) | [  ]()| | |
-| 17  | [interleaving-string](https://leetcode.com/problems/interleaving-string) | [  ]()| | |
-| 18  | [wildcard-matching](https://leetcode.com/problems/wildcard-matching) | [  ]()| | |
-| 19  | [split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum) | [  ]()| | |
-| 20  | [climbing-stairs](https://leetcode.com/problems/climbing-stairs) | [  ]()| | |
-| 21  | [concatenated-words](https://leetcode.com/problems/concatenated-words) | [  ]()| | |
-| 22  | [palindromic-substrings](https://leetcode.com/problems/palindromic-substrings) | [  ]()| | |
-| 23  | [longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | [  ]()| | |
-| 24  | [house-robber](https://leetcode.com/problems/house-robber) | [  ]()| | |
-| 25  | [paint-house](https://leetcode.com/problems/paint-house) | [  ]()| | |
-| 26  | [cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | [  ]()| | |
-| 27  | [maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray) | [  ]()| | |
-| 28  | [unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees) | [  ]()| | |
-| 29  | [super-egg-drop](https://leetcode.com/problems/super-egg-drop) | [  ]()| | |
-| 30  | [minimum-path-sum](https://leetcode.com/problems/minimum-path-sum) | [  ]()| | |
-| 31  | [longest-arithmetic-sequence](https://leetcode.com/problems/longest-arithmetic-sequence) | [  ]()| | |
-| 32  | [delete-and-earn](https://leetcode.com/problems/delete-and-earn) | [  ]()| | |
-| 33  | [continuous-subarray-sum](https://leetcode.com/problems/continuous-subarray-sum) | [  ]()| | |
-| 34  | [best-time-to-buy-and-sell-stock-iii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | [  ]()| | |
-| 35  | [knight-dialer](https://leetcode.com/problems/knight-dialer) | [  ]()| | |
-| 36  | [shortest-way-to-form-string](https://leetcode.com/problems/shortest-way-to-form-string) | [  ]()| | |
-| 37  | [unique-paths](https://leetcode.com/problems/unique-paths) | [  ]()| | |
-| 38  | [best-time-to-buy-and-sell-stock-iv](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [  ]()| | |
-| 39  | [range-sum-query-2d-immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | [  ]()| | |
-| 40  | [partition-to-k-equal-sum-subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | [  ]()| | |
-| 41  | [count-vowels-permutation](https://leetcode.com/problems/count-vowels-permutation) | [  ]()| | |
-| 42  | [minimum-window-subsequence](https://leetcode.com/problems/minimum-window-subsequence) | [  ]()| | |
-| 43  | [unique-binary-search-trees-ii](https://leetcode.com/problems/unique-binary-search-trees-ii) | [  ]()| | |
+| 1  | [best-time-to-buy-and-sell-stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 2  | [coin-change](https://leetcode.com/problems/coin-change) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 3  | [frog-jump](https://leetcode.com/problems/frog-jump) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 4  | [longest-palindromic-substring](https://leetcode.com/problems/longest-palindromic-substring) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 5  | [word-break](https://leetcode.com/problems/word-break) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 6  | [cherry-pickup](https://leetcode.com/problems/cherry-pickup) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 7  | [decode-ways](https://leetcode.com/problems/decode-ways) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 8  | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 9  | [maximal-rectangle](https://leetcode.com/problems/maximal-rectangle) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 10  | [maximal-square](https://leetcode.com/problems/maximal-square) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 11 | [longest-string-chain](https://leetcode.com/problems/longest-string-chain) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 12 | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 13  | [longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 14  | [burst-balloons](https://leetcode.com/problems/burst-balloons) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 15  | [word-break-ii](https://leetcode.com/problems/word-break-ii) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 16  | [edit-distance)](https://leetcode.com/problems/edit-distance) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 17  | [interleaving-string](https://leetcode.com/problems/interleaving-string) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 18  | [wildcard-matching](https://leetcode.com/problems/wildcard-matching) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 19  | [split-array-largest-sum](https://leetcode.com/problems/split-array-largest-sum) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 20  | [climbing-stairs](https://leetcode.com/problems/climbing-stairs) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 21  | [concatenated-words](https://leetcode.com/problems/concatenated-words) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 22  | [palindromic-substrings](https://leetcode.com/problems/palindromic-substrings) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 23  | [longest-increasing-subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | [ Iterative DP ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/longest-increasing-subsequence.py)| Medium | Use an array to store the longest sequence|
+| 24  | [house-robber](https://leetcode.com/problems/house-robber) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 25  | [paint-house](https://leetcode.com/problems/paint-house) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 26  | [cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 27  | [maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 28  | [unique-binary-search-trees](https://leetcode.com/problems/unique-binary-search-trees) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 29  | [super-egg-drop](https://leetcode.com/problems/super-egg-drop) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 30  | [minimum-path-sum](https://leetcode.com/problems/minimum-path-sum) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 31  | [longest-arithmetic-sequence](https://leetcode.com/problems/longest-arithmetic-sequence) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 32  | [delete-and-earn](https://leetcode.com/problems/delete-and-earn) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 33  | [continuous-subarray-sum](https://leetcode.com/problems/continuous-subarray-sum) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 34  | [best-time-to-buy-and-sell-stock-iii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 35  | [knight-dialer](https://leetcode.com/problems/knight-dialer) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 36  | [shortest-way-to-form-string](https://leetcode.com/problems/shortest-way-to-form-string) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 37  | [unique-paths](https://leetcode.com/problems/unique-paths) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 38  | [best-time-to-buy-and-sell-stock-iv](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 39  | [range-sum-query-2d-immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 40  | [partition-to-k-equal-sum-subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 41  | [count-vowels-permutation](https://leetcode.com/problems/count-vowels-permutation) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 42  | [minimum-window-subsequence](https://leetcode.com/problems/minimum-window-subsequence) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 43  | [unique-binary-search-trees-ii](https://leetcode.com/problems/unique-binary-search-trees-ii) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
 | 44  | [best-time-to-buy-and-sell-stock-with-cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | [  ]()| | |
-| 45  | [longest-palindromic-subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | [  ]()| | |
-| 46  | [longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence) | [  ]()| | |
-| 47  | [tiling-a-rectangle-with-the-fewest-squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares) | [  ]()| | |
-| 48  | [dice-roll-simulation](https://leetcode.com/problems/dice-roll-simulation) | [  ]()| | |
-| 49  | [max-sum-of-rectangle-no-larger-than-k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k) | [  ]()| | |
-| 50  | [minimum-cost-to-merge-stones](https://leetcode.com/problems/minimum-cost-to-merge-stones) | [  ]()| | |
-| 51  | [perfect-squares](https://leetcode.com/problems/perfect-squares) | [  ]()| | |
-| 52  | [maximum-length-of-repeated-subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray) | [  ]()| | |
-| 53  | [knight-probability-in-chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) | [  ]()| | |
-| 54  | [count-different-palindromic-subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences) | [  ]()| | |
+| 45  | [longest-palindromic-subsequence](https://leetcode.com/problems/longest-palindromic-subsequence) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 46  | [longest-common-subsequence](https://leetcode.com/problems/longest-common-subsequence) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 47  | [tiling-a-rectangle-with-the-fewest-squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 48  | [dice-roll-simulation](https://leetcode.com/problems/dice-roll-simulation) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 49  | [max-sum-of-rectangle-no-larger-than-k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 50  | [minimum-cost-to-merge-stones](https://leetcode.com/problems/minimum-cost-to-merge-stones) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 51  | [perfect-squares](https://leetcode.com/problems/perfect-squares) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 52  | [maximum-length-of-repeated-subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 53  | [knight-probability-in-chessboard](https://leetcode.com/problems/knight-probability-in-chessboard) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
+| 54  | [count-different-palindromic-subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
 | 55  | [best-time-to-buy-and-sell-stock-with-transaction-fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) | [  ]()| | |
-| 56  | [minimum-swaps-to-make-sequences-increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing) | [  ]()| | |
+| 56  | [minimum-swaps-to-make-sequences-increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing) | [  ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/)| | |
 
 
 ###  Backtracking
