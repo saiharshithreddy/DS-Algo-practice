@@ -57,9 +57,10 @@
 
 ### Two pointers
 [Notes](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Patterns/two_pointers_patterns.md)
+
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1 | [Two sum ](https://leetcode.com/problems/two-sum/) | [Dictionary](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum.py) [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum_sorted.py) | Easy | 1. Dictionary O(n) and O(n) space.  2. Sort and search with two points O(n) and O(1) space. |
+| 1  |[Two sum ](https://leetcode.com/problems/two-sum/) | [Dictionary](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum.py) [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum_sorted.py) | Easy |  |
 |2  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Remove_duplicates_from_sortedarray.py)|Easy |  |
 |3   | [3 Sum](https://leetcode.com/problems/3sum/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum.py) | Medium | |
 |4  | [3 Sum closest](https://leetcode.com/problems/3sum-closest/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum_closest.py) | Medium | |
