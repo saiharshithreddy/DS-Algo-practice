@@ -16,7 +16,7 @@
 |7  | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [ ]() | | |
 |8   | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | [ ]() | Medium | |
 |9   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | []() | Medium | |
-|10 | [Minimum Window substring](https://leetcode.com/problems/minimum-window-substring/) | [Sliding Window]() || | |
+|10 | [Minimum Window substring](https://leetcode.com/problems/minimum-window-substring/) | []() || | |
 |11  | [Concatenated words](https://leetcode.com/problems/concatenated-words/) | [ ]() | | |
 |12  | [Minimum Window substring](https://leetcode.com/problems/) | []() | Hard| |
 |13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [ ]() | Hard | Use max heap |
@@ -24,9 +24,13 @@
 ### Arrays with unique approaches
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1   |[Rotate Image](https://leetcode.com/problems/rotate-image)   | [Matrix transpose](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/rotate-image.py)  | Medium  | Reverse rows and swap elements on either side of diagonals  |
+|1   |[Rotate Image](https://leetcode.com/problems/rotate-image)   | [Matrix transpose](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/UniqueApproach/rotate-image.py)  | Medium  | Reverse rows and swap elements on either side of diagonals  |
 |2    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/UniqueApproach/product_except_self.py)  | Medium  | Left product & right product  |
 
+### Math
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+|1   | [Reverese Integer](https://leetcode.com/problems/reverse-integer/)  |  [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Math/reverse-interger.py) |  Easy |Overflow when the result is greater than 2147483647 or less than -2147483648.   |
 ### Two pointers
 ```
 Two pointers approach works only when array is sorted.
@@ -34,7 +38,8 @@ Two pointers approach works only when array is sorted.
 [Notes]()
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1 | [Two sum II ](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum_sorted.py) | Easy | left & right ptrs |
+|1 | [Two sum ](https://leetcode.com/problems/two-sum/) | [Dictionary](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum.py)[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/twosum_sorted.py) | Easy | 1. Dictionary O(n) and O(n) space.
+2. Sort and search with two points O(n) and O(1) space. |
 |2  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/Remove_duplicates_from_sortedarray.py)|Easy |  |
 |3   | [3 Sum](https://leetcode.com/problems/3sum/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum.py) | Medium | |
 |4  | [3 Sum closest](https://leetcode.com/problems/3sum-closest/) | [Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/3sum_closest.py) | Medium | |
@@ -51,9 +56,9 @@ Two pointers approach works only when array is sorted.
 |15  |[Reverse string](https://leetcode.com/problems/reverse-string)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/reverse_vowels_string.py)| Easy||
 |16| [Reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[ ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Easy ||
 |17 | [Move zeros](https://leetcode.com/problems/move-zeroes)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Easy ||
-|18  | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Medium||
-|19  | [Candy crush]()|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium ||
-|20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/median-sorted-arrays.py) [Binary search](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/median-2sortedarrays.py)|Hard |Two pointers is O(n+m). Using binary search O(log(min(n,m)) [Algo](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Notes/Median-of-2sortedarrays.pdf)|
+|18  | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)| Medium| |
+|19  | [Candy crush](https://leetcode.com/problems/candy-crush)|[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/)|Medium | |
+|20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Two%20pointers/median-sorted-arrays.py) [Binary search](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/BinarySearch/median-2sortedarrays.py)|Hard |1. Two pointers is O(n+m).  2. Binary search O(log(min(n,m)) [Algo](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Notes/Median-of-2sortedarrays.pdf)|
 
 ### Fast and slow pointers [pattern]()
 | #   |Question| Solution |Difficulty | Notes |
@@ -82,7 +87,7 @@ Two pointers approach works only when array is sorted.
 |2   | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/oddevenLL.py) | Medium | Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
 |3   | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | [   ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/maxpoints-on-line.py) | Medium| |
 |4   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [ ](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/copy-list-with-random-pointer.py) | Medium | |
-| 5  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add2numbers.py)|Medium | Create a new node after adding |
+| 5  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add2numbers.py)|Medium | Take care of carry. Create a new node after adding |
 | 6  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/add-numbers-reverse.py)|Medium | |
 | 7  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/partition-list.py)|Medium | Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
 | 8  | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | [Linked List](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/LinkedList/plus-one-LL.py)| Medium | Dummy nodes and move till non nine nodes and increment by 1. Set 9s to 0|
@@ -134,7 +139,7 @@ Two pointers approach works only when array is sorted.
 | -|----- | ---------- |-----|-------|
 | 1  | [single-number](https://leetcode.com/problems/single-number/) | [ ]()| | |
 | 2  | [single-number-ii](https://leetcode.com/problems/single-number-ii/) | [ ]()| | |
-| 3  | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/) | [bitwise xor]()| | |
+| 3  | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/) | []()| | |
 | 4 | [rotate-image](https://leetcode.com/problems/rotate-image/) | [ ]()| | |
 | 5  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [ ]()| | |
 | 6  | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [ ]()| | |
@@ -224,18 +229,18 @@ Two pointers approach works only when array is sorted.
 ### Graphs
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1   | Breadth first search  | []()  |   |   |
-|2   | Depth first search  |[]()   |   |   |
-|3   | Detect cycle in a graph  |[]()   |   |   |
-|4   | Find mother vertex  | []()  |   |   |
-|5   | Count num of edges  | []()  |   |   |
-|6   | Path exists   | []()  |   |   |
-|7   | Graph is a tree?  |  []() |   |   |
-|8   | Shortest path between two vertices  |[]()   |   |   |
-|9   | Remove Edge  | []()  |   |   |
-|10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |   |   |   |
-|11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |   |   |
-|12   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   |   |   |
+|1   | Breadth first search  | [Using queue](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/bfs-graph.py)  | Easy  |   |
+|2   | Depth first search  |[Recursion](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/dfs-graph.py)   | Easy  |   |
+|3   | Detect cycle in a graph  |[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/)   | Easy  |   |
+|4   | Find mother vertex  | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/)  |   |   |
+|5   | Count num of edges  | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/)  |   |   |
+|6   | Path exists   | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/)  |   |   |
+|7   | Graph is a tree?  |  [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/) |   |   |
+|8   | Shortest path between two vertices  |[](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/)   |   |   |
+|9   | Remove Edge  | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/)  |   |   |
+|10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |  [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/) |   |   |
+|11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |  [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/) |   |
+|12   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   | [](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/Graph/)  |   |
 
 ### Topological sort
 | #   |Question| Solution |Difficulty | Notes |
