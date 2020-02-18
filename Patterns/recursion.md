@@ -1,4 +1,4 @@
-# Recursion 
+# Recursion
 
 ## Advantages of Recursion
 
@@ -57,3 +57,6 @@ In nested recursion, one of the arguments to the recursive function is the recur
 
 func_A( ) -> func_B( ) -> func_C( ) -> func_A( )
 
+When to use Recursion?
+If you know the number of loops that need to be nested, use the iterative approach. If you do not know the number of loops that need to be nested, use the recursive method.
+example: In graphs and trees 
