@@ -281,9 +281,12 @@
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 |1   | 0/1 knapsack  | [DP with memoization](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/0-1-knapsack.py)  | Easy  |   |
 |2   |  (Partition equal  subset sum)[https://leetcode.com/problems/partition-equal-subset-sum] | []()  | Medium  |   |
 =======
+=======
+>>>>>>> 2d47635900a5c698ae6763f182c9b92434d1b2a3
 |1   | 0/1 knapsack  | [DP with memoization](Python/DynamicProgramming/0-1-knapsack.py)  | Easy  |   |
 |2   |  Partition equal  subset sum[https://leetcode.com/problems/partition-equal-subset-sum] | []()  | Medium  |   |
 >>>>>>> 2d47635900a5c698ae6763f182c9b92434d1b2a3
