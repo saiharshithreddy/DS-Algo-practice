@@ -1,4 +1,7 @@
 # Dynamic Programming
+When to use DP?
+When the problems have optimal substructure and subproblems
+Minimization, Maximization. Optimization or counting?
 ## Fibonacci numbers
 #### Naive algorithm
 ```python
@@ -53,4 +56,4 @@ Infinite time if the graph has cycle.
 DAG: O(V+E)
 time for a subproblem = indegree(V)+1
 Total time = sum of time taken for all subproblems
-O(E+V) 
+O(E+V)

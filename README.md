@@ -281,7 +281,7 @@
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | 0/1 knapsack  | [DP with memoization](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/0-1-knapsack.py)  | Easy  |   |
-|2   |  Partition equal  subset sum[https://leetcode.com/problems/partition-equal-subset-sum] | []()  | Medium  |   |
+|2   |  (Partition equal  subset sum)[https://leetcode.com/problems/partition-equal-subset-sum] | []()  | Medium  |   |
 
 ###  Backtracking
 | #   |Question| Solution |Difficulty | Notes |
