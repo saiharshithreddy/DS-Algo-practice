@@ -154,6 +154,7 @@
 |9   | [Find min in rotated sorted array with duplicates](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)  | []()  | Hard   |   |
 | 8  | Rotation count | [ ]()| | |
 | 9  | Order agnostic binary search | [ ]()| | |
+| 10  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Binary search + Two pointers](Python/BinarySearch/k-closest-elements.py)|Medium | |
 
 
 
@@ -174,12 +175,12 @@
 | 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Dictionary](Python/Heap/top-k-elements.py) []()| Medium | Use dictionary O(nlogn). Quickselect O(N) |
 | 2  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements](Python/Heap/sort-characters-freq.py)| Medium | Use dictionary |
 | 3 | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)   |[Top k elements](Python/Heap/kth-smallest-in-list.py)   |Medium   | Use heapq  |
-| 4  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Top k elements](Python/BinarySearch/k-closest-elements.py)|Medium | |
+| 4  | [maximum-frequency-stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Top k elements]()| | |
 | 5  | [maximum-distinct-elements-removing-k-elements](https://www.geeksforgeeks.org/maximum-distinct-elements-removing-k-elements/) | [Top k elements]()| | |
 | 6  | [reorganize-string](https://leetcode.com/problems/reorganize-string/) | [Top k elements]()| | |
 | 7  | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | |
 | 8  | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | [Top k elements]()| | |
-| 9  | [maximum-frequency-stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Top k elements]()| | |
+
 
 ### K-way merge
 | #   |Question| Solution |Difficulty | Notes |
@@ -254,15 +255,15 @@
 | -|----- | ---------- |-----|-------|
 |1   | Breadth first search  | [Using queue](Python/Graphs/bfs-graph.py)  | Easy  |   |
 |2   | Depth first search  |[Recursion](Python/Graphs/dfs-graph.py)   | Easy  |   |
-|3   |Remove Edge  | [](Python/Graph/)  |   |   |
-|4   | Find mother vertex  | [](Python/Graph/)  |   |   |
-|5   | Count num of edges  | [](Python/Graph/)  |   |   |
-|6   | Path exists   | [](Python/Graph/)  |   |   |
+|3   |Remove Edge  | [](Python/Graphs/)  |   |   |
+|4   | Find mother vertex  | [](Python/Graphs/)  |   |   |
+|5   | Count num of edges  | [](Python/Graphs/)  |   |   |
+|6   | Path exists   | [](Python/Graphs/)  |   |   |
 |7   | Graph is a tree?  |  [](Python/Graph/) |   |   |
-|8   | Shortest path between two vertices  |[](Python/Graph/)   |   |   |
-|9   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   | [](Python/Graph/)  |   |
+|8   | Shortest path between two vertices  |[](Python/Graphs/)   |   |   |
+|9   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   | [](Python/Graphs/)  |   |
 |10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |  [](Python/Graph/) |   |   |
-|11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |  [](Python/Graph/) |   |
+|11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |  [](Python/Graphs/) |   |
 
 
 ### Topological sort
@@ -280,17 +281,14 @@
 ### Dynamic Programming
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-<<<<<<< HEAD
-<<<<<<< HEAD
 |1   | 0/1 knapsack  | [DP with memoization](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/0-1-knapsack.py)  | Easy  |   |
 |2   |  (Partition equal  subset sum)[https://leetcode.com/problems/partition-equal-subset-sum] | []()  | Medium  |   |
-=======
-=======
->>>>>>> 2d47635900a5c698ae6763f182c9b92434d1b2a3
-|1   | 0/1 knapsack  | [DP with memoization](Python/DynamicProgramming/0-1-knapsack.py)  | Easy  |   |
-|2   |  Partition equal  subset sum[https://leetcode.com/problems/partition-equal-subset-sum] | []()  | Medium  |   |
->>>>>>> 2d47635900a5c698ae6763f182c9b92434d1b2a3
+
+
 
 ###  Backtracking
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
+|1   |[Permutations](https://leetcode.com/problems/permutations/)   | [Backtracking](Python/Backtracking/permutations.py)  | Medium  | DFS  |
+|2   |[Permutations 2](https://leetcode.com/problems/permutations-ii/)   |[Backtracking](Python/Backtracking/permutations-ii.py)   | Medium  |   |
+|3   |[Combinations](https://leetcode.com/problems/combinations/)   | [Backtracking](Python/Backtracking/combinations.py)  | Medium  |   |
