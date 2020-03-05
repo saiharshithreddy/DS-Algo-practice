@@ -282,7 +282,7 @@
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | 0/1 knapsack  | [DP with memoization](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/0-1-knapsack.py)  | Easy  |   |
-|2   |  (Partition equal  subset sum)[https://leetcode.com/problems/partition-equal-subset-sum] | []()  | Medium  |   |
+|2   |  [Partition equal  subset sum](https://leetcode.com/problems/partition-equal-subset-sum) | []()  | Medium  |   |
 
 
 
@@ -292,3 +292,8 @@
 |1   |[Permutations](https://leetcode.com/problems/permutations/)   | [Backtracking](Python/Backtracking/permutations.py)  | Medium  | DFS  |
 |2   |[Permutations 2](https://leetcode.com/problems/permutations-ii/)   |[Backtracking](Python/Backtracking/permutations-ii.py)   | Medium  |   |
 |3   |[Combinations](https://leetcode.com/problems/combinations/)   | [Backtracking](Python/Backtracking/combinations.py)  | Medium  |   |
+
+### Trie
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+|1   |[Implement trie](https://leetcode.com/problems/implement-trie-prefix-tree/)   | [Solution](Python/Trie/implement-trie.py)   |  Medium |   |

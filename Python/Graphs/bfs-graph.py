@@ -3,7 +3,7 @@ from collections import defaultdict
 class Graph:
     def __init__(self):
         self.list = defaultdict(list)
-        print(self.list)
+        # print(self.list)
     def addEdge(self,u,v):
         self.list[u].append(v)
 
