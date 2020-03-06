@@ -2,30 +2,26 @@ from collections import defaultdict
 
 class Graph:
     def __init__(self):
-        self.list = defaultdict(list)
-        print(self.list)
+        self.graph = defaultdict(list)
+
     def addEdge(self,u,v):
-        self.list[u].append(v)
+        self.graph[u].append(v)
 
     # 1. Visit one vertex, go to one of its adjacent vertex and then repeat
     def DFS(self,s):
-        visited = [False] * len(self.list)
+        visited = set()
 
         self.DFSUtil(s, visited)
 
     def DFSUtil(self, v, visited):
-        visited[v] = True
+        if v not in visited:
+            visited.add(v)
         print(v, end=" ")
 
-        for i in self.list[v]:
-            if visited[i] == False:
+        for i in self.graph[v]:
+            if i not in visited:
+                visited.add(i)
                 self.DFSUtil(i, visited)
-
-
-
-
-
-
 
 g = Graph()
 g.addEdge(0, 1)

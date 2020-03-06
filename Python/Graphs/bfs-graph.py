@@ -8,24 +8,24 @@ class Graph:
         self.list[u].append(v)
 
     def BFS(self,start_node):
-        # initialize visited with False
-        visited = [False] * len(self.list)
-        print(visited)
+        # initialize visited list
+        visited = set()
+
         # For BFS, queue is used
         queue = []
 
         # 1. Mark the node as visited and add to queue
         queue.append(start_node)
-        visited[start_node] = True
+        visited.add(start_node)
 
         while queue:
             s = queue.pop(0) # pop 2
             print(s, end=" ")
             # add vertices which are edges to start node(2)
             for i in self.list[s]:
-                if visited[i] == False:
+                if i not in visited:
                     queue.append(i)
-                    visited[i] = True
+                    visited.add(i)
 
 
 g = Graph()

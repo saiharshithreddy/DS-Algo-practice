@@ -21,6 +21,7 @@
   - [Topological sort](#topological-sort)
   - [Dynamic Programming](#dynamic-programming)
   - [Backtracking](#backtracking)
+  - [Trie](#trie)
 
 <!-- /TOC -->
 
@@ -49,6 +50,7 @@
 | -|----- | ---------- |-----|-------|
 |1   |[Rotate Image](https://leetcode.com/problems/rotate-image)   | [Matrix transpose](Python/UniqueApproach/rotate-image.py)  | Medium  | Reverse rows and swap elements on either side of diagonals  |
 |2    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/UniqueApproach/product_except_self.py)  | Medium  | Left product & right product  |
+|3   |[]()   |   |   |   |
 
 ### Math
 | #   |Question| Solution |Difficulty | Notes |
@@ -264,6 +266,8 @@
 |9   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   | [](Python/Graphs/)  |   |
 |10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |  [](Python/Graph/) |   |   |
 |11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |  [](Python/Graphs/) |   |
+|12   | Detect cycle in a directed graph  |   |   |   |
+|13   | Detect cycle in an undirected graph  |   |   |   |
 
 
 ### Topological sort
@@ -292,6 +296,10 @@
 |1   |[Permutations](https://leetcode.com/problems/permutations/)   | [Backtracking](Python/Backtracking/permutations.py)  | Medium  | DFS  |
 |2   |[Permutations 2](https://leetcode.com/problems/permutations-ii/)   |[Backtracking](Python/Backtracking/permutations-ii.py)   | Medium  |   |
 |3   |[Combinations](https://leetcode.com/problems/combinations/)   | [Backtracking](Python/Backtracking/combinations.py)  | Medium  |   |
+|4   |[Combination sum I](https://leetcode.com/problems/combination-sum/)   | [Backtracking](Python/Backtracking/combination-sum.py)  | Medium  |   |
+|5   |[Combination sum II](https://leetcode.com/problems/combination-sum-ii/)   | [Backtracking](Python/Backtracking/combination-sum-2.py)  | Medium  |   |
+|6   | [combination-sum-iii](https://leetcode.com/problems/combination-sum-iii/)  | [Backtracking](Python/Backtracking/combination-sum-3.py)  |   |   |
+|7   | [combination-sum-iv](https://leetcode.com/problems/combination-sum-iv/)  | [Backtracking](Python/Backtracking/combination-sum-4.py)  |   |   |
 
 ### Trie
 | #   |Question| Solution |Difficulty | Notes |
