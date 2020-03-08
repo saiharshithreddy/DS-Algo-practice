@@ -266,8 +266,10 @@
 |9   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   | [](Python/Graphs/)  |   |
 |10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |  [](Python/Graph/) |   |   |
 |11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |  [](Python/Graphs/) |   |
-|12   | Detect cycle in a directed graph  |   |   |   |
-|13   | Detect cycle in an undirected graph  |   |   |   |
+|12   | Detect cycle in a directed graph  | []() []()  | Medium  |   |
+|13   | Detect cycle in an undirected graph  | [DFS](Python/Graphs/cycle-undirected.py)  | Medium  |   |
+|14   | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary)  | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  | [Notes](Notes/Reconstruct-itinerary.pdf)  |
+
 
 
 ### Topological sort
