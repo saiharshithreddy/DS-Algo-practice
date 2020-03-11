@@ -25,22 +25,22 @@ class Graph:
 
     def topologicalUtil(self,v,visited,result):
         # set vertex as visited
-        visited[v] = True
-        
+        visited.add(v)
+
         # look for its adjacent vertices
         for i in self.graph[v]:
-            if visited[i] == False:
+            if i not in visited :
                 self.topologicalUtil(i,visited,result)
 
         result.insert(0,v)
 
 
     def topological_sort(self):
-        visited = [False] * self.V
+        visited = set()
         result = []
-
+        print(self.graph)
         for i in range(self.V):
-            if visited[i] == False:
+            if i not in visited:
                 self.topologicalUtil(i,visited, result)
         print(result)
 
@@ -50,7 +50,7 @@ g.addEdge(5, 0);
 g.addEdge(4, 0);
 g.addEdge(4, 1);
 g.addEdge(2, 3);
-g.addEdge(3, 1);
+# g.addEdge(3, 1);
 
 
 g.topological_sort()

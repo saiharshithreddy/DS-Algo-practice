@@ -10,7 +10,7 @@ class Graph:
     # 1. Visit one vertex, go to one of its adjacent vertex and then repeat
     def DFS(self,s):
         visited = set()
-
+        print(self.graph)
         self.DFSUtil(s, visited)
 
     def DFSUtil(self, v, visited):
@@ -29,6 +29,6 @@ g.addEdge(0, 2)
 g.addEdge(1, 2)
 g.addEdge(2, 0)
 g.addEdge(2, 3)
-g.addEdge(3, 3)
+# g.addEdge(3, 3)
 
 g.DFS(1)

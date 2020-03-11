@@ -261,14 +261,16 @@
 |4   | Find mother vertex  | [](Python/Graphs/)  |   |   |
 |5   | Count num of edges  | [](Python/Graphs/)  |   |   |
 |6   | Path exists   | [](Python/Graphs/)  |   |   |
-|7   | Graph is a tree?  |  [](Python/Graph/) |   |   |
+|7   | [Graph valid tree](https://leetcode.com/problems/graph-valid-tree)  |  [Cycle detection in undirected](Python/Graph/graph-valid-tree.py) | Medium  |   |
 |8   | Shortest path between two vertices  |[](Python/Graphs/)   |   |   |
 |9   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   | [](Python/Graphs/)  |   |
-|10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |  [](Python/Graph/) |   |   |
+|10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |  [BFS + hashmap](Python/Graph/clone-graph.py) | Medium  | [Notes](Notes/CloneGraph.pdf)  |
 |11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |  [](Python/Graphs/) |   |
-|12   | Detect cycle in a directed graph  | []() []()  | Medium  |   |
+|12   | Detect cycle in a directed graph  | [Python]() []()  | Medium  |   |
 |13   | Detect cycle in an undirected graph  | [DFS](Python/Graphs/cycle-undirected.py)  | Medium  |   |
 |14   | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary)  | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  | [Notes](Notes/Reconstruct-itinerary.pdf)  |
+|15   |[Number of connected components](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)   | [DFS](Python/Graphs/connected-components.py)   | Medium  |   |
+|16   |[Alien dictionary](https://leetcode.com/problems/alien-dictionary/)   |  [Topological sort + cycle detection](Python/Graphs/) | Hard  |   |
 
 
 
@@ -289,6 +291,7 @@
 | -|----- | ---------- |-----|-------|
 |1   | 0/1 knapsack  | [DP with memoization](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/0-1-knapsack.py)  | Easy  |   |
 |2   |  [Partition equal  subset sum](https://leetcode.com/problems/partition-equal-subset-sum) | []()  | Medium  |   |
+|3   | [combination-sum-iv](https://leetcode.com/problems/combination-sum-iv/)  | [](Python/DynamicProgramming/combination-sum-4.py)  | Medium  |   |
 
 
 
@@ -300,8 +303,10 @@
 |3   |[Combinations](https://leetcode.com/problems/combinations/)   | [Backtracking](Python/Backtracking/combinations.py)  | Medium  |   |
 |4   |[Combination sum I](https://leetcode.com/problems/combination-sum/)   | [Backtracking](Python/Backtracking/combination-sum.py)  | Medium  |   |
 |5   |[Combination sum II](https://leetcode.com/problems/combination-sum-ii/)   | [Backtracking](Python/Backtracking/combination-sum-2.py)  | Medium  |   |
-|6   | [combination-sum-iii](https://leetcode.com/problems/combination-sum-iii/)  | [Backtracking](Python/Backtracking/combination-sum-3.py)  |   |   |
-|7   | [combination-sum-iv](https://leetcode.com/problems/combination-sum-iv/)  | [Backtracking](Python/Backtracking/combination-sum-4.py)  |   |   |
+|6   | [combination-sum-iii](https://leetcode.com/problems/combination-sum-iii/)  | [Backtracking](Python/Backtracking/combination-sum-3.py)  | Medium  |   |
+|7   | [Generate Parenthesis]()  |   |   |   |
+|8   | []  |   |   |   |
+
 
 ### Trie
 | #   |Question| Solution |Difficulty | Notes |
