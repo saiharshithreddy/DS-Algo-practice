@@ -25,37 +25,17 @@
 
 <!-- /TOC -->
 
-
-### Sliding Window
-
-[Notes](Patterns/sliding_window_patterns.md)
+### Math
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  |[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](Python/SlidingWindow/max_sum_subarray.py) | Easy | |
-| 2   |[Smallest Subarray with a given sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](Python/SlidingWindow/smallest_sub_array_with_given_sum.py)|  Easy |[Algo](Notes/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
-| 3   |[Longest Substring with at most K Distinct Characters *](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | [Sliding window](Python/SlidingWindow/Longest_substring_withK_distinct_characters.py) | Hard | |
-|4  |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](Python/SlidingWindow/fruits_into_baskets.py) | Medium |[Algo](Notes/Fruits_into_baskets.pdf) |
-|5  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](Python/SlidingWindow/Longest_repeating_character_replacement.py)| Medium | |
-|6  | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Sliding Window](Python/SlidingWindow/permutation_in_string.py)| Medium | |
-|7  | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [ ]() | | |
-|8   | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | [ ]() | Medium | |
-|9   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | []() | Medium | |
-|10 | [Minimum Window substring](https://leetcode.com/problems/minimum-window-substring/) | []() || | |
-|11  | [Concatenated words](https://leetcode.com/problems/concatenated-words/) | [ ]() | | |
-|12  | [Minimum Window substring](https://leetcode.com/problems/) | []() | Hard| |
-|13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [ ]() | Hard | Use max heap |
+|1   | [Reverese Integer](https://leetcode.com/problems/reverse-integer/)  |  [Math](Python/Math/reverse-integer.py) |  Easy |In Java, Overflow when the result is greater than 2147483647 or less than -2147483648.  not in Python |
 
 ### Arrays with unique approaches
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   |[Rotate Image](https://leetcode.com/problems/rotate-image)   | [Matrix transpose](Python/UniqueApproach/rotate-image.py)  | Medium  | Reverse rows and swap elements on either side of diagonals  |
 |2    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/UniqueApproach/product_except_self.py)  | Medium  | Left product & right product  |
-|3   |[]()   |   |   |   |
 
-### Math
-| #   |Question| Solution |Difficulty | Notes |
-| -|----- | ---------- |-----|-------|
-|1   | [Reverese Integer](https://leetcode.com/problems/reverse-integer/)  |  [Math](Python/Math/reverse-interger.py) |  Easy |Overflow when the result is greater than 2147483647 or less than -2147483648.   |
 
 ### Two pointers
 [Notes](Patterns/two_pointers_patterns.md)
@@ -82,6 +62,7 @@
 |18  | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[](Python/TwoPointers/)| Medium| |
 |19  | [Candy crush](https://leetcode.com/problems/candy-crush)|[](Python/TwoPointers/)|Medium | |
 |20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard |1. Two pointers is O(n+m).  2. Binary search O(log(min(n,m)) [Algo](Notes/Median-of-2sortedarrays.pdf)|
+
 
 ### Fast and slow pointers
 [Notes]()
@@ -111,7 +92,7 @@
 |1   | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [ ](Python/LinkedList/flatten_doublylist.py) |Medium | |
 |2   | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](Python/LinkedList/oddevenLL.py) | Medium | Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
 |3   | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | [   ](Python/LinkedList/maxpoints-on-line.py) | Medium| |
-|4   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [ ](Python/LinkedList/copy-list-with-random-pointer.py) | Medium | |
+|4   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [hashmap ](Python/LinkedList/copy-list-with-random-ptr.py) | Medium | |
 | 5  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) | [Linked List](Python/LinkedList/add2numbers.py)|Medium | Take care of carry. Create a new node after adding |
 | 6  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](Python/LinkedList/add-numbers-reverse.py)|Medium | |
 | 7  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](Python/LinkedList/partition-list.py)|Medium | Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
@@ -121,6 +102,26 @@
 | 11  | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [ ](Python/LinkedList/BST-to-sorted-doublyLL.py) | Medium | |
 |12  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](Python/LinkedList/remove-nth-node.py)| Medium | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
 | 13  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [ ](Python/CyclicSort/)|Medium | |
+
+### Sliding Window
+
+[Notes](Patterns/sliding_window_patterns.md)
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+| 1  |[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](Python/SlidingWindow/max_sum_subarray.py) | Easy | |
+| 2   |[Smallest Subarray with a given sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](Python/SlidingWindow/smallest_sub_array_with_given_sum.py)|  Easy |[Algo](Notes/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
+| 3   |[Longest Substring with at most K Distinct Characters *](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | [Sliding window](Python/SlidingWindow/Longest_substring_withK_distinct_characters.py) | Hard | |
+|4  |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](Python/SlidingWindow/fruits_into_baskets.py) | Medium |[Algo](Notes/Fruits_into_baskets.pdf) |
+|5  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](Python/SlidingWindow/Longest_repeating_character_replacement.py)| Medium | |
+|6  | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Sliding Window](Python/SlidingWindow/permutation_in_string.py)| Medium | |
+|7  | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [ ]() | | |
+|8   | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | [ ]() | Medium | |
+|9   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | []() | Medium | |
+|10 | [Minimum Window substring](https://leetcode.com/problems/minimum-window-substring/) | []() || | |
+|11  | [Concatenated words](https://leetcode.com/problems/concatenated-words/) | [ ]() | | |
+|12  | [Minimum Window substring](https://leetcode.com/problems/) | []() | Hard| |
+|13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [ ]() | Hard | Use max heap |
+
 
 ### Merge Intervals
 [Notes](Patterns/merge-intervals.md)
@@ -151,14 +152,12 @@
 | 4  | Search Bitonic Array | [ ]()| | |
 | 5  | Bitonic array maximum[]() | [ ]()| | |
 | 6  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [ ](Python/BinarySearch/search-rotated-sortedarray.py)|Medium | |
-| 7  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [ ](Python/BinarySearch/min-rotated-sortedarray.py)| Medium | 1. O(N) updating minimum    2. O(logN) Binary search|
+| 7  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Modified BinarySearch ](Python/BinarySearch/min-rotated-sortedarray.py)| Medium | 1. O(N) updating minimum    2. O(logN) Binary search|
 |8   | [Search in rotated sorted array with duplicates ](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)  | []()  |  Medium |   |
 |9   | [Find min in rotated sorted array with duplicates](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)  | []()  | Hard   |   |
 | 8  | Rotation count | [ ]()| | |
 | 9  | Order agnostic binary search | [ ]()| | |
 | 10  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Binary search + Two pointers](Python/BinarySearch/k-closest-elements.py)|Medium | |
-
-
 
 ### Bitwise XOR
 | #   |Question| Solution |Difficulty | Notes |
@@ -236,22 +235,6 @@
 | 38  | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | [](Python/Tree/)| | |
 
 
-
-
-### Subsets
-| #   |Question| Solution |Difficulty | Notes |
-| -|----- | ---------- |-----|-------|
-| 1  | [Subsets](https://leetcode.com/problems/subsets/) | [ ]()| | |
-| 2  | [Subsets 2](https://leetcode.com/problems/subsets-ii/) | [ ]()| | |
-| 3  | [Permutations](https://leetcode.com/problems/permutations) | [ ]()| | |
-| 4  | [Letter case permutation](https://leetcode.com/problems/letter-case-permutation/) | [ ]()| | |
-| 5  | [Generate parentheses ](https://leetcode.com/problems/generate-parentheses/) | [ ]()| | |
-| 6  | [Generalized abbreviation](https://leetcode.com/problems/generalized-abbreviation/) | [  ]()| | |
-| 7  | [Evaluate reverse polish notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [ ]()| | |
-| 8  | [Uniquie BST](https://leetcode.com/problems/unique-binary-search-trees/) | [ ]()| | |
-| 9  | [Unique BST 2](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [ ]()| | |
-| 10  | [Next permutation](https://leetcode.com/problems/next-permutation/) | [ ]()|Medium | |
-
 ### Graphs
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -265,8 +248,8 @@
 |8   | Shortest path between two vertices  |[](Python/Graphs/)   |   |   |
 |9   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   | [](Python/Graphs/)  |   |
 |10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |  [BFS + hashmap](Python/Graph/clone-graph.py) | Medium  | [Notes](Notes/CloneGraph.pdf)  |
-|11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |  [](Python/Graphs/) |   |
-|12   | Detect cycle in a directed graph  | [Python]() []()  | Medium  |   |
+|11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |  [BFS](Python/Graphs/bipartite-graph.py) |  Graph coloring |
+|12   | Detect cycle in a directed graph  | []()  | Medium  |   |
 |13   | Detect cycle in an undirected graph  | [DFS](Python/Graphs/cycle-undirected.py)  | Medium  |   |
 |14   | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary)  | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  | [Notes](Notes/Reconstruct-itinerary.pdf)  |
 |15   |[Number of connected components](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)   | [DFS](Python/Graphs/connected-components.py)   | Medium  |   |
@@ -291,7 +274,9 @@
 | -|----- | ---------- |-----|-------|
 |1   | 0/1 knapsack  | [DP with memoization](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/0-1-knapsack.py)  | Easy  |   |
 |2   |  [Partition equal  subset sum](https://leetcode.com/problems/partition-equal-subset-sum) | []()  | Medium  |   |
-|3   | [combination-sum-iv](https://leetcode.com/problems/combination-sum-iv/)  | [](Python/DynamicProgramming/combination-sum-4.py)  | Medium  |   |
+|3   | [Climbing stairs](https://leetcode.com/problems/climbing-stairs/)  | [DP](Python/DynamicProgramming/climbing-stairs.py)  | Easy  |   |
+|4   | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/)  | [Bottom up DP](Python/DynamicProgramming/fibonaci.py)  |  Easy |   |
+|5   | [Min cost climbing stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)  |   |   |   |
 
 
 
@@ -305,10 +290,30 @@
 |5   |[Combination sum II](https://leetcode.com/problems/combination-sum-ii/)   | [Backtracking](Python/Backtracking/combination-sum-2.py)  | Medium  |   |
 |6   | [combination-sum-iii](https://leetcode.com/problems/combination-sum-iii/)  | [Backtracking](Python/Backtracking/combination-sum-3.py)  | Medium  |   |
 |7   | [Generate Parenthesis]()  |   |   |   |
-|8   | []  |   |   |   |
+|8   | [Subsets](https://leetcode.com/problems/subsets)  | []()  |   |   |
+|9   | [Word search](https://leetcode.com/problems/word-search)  | []()  |   |   |
+|10   | [Word search 2](https://leetcode.com/problems/word-search-ii)  | []()  |   |   |
+|11   | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)  | []()  |   |   |
+|12   | [word-break](https://leetcode.com/problems/word-break)  | []()  |   |   |
+|13  | [word-break-ii](https://leetcode.com/problems/word-break-ii)  | []()  |   |   |
+|14   |[wildcard-matching](https://leetcode.com/problems/wildcard-matching)   | [](Python/Backtracking/)  |   |   |
+|15   |[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)   | [](Python/Backtracking/)  |   |   |
+|16   |[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)   | [](Python/Backtracking/)  |   |   |
+|17   |[n-queens](https://leetcode.com/problems/n-queens)   |   |   |   |
+|18   |[sudoku-solver](https://leetcode.com/problems/sudoku-solver)   |   |   |   |
+|19   |[subsets-ii](https://leetcode.com/problems/subsets-ii)   |   |   |   |
+|20   |[n-queens-ii](https://leetcode.com/problems/n-queens-ii)   |   |   |   |
+|21   | [android-unlock-patterns](https://leetcode.com/problems/android-unlock-patterns)  |   |   |   |
+|22   | [permutation-sequence](https://leetcode.com/problems/permutation-sequence)  |   |   |   |
 
 
 ### Trie
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   |[Implement trie](https://leetcode.com/problems/implement-trie-prefix-tree/)   | [Solution](Python/Trie/implement-trie.py)   |  Medium |   |
+|2   |[design-search-autocomplete-system](https://leetcode.com/problems/design-search-autocomplete-system)   | []()  |   |   |
+|3   |[word-search-ii](https://leetcode.com/problems/word-search-ii)   | []()  |   |   |
+|4   |[top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words)   | []()  |   |   |
+|5   |[palindrome-pairs](https://leetcode.com/problems/palindrome-pairs)   | []()  |   |   |
+|6   |[concatenated-words](https://leetcode.com/problems/concatenated-words)   | []()  |   |   |
+|7   |[longest-word-in-dictionary](https://leetcode.com/problems/longest-word-in-dictionary)   | []()  |   |   |
