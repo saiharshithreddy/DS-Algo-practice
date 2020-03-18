@@ -2,13 +2,14 @@
 <!-- TOC -->
 
 - [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
-  - [Sliding Window](#sliding-window)
-  - [Arrays with unique approaches](#arrays-with-unique-approaches)
   - [Math](#math)
+  - [Arrays with unique approaches](#arrays-with-unique-approaches)
   - [Two pointers](#two-pointers)
+  - [Design questions](#design-questions)
   - [Fast and slow pointers](#fast-and-slow-pointers)
   - [In-place reverse](#in-place-reverse)
   - [LinkedList](#linkedlist)
+  - [Sliding Window](#sliding-window)
   - [Merge Intervals](#merge-intervals)
   - [Cyclic sort](#cyclic-sort)
   - [Modified Binary Search](#modified-binary-search)
@@ -16,7 +17,6 @@
   - [Top K elements (Heap)](#top-k-elements-heap)
   - [K-way merge](#k-way-merge)
   - [Trees](#trees)
-  - [Subsets](#subsets)
   - [Graphs](#graphs)
   - [Topological sort](#topological-sort)
   - [Dynamic Programming](#dynamic-programming)
@@ -29,6 +29,21 @@
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | [Reverese Integer](https://leetcode.com/problems/reverse-integer/)  |  [Math](Python/Math/reverse-integer.py) |  Easy |In Java, Overflow when the result is greater than 2147483647 or less than -2147483648.  not in Python |
+|2   | [fraction-to-recurring-decimal](https://leetcode.com/problems/fraction-to-recurring-decimal)  | []()  |   |   |
+|3   | [roman-to-integer](https://leetcode.com/problems/roman-to-integer)  | []()  |   |   |
+|4   | [divide-two-integers](https://leetcode.com/problems/divide-two-integers)  | []()  |   |   |
+|5   | [powx-n](https://leetcode.com/problems/powx-n)  | []()  |   |   |
+|6   | [perfect-squares](https://leetcode.com/problems/perfect-squares)  | []()  |   |   |
+|7   | [excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number)  | []()  |   |   |
+|8   | [sqrtx](https://leetcode.com/problems/sqrtx)  | []()  |   |   |
+|9   | [factorial-trailing-zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)  | []()  |   |   |
+
+
+### Bitwise
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+|1   | String has unique characters  | []()  |   |   |
+|2   | [sum-of-two-integers](https://leetcode.com/problems/sum-of-two-integers/)  |   |   |   |
 
 ### Arrays with unique approaches
 | #   |Question| Solution |Difficulty | Notes |
@@ -58,10 +73,22 @@
 |14  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections)|[](Python/TwoPointers/)|Medium||
 |15  |[Reverse string](https://leetcode.com/problems/reverse-string)|[Two pointers](Python/TwoPointers/reverse_vowels_string.py)| Easy||
 |16| [Reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[ ](Python/TwoPointers/)| Easy ||
-|17 | [Move zeros](https://leetcode.com/problems/move-zeroes)|[](Python/TwoPointers/move_zeroes.py)|Easy |  |
+|17 | [Move zeros](https://leetcode.com/problems/move-zeroes)|[Two pointers](Python/TwoPointers/move_zeroes.py)|Easy |  |
 |18  | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[](Python/TwoPointers/)| Medium| |
 |19  | [Candy crush](https://leetcode.com/problems/candy-crush)|[](Python/TwoPointers/)|Medium | |
 |20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard |1. Two pointers is O(n+m).  2. Binary search O(log(min(n,m)) [Algo](Notes/Median-of-2sortedarrays.pdf)|
+
+### Design questions
+
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+|1   | [Design lru-cache](https://leetcode.com/problems/lru-cache)  | []()  |   |   |
+|2   | [insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)  | []()  |   |   |
+|3   | [min-stack](https://leetcode.com/problems/min-stack)  | []()  |   |   |
+|4   | [lfu-cache](https://leetcode.com/problems/lfu-cache)  | []()  |   |   |
+|5   | [design-tic-tac-toe](https://leetcode.com/problems/design-tic-tac-toe)  | []()  |   |   |
+|6   | [design-in-memory-file-system](https://leetcode.com/problems/design-in-memory-file-system)  | []()  |   |   |
+|7   | [design-hashmap](https://leetcode.com/problems/design-hashmap/)  | []()  |   |   |
 
 
 ### Fast and slow pointers
@@ -121,6 +148,7 @@
 |11  | [Concatenated words](https://leetcode.com/problems/concatenated-words/) | [ ]() | | |
 |12  | [Minimum Window substring](https://leetcode.com/problems/) | []() | Hard| |
 |13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [ ]() | Hard | Use max heap |
+|14   | [consecutive-numbers-sum](https://leetcode.com/problems/consecutive-numbers-sum/)  | [Sliding window & Math](Python/SlidingWindow/consecutive-numbers-sum.py)  | Hard  |   |
 
 
 ### Merge Intervals
@@ -290,7 +318,7 @@
 |5   |[Combination sum II](https://leetcode.com/problems/combination-sum-ii/)   | [Backtracking](Python/Backtracking/combination-sum-2.py)  | Medium  |   |
 |6   | [combination-sum-iii](https://leetcode.com/problems/combination-sum-iii/)  | [Backtracking](Python/Backtracking/combination-sum-3.py)  | Medium  |   |
 |7   | [Generate Parenthesis]()  |   |   |   |
-|8   | [Subsets](https://leetcode.com/problems/subsets)  | []()  |   |   |
+|8   | [Subsets](https://leetcode.com/problems/subsets)  | [Subsets](Python/Backtracking/subsets.py)  |   |   |
 |9   | [Word search](https://leetcode.com/problems/word-search)  | []()  |   |   |
 |10   | [Word search 2](https://leetcode.com/problems/word-search-ii)  | []()  |   |   |
 |11   | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)  | []()  |   |   |
@@ -301,7 +329,7 @@
 |16   |[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)   | [](Python/Backtracking/)  |   |   |
 |17   |[n-queens](https://leetcode.com/problems/n-queens)   |   |   |   |
 |18   |[sudoku-solver](https://leetcode.com/problems/sudoku-solver)   |   |   |   |
-|19   |[subsets-ii](https://leetcode.com/problems/subsets-ii)   |   |   |   |
+|19   |[subsets-ii](https://leetcode.com/problems/subsets-ii)   | [Subsets](Python/Backtracking/subsets-2.py)  |   |   |
 |20   |[n-queens-ii](https://leetcode.com/problems/n-queens-ii)   |   |   |   |
 |21   | [android-unlock-patterns](https://leetcode.com/problems/android-unlock-patterns)  |   |   |   |
 |22   | [permutation-sequence](https://leetcode.com/problems/permutation-sequence)  |   |   |   |
