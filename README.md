@@ -317,7 +317,7 @@
 |4   |[Combination sum I](https://leetcode.com/problems/combination-sum/)   | [Backtracking](Python/Backtracking/combination-sum.py)  | Medium  |   |
 |5   |[Combination sum II](https://leetcode.com/problems/combination-sum-ii/)   | [Backtracking](Python/Backtracking/combination-sum-2.py)  | Medium  |   |
 |6   | [combination-sum-iii](https://leetcode.com/problems/combination-sum-iii/)  | [Backtracking](Python/Backtracking/combination-sum-3.py)  | Medium  |   |
-|7   | [Generate Parenthesis]()  |   |   |   |
+|7   | [Generate Parenthesis](https://leetcode.com/problems/generate-parentheses/)  | [Backtracking](Python/Backtracking/generate-parentheses.py)  | Medium  |   |
 |8   | [Subsets](https://leetcode.com/problems/subsets)  | [Subsets](Python/Backtracking/subsets.py)  |   |   |
 |9   | [Word search](https://leetcode.com/problems/word-search)  | []()  |   |   |
 |10   | [Word search 2](https://leetcode.com/problems/word-search-ii)  | []()  |   |   |
