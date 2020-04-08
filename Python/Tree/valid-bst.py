@@ -28,7 +28,7 @@ class Solution:
             # left node should be greater than its root and less than inf
             if not helper(node.right, val, upper):
                 return False
-            
+
             return True
 
         return helper(root)

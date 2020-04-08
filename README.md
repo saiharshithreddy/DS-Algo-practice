@@ -25,6 +25,16 @@
 
 <!-- /TOC -->
 
+### Array
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+|1   |[Spiral matrix](https://leetcode.com/problems/spiral-matrix)   |[Arrays](Python/Arrays/spiral-matrix.py)   |   |   |
+|2   |[Search in 2D matrix]()   |[]()   |   |   |
+|3   |[Game of life]()   |[]()   |   |   |
+
+
+
+
 ### Math
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -220,6 +230,19 @@
 | 4 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | []()| | |
 | 5  | [partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/) | []()| | |
 
+### DFS
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+|1   | []()  | []()  |   |   |
+|2   | []()  | []()  |   |   |
+
+
+### BFS
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+|1   | [rotting-oranges](https://leetcode.com/problems/rotting-oranges/)  | [BFS](Python/Tree/rotting-oranges.py)  | Medium  |   |
+
+
 ### Trees
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -245,8 +268,8 @@
 |20 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [](Python/Tree/) |  |  |
 |21 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [](Python/Tree/)| | |
 | 22  | [Valid BST](https://leetcode.com/problems/validate-binary-search-tree/) | [BST](Python/Tree/valid-bst.py)| Medium| Use lower & upper, initialize them to extremes. Check val <= lower or val>= upper (recursively for all nodes) |
-| 23  | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](Python/BFS/binary-tree-level-order.py)| Medium|Use a queue |
-| 24  | [Reverse level order traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [Tree BFS](Python/BFS/reverse-level-order-traversal.py)|Medium | |
+| 23  | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](Python/Tree/binary-tree-level-order.py)| Medium|Use a queue |
+| 24  | [Reverse level order traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [Tree BFS](Python/Tree/reverse-level-order-traversal.py)|Medium | |
 | 25  | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | [](Python/Tree/)| Medium| |
 | 26  | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [](Python/Tree/)| Easy | |
 | 27  | Next interval | [Tree DFS](Python/Tree/)| | |
@@ -322,7 +345,7 @@
 |9   | [Word search](https://leetcode.com/problems/word-search)  | []()  |   |   |
 |10   | [Word search 2](https://leetcode.com/problems/word-search-ii)  | []()  |   |   |
 |11   | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)  | []()  |   |   |
-|12   | [word-break](https://leetcode.com/problems/word-break)  | []()  |   |   |
+|12   | [word-break](https://leetcode.com/problems/word-break)  | [Backtracking/word-break.py]()  |   |   |
 |13  | [word-break-ii](https://leetcode.com/problems/word-break-ii)  | []()  |   |   |
 |14   |[wildcard-matching](https://leetcode.com/problems/wildcard-matching)   | [](Python/Backtracking/)  |   |   |
 |15   |[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)   | [](Python/Backtracking/)  |   |   |
