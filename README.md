@@ -1,27 +1,28 @@
 # DS-Algo-interview-preparation in Python
 <!-- TOC -->
 
+
 **Install jupyter notebook extensions**
 ```
 In Anaconda powershell prompt
-conda install -c conda-forge jupyter_contrib_nbextensions  
+conda install -c conda-forge jupyter_contrib_nbextensions
 conda install -c conda-forge jupyter_nbextensions_configurator
 ```
-Enable these extensions [image](Notes/jupyter_extensions_screenshot.png) for easier navigation through the notebooks. 
+Enable these extensions [image](Notes/jupyter_extensions_screenshot.png) for easier navigation through the notebooks.
 
 #### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
 #### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
 ---
 ### Notebooks
-1. [Arrays](Notebooks/Arrays.ipynb)
-2. [Strings](Notebooks/Strings.ipynb)
-3. [Sliding window](Notebooks/SlidingWindow.ipynb)
-4. [Trees](Notebooks/Trees.ipynb)
-5. [Graphs](Notebooks/Graphs.ipynb)
-6. [Linked List](Notebooks/LinkedList.ipynb)
-7. [Trie](Notebooks/Trie.ipynb)
-8. [Backtracking](Notebooks/Backtracking.ipynb)
-9. [DynamicProgramming](Notebooks/DynamicProgramming.ipynb)
+1. [Arrays](Notebooks/Arrays.ipynb) (In progress)
+2. [Strings](Notebooks/Strings.ipynb) (Not started)
+3. [Sliding window](Notebooks/SlidingWindow.ipynb) (Not started)
+4. [Trees](Notebooks/Trees.ipynb) (Almost done)
+5. [Graphs](Notebooks/Graphs.ipynb) (In progress)
+6. [Linked List](Notebooks/LinkedList.ipynb) (Almost done)
+7. [Trie](Notebooks/Trie.ipynb) (Not started)
+8. [Backtracking](Notebooks/Backtracking.ipynb) (Just started)
+9. [DynamicProgramming](Notebooks/DynamicProgramming.ipynb) (Just started)
 ---
 ## Table of contents
 - [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
@@ -49,11 +50,14 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.png) for eas
 <!-- /TOC -->
 
 ### Array
-| #   |Question| Solution |Difficulty | Notes |
-| -|----- | ---------- |-----|-------|
-|1   |[Spiral matrix](https://leetcode.com/problems/spiral-matrix)   |[Arrays](Python/Arrays/spiral-matrix.py)   |   |   |
-|2   |[Search in 2D matrix]()   |[]()   |   |   |
-|3   |[Game of life]()   |[]()   |   |   |
+| #   |Question| Solution |Difficulty | Tags |Notes |
+| -|----- | ---------- |-----|-------|----|
+|1   |[Spiral matrix](https://leetcode.com/problems/spiral-matrix)   |[Arrays](Python/Arrays/spiral-matrix.py)   | Medium  | ```Matrix``` | |
+|2   |[Search in 2D matrix](https://leetcode.com/problems/search-a-2d-matrix-ii)   |[Matrix](Python/Arrays/search-in-2d-matrix.py)   |  Medium | ```BinarySearch``` ```Matrix``` | Tweak: Instead of performing a binary search check if the last row's first val is greater or lesser than the target|
+|3   |[Game of life](https://leetcode.com/problems/game-of-life/)   |[Array](Python/Arrays/game-of-life.py)   |  Medium | ```Matrix```||
+|4  |[Rotate Image](https://leetcode.com/problems/rotate-image)   | [Matrix transpose](Python/Arrays/rotate-image.py)  | Medium  |```Matrix```| Reverse rows and swap elements on either side of diagonals  |
+|5    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/Arrays/product_except_self.py)  | Medium  |```Array``` |Follow up: O(N) Left product & right product  |
+|6   | [Set matrix to zeros](https://leetcode.com/problems/set-matrix-zeroes)  | [Matrix](Python/Arrays/set-matrix-zeroes.py)  | Medium   | ```Matrix```  | Get the position of 0s in the matrix and in another iteration update the values  |
 
 ---
 
@@ -81,11 +85,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.png) for eas
 
 ---
 
-### Arrays with unique approaches
-| #   |Question| Solution |Difficulty | Notes |
-| -|----- | ---------- |-----|-------|
-|1   |[Rotate Image](https://leetcode.com/problems/rotate-image)   | [Matrix transpose](Python/UniqueApproach/rotate-image.py)  | Medium  | Reverse rows and swap elements on either side of diagonals  |
-|2    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/UniqueApproach/product_except_self.py)  | Medium  | Left product & right product  |
+
 
 ---
 
