@@ -2,15 +2,18 @@
 <!-- TOC -->
 
 ### Notebooks
-1. [Arrays]()
-2. [Strings]
-3. [Sliding window]
-4. [Trees]
-5. [Graphs]
-6. [Linked List]
-7. [Trie]
-8. [Backtracking]
-9. [DynamicProgramming]
+
+#### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
+#### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
+1. [Arrays](Notebooks/Arrays.ipynb)
+2. [Strings](Notebooks/Strings.ipynb)
+3. [Sliding window](Notebooks/SlidingWindow.ipynb)
+4. [Trees](Notebooks/Trees.ipynb)
+5. [Graphs](Notebooks/Graphs.ipynb)
+6. [Linked List](Notebooks/LinkedList.ipynb)
+7. [Trie](Notebooks/Trie.ipynb)
+8. [Backtracking](Notebooks/Backtracking.ipynb)
+9. [DynamicProgramming](Notebooks/DynamicProgramming.ipynb)
 
 - [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
   - [Math](#math)
