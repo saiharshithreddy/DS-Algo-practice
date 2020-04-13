@@ -1,6 +1,17 @@
 # DS-Algo-interview-preparation in Python
 <!-- TOC -->
 
+### Notebooks
+1. [Arrays]()
+2. [Strings]
+3. [Sliding window]
+4. [Trees]
+5. [Graphs]
+6. [Linked List]
+7. [Trie]
+8. [Backtracking]
+9. [DynamicProgramming]
+
 - [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
   - [Math](#math)
   - [Arrays with unique approaches](#arrays-with-unique-approaches)
