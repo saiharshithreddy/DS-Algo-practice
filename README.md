@@ -1,6 +1,14 @@
 # DS-Algo-interview-preparation in Python
 <!-- TOC -->
 
+**Install jupyter notebook extensions**
+```
+In Anaconda powershell prompt
+conda install -c conda-forge jupyter_contrib_nbextensions  
+conda install -c conda-forge jupyter_nbextensions_configurator
+```
+Enable these extensions [image](Notes/jupyter_extensions_screenshot.png) for easier navigation through the notebooks. 
+
 #### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
 #### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
 ---
