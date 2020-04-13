@@ -1,10 +1,10 @@
 # DS-Algo-interview-preparation in Python
 <!-- TOC -->
 
-### Notebooks
-
 #### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
 #### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
+---
+### Notebooks
 1. [Arrays](Notebooks/Arrays.ipynb)
 2. [Strings](Notebooks/Strings.ipynb)
 3. [Sliding window](Notebooks/SlidingWindow.ipynb)
@@ -14,7 +14,8 @@
 7. [Trie](Notebooks/Trie.ipynb)
 8. [Backtracking](Notebooks/Backtracking.ipynb)
 9. [DynamicProgramming](Notebooks/DynamicProgramming.ipynb)
-
+---
+## Table of contents
 - [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
   - [Math](#math)
   - [Arrays with unique approaches](#arrays-with-unique-approaches)
@@ -36,7 +37,7 @@
   - [Dynamic Programming](#dynamic-programming)
   - [Backtracking](#backtracking)
   - [Trie](#trie)
-
+---
 <!-- /TOC -->
 
 ### Array
@@ -46,7 +47,7 @@
 |2   |[Search in 2D matrix]()   |[]()   |   |   |
 |3   |[Game of life]()   |[]()   |   |   |
 
-
+---
 
 
 ### Math
@@ -62,6 +63,7 @@
 |8   | [sqrtx](https://leetcode.com/problems/sqrtx)  | []()  |   |   |
 |9   | [factorial-trailing-zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)  | []()  |   |   |
 
+---
 
 ### Bitwise
 | #   |Question| Solution |Difficulty | Notes |
@@ -69,12 +71,15 @@
 |1   | String has unique characters  | []()  |   |   |
 |2   | [sum-of-two-integers](https://leetcode.com/problems/sum-of-two-integers/)  |   |   |   |
 
+---
+
 ### Arrays with unique approaches
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   |[Rotate Image](https://leetcode.com/problems/rotate-image)   | [Matrix transpose](Python/UniqueApproach/rotate-image.py)  | Medium  | Reverse rows and swap elements on either side of diagonals  |
 |2    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/UniqueApproach/product_except_self.py)  | Medium  | Left product & right product  |
 
+---
 
 ### Two pointers
 [Notes](Patterns/two_pointers_patterns.md)
@@ -102,6 +107,8 @@
 |19  | [Candy crush](https://leetcode.com/problems/candy-crush)|[](Python/TwoPointers/)|Medium | |
 |20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard |1. Two pointers is O(n+m).  2. Binary search O(log(min(n,m)) [Algo](Notes/Median-of-2sortedarrays.pdf)|
 
+---
+
 ### Design questions
 
 | #   |Question| Solution |Difficulty | Notes |
@@ -114,6 +121,7 @@
 |6   | [design-in-memory-file-system](https://leetcode.com/problems/design-in-memory-file-system)  | []()  |   |   |
 |7   | [design-hashmap](https://leetcode.com/problems/design-hashmap/)  | []()  |   |   |
 
+---
 
 ### Fast and slow pointers
 [Notes]()
@@ -126,6 +134,8 @@
 |5   | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Fast & slow ptrs](Python/Fast_and_slow_pointers/reorder-list.py) | Medium | Find middle, reverse 2nd half and merge one from 1st list and one from 2nd list|
 |6   | [Circular array loop](https://leetcode.com/problems/circular-array-loop/) | [ ](Python/Fast_and_slow_pointers/) | Medium | |
 
+---
+
 ### In-place reverse
 [Pattern]()
 | #   |Question| Solution |Difficulty | Notes |
@@ -135,6 +145,8 @@
 |3   | [Rotate LL](https://leetcode.com/problems/rotate-list) | [In-place reverse](Python/LinkedList/rotateLL.py) | Medium| Move one ptr k times and then move start moving both ptrs. Update next of ptr1 to head and ptr2 to None |
 |4   | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [In-place reverse](Python/LinkedList/reverse-nodes-k-groups.py) | Hard | Check if nodes are multiple of k then only reverse |
 |5   | Reverse nodes in k-alternating subgroup | [In-place reverse](Python/LinkedList/reverse-nodes-kgroups-alternatively.py) | Medium | Reverse k groups with a while loop to skip k nodes |
+
+---
 
 ### LinkedList
 [pattern]()
@@ -153,6 +165,8 @@
 | 11  | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [ ](Python/LinkedList/BST-to-sorted-doublyLL.py) | Medium | |
 |12  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](Python/LinkedList/remove-nth-node.py)| Medium | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
 | 13  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [ ](Python/CyclicSort/)|Medium | |
+
+---
 
 ### Sliding Window
 
@@ -174,6 +188,7 @@
 |13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [ ]() | Hard | Use max heap |
 |14   | [consecutive-numbers-sum](https://leetcode.com/problems/consecutive-numbers-sum/)  | [Sliding window & Math](Python/SlidingWindow/consecutive-numbers-sum.py)  | Hard  |   |
 
+---
 
 ### Merge Intervals
 [Notes](Patterns/merge-intervals.md)
@@ -187,6 +202,7 @@
 | 6  |[Insert intervals](https://leetcode.com/problems/insert-interval/) | [ ](Python/MergeIntervals/insert-intervals.py)| Hard| |
 | 7  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [ ](Python/MergeIntervals/employee-free-time.py)|Hard | |
 
+---
 ### Cyclic sort
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -194,7 +210,7 @@
 | 2  | [Find all missing numbers](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Cyclic sort](Python/CyclicSort/find-all-missing-nos.py)| Medium |index + 1 == nums[index]? |
 | 3  |[First missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort](Python/CyclicSort/first-missing-positive.py)| Hard | TC: O(N), SC: O(1) |
 
-
+---
 ### Modified Binary Search
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -211,6 +227,7 @@
 | 9  | Order agnostic binary search | [ ]()| | |
 | 10  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Binary search + Two pointers](Python/BinarySearch/k-closest-elements.py)|Medium | |
 
+---
 ### Bitwise XOR
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -222,6 +239,7 @@
 | 6  | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [ ]()| | |
 | 7  | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | [ ]()| | |
 
+---
 ### Top K elements (Heap)
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -234,7 +252,7 @@
 | 7  | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | |
 | 8  | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | [Top k elements]()| | |
 
-
+---
 ### K-way merge
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -244,19 +262,20 @@
 | 4 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | []()| | |
 | 5  | [partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/) | []()| | |
 
+---
 ### DFS
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | []()  | []()  |   |   |
 |2   | []()  | []()  |   |   |
 
-
+---
 ### BFS
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | [rotting-oranges](https://leetcode.com/problems/rotting-oranges/)  | [BFS](Python/Tree/rotting-oranges.py)  | Medium  |   |
 
-
+---
 ### Trees
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -299,7 +318,7 @@
 | 37  | [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/) | [](Python/Tree/)| | |
 | 38  | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | [](Python/Tree/)| | |
 
-
+---
 ### Graphs
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -321,7 +340,7 @@
 |16   |[Alien dictionary](https://leetcode.com/problems/alien-dictionary/)   |  [Topological sort + cycle detection](Python/Graphs/) | Hard  |   |
 
 
-
+---
 ### Topological sort
 [Topological sort code](Python/Graphs/topological-sort.py)
 
@@ -334,6 +353,7 @@
 | 5  | [sort-items-by-groups-respecting-dependencies](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) | [ ]()| | |
 | 6  | [alien-dictionary](https://leetcode.com/problems/alien-dictionary) | [ ]()| | |
 
+---
 ### Dynamic Programming
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -344,7 +364,7 @@
 |5   | [Min cost climbing stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)  |   |   |   |
 
 
-
+---
 ###  Backtracking
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -371,7 +391,7 @@
 |21   | [android-unlock-patterns](https://leetcode.com/problems/android-unlock-patterns)  |   |   |   |
 |22   | [permutation-sequence](https://leetcode.com/problems/permutation-sequence)  |   |   |   |
 
-
+---
 ### Trie
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
