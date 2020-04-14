@@ -8,7 +8,7 @@ In Anaconda powershell prompt
 conda install -c conda-forge jupyter_contrib_nbextensions
 conda install -c conda-forge jupyter_nbextensions_configurator
 ```
-Enable these extensions [image](Notes/jupyter_extensions_screenshot.png) for easier navigation through the notebooks.
+Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for easier navigation through the notebooks.
 
 #### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
 #### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
@@ -85,17 +85,13 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.png) for eas
 
 ---
 
-
-
----
-
 ### Two pointers
 [Notes](Patterns/two_pointers_patterns.md)
 
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 | 1  |[Two sum ](https://leetcode.com/problems/two-sum/) | [Dictionary](Python/TwoPointers/twosum.py) [Two pointers](Python/TwoPointers/twosum_sorted.py) | Easy |  |
-|2  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](Python/TwoPointers/Remove_duplicates_from_sortedarray.py)|Easy |  |
+| 2  | [Two sum less than k](https://leetcode.com/problems/two-sum-less-than-k/)  | [Two pointers](Python/TwoPointers/twosum-lessthanK.py)  | Easy  |   |
 |3   | [3 Sum](https://leetcode.com/problems/3sum/) | [Two pointers](Python/TwoPointers/3sum.py) | Medium | |
 |4  | [3 Sum closest](https://leetcode.com/problems/3sum-closest/) | [Two pointers](Python/TwoPointers/3sum_closest.py) | Medium | |
 |5   | [3 Sum smaller](https://leetcode.com/problems/3sum-smaller/) | [Two pointers](Python/TwoPointers/3-sum-smaller.py) | Medium | |
@@ -114,6 +110,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.png) for eas
 |18  | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[](Python/TwoPointers/)| Medium| |
 |19  | [Candy crush](https://leetcode.com/problems/candy-crush)|[](Python/TwoPointers/)|Medium | |
 |20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard |1. Two pointers is O(n+m).  2. Binary search O(log(min(n,m)) [Algo](Notes/Median-of-2sortedarrays.pdf)|
+|21  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](Python/TwoPointers/Remove_duplicates_from_sortedarray.py)|Easy |  |
 
 ---
 
@@ -251,7 +248,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.png) for eas
 ### Top K elements (Heap)
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Dictionary](Python/Heap/top-k-elements.py) []()| Medium | Use dictionary O(nlogn). Quickselect O(N) |
+| 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Dictionary](Python/Heap/top-k-elements.py) | Medium | Use dictionary O(nlogn). Quickselect O(N) |
 | 2  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements](Python/Heap/sort-characters-freq.py)| Medium | Use dictionary |
 | 3 | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)   |[Top k elements](Python/Heap/kth-smallest-in-list.py)   |Medium   | Use heapq  |
 | 4  | [maximum-frequency-stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Top k elements]()| | |
@@ -259,12 +256,13 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.png) for eas
 | 6  | [reorganize-string](https://leetcode.com/problems/reorganize-string/) | [Top k elements]()| | |
 | 7  | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | |
 | 8  | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | [Top k elements]()| | |
+|9   | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  | []()  | Easy  |   |
 
 ---
 ### K-way merge
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | []()| | |
+| 1  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [heap](Python/k-way-merge/merge-k-sortedlist.py)|Hard | |
 | 2  | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | []()| | |
 | 3  | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | []()| | |
 | 4 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | []()| | |
@@ -384,7 +382,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.png) for eas
 |6   | [combination-sum-iii](https://leetcode.com/problems/combination-sum-iii/)  | [Backtracking](Python/Backtracking/combination-sum-3.py)  | Medium  |   |
 |7   | [Generate Parenthesis](https://leetcode.com/problems/generate-parentheses/)  | [Backtracking](Python/Backtracking/generate-parentheses.py)  | Medium  |   |
 |8   | [Subsets](https://leetcode.com/problems/subsets)  | [Subsets](Python/Backtracking/subsets.py)  |   |   |
-|9   | [Word search](https://leetcode.com/problems/word-search)  | []()  |   |   |
+|9   | [Word search](https://leetcode.com/problems/word-search)  | [Backtracking](Python/Backtracking/word-search.py)  | Medium  |   |
 |10   | [Word search 2](https://leetcode.com/problems/word-search-ii)  | []()  |   |   |
 |11   | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)  | []()  |   |   |
 |12   | [word-break](https://leetcode.com/problems/word-break)  | [Backtracking/word-break.py]()  |   |   |
