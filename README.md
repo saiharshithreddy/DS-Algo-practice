@@ -77,14 +77,6 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ---
 
-### Bitwise
-| #   |Question| Solution |Difficulty | Notes |
-| -|----- | ---------- |-----|-------|
-|1   | String has unique characters  | []()  |   |   |
-|2   | [sum-of-two-integers](https://leetcode.com/problems/sum-of-two-integers/)  |   |   |   |
-
----
-
 ### Two pointers
 [Notes](Patterns/two_pointers_patterns.md)
 
@@ -107,10 +99,10 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |15  |[Reverse string](https://leetcode.com/problems/reverse-string)|[Two pointers](Python/TwoPointers/reverse_vowels_string.py)| Easy||
 |16| [Reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[ ](Python/TwoPointers/)| Easy ||
 |17 | [Move zeros](https://leetcode.com/problems/move-zeroes)|[Two pointers](Python/TwoPointers/move_zeroes.py)|Easy |  |
-|18  | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[](Python/TwoPointers/)| Medium| |
+|18  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](Python/TwoPointers/Remove_duplicates_from_sortedarray.py)|Easy |  |
 |19  | [Candy crush](https://leetcode.com/problems/candy-crush)|[](Python/TwoPointers/)|Medium | |
 |20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard |1. Two pointers is O(n+m).  2. Binary search O(log(min(n,m)) [Algo](Notes/Median-of-2sortedarrays.pdf)|
-|21  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](Python/TwoPointers/Remove_duplicates_from_sortedarray.py)|Easy |  |
+
 
 ---
 
@@ -129,7 +121,9 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ---
 
 ### Fast and slow pointers
+
 [Notes]()
+
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | [Linkedlist cycle](https://leetcode.com/problems/linked-list-cycle) | [Fast & slow ptrs](Python/Fast_and_slow_pointers/linkedlist_cycle.py) | Easy | When slow and fast ptrs meet there is a cycle |
@@ -143,6 +137,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ### In-place reverse
 [Pattern]()
+
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | [Reverse LL](https://leetcode.com/problems/reverse-linked-list) | [In-place reverse](Python/LinkedList/reverseLL.py) |Easy | Use prev and next to update the links |
@@ -150,11 +145,13 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |3   | [Rotate LL](https://leetcode.com/problems/rotate-list) | [In-place reverse](Python/LinkedList/rotateLL.py) | Medium| Move one ptr k times and then move start moving both ptrs. Update next of ptr1 to head and ptr2 to None |
 |4   | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [In-place reverse](Python/LinkedList/reverse-nodes-k-groups.py) | Hard | Check if nodes are multiple of k then only reverse |
 |5   | Reverse nodes in k-alternating subgroup | [In-place reverse](Python/LinkedList/reverse-nodes-kgroups-alternatively.py) | Medium | Reverse k groups with a while loop to skip k nodes |
+|6   | [Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | []()  | Medium  |   |
 
 ---
 
 ### LinkedList
 [pattern]()
+
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [ ](Python/LinkedList/flatten_doublylist.py) |Medium | |
@@ -165,17 +162,16 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 6  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](Python/LinkedList/add-numbers-reverse.py)|Medium | |
 | 7  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](Python/LinkedList/partition-list.py)|Medium | Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
 | 8  | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | [Linked List](Python/LinkedList/plus-one-LL.py)| Medium | Dummy nodes and move till non nine nodes and increment by 1. Set 9s to 0|
-| 9  | [Flatten Binary tree to LL](https://leetcode.com/problems/flatten-binary-tree-to-linked-list) | [ ](Python/LinkedList/flatten_bt-LL.py)| | |
-| 10  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [ ](Python/LinkedList/insert-sorted-circularLL.py)| | |
-| 11  | [Convert a binary search tree to sorted doubly LL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [ ](Python/LinkedList/BST-to-sorted-doublyLL.py) | Medium | |
-|12  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](Python/LinkedList/remove-nth-node.py)| Medium | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
-| 13  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [ ](Python/CyclicSort/)|Medium | |
+| 9  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [ ](Python/LinkedList/insert-sorted-circularLL.py)| | |
+|10  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](Python/LinkedList/remove-nth-node.py)| Medium | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
+| 11  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [ ](Python/CyclicSort/)|Medium | |
 
 ---
 
 ### Sliding Window
 
 [Notes](Patterns/sliding_window_patterns.md)
+
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 | 1  |[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](Python/SlidingWindow/max_sum_subarray.py) | Easy | |
@@ -192,6 +188,12 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |12  | [Minimum Window substring](https://leetcode.com/problems/) | []() | Hard| |
 |13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [ ]() | Hard | Use max heap |
 |14   | [consecutive-numbers-sum](https://leetcode.com/problems/consecutive-numbers-sum/)  | [Sliding window & Math](Python/SlidingWindow/consecutive-numbers-sum.py)  | Hard  |   |
+|15   | [grumpy-bookstore-owner](https://leetcode.com/problems/grumpy-bookstore-owner/)  |   |   |   |
+|16   | [minimum-window-subsequence](https://leetcode.com/problems/minimum-window-subsequence/)  |   |   |   |
+|17   | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/)  |   |   |   |
+|18   | [subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)  |   |   |   |
+|19   | [number-of-submatrices-that-sum-to-target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)  |   |   |   |
+|20  | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[](Python/TwoPointers/)| Medium| |
 
 ---
 
@@ -256,14 +258,14 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 6  | [reorganize-string](https://leetcode.com/problems/reorganize-string/) | [Top k elements]()| | |
 | 7  | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | |
 | 8  | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | [Top k elements]()| | |
-|9   | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  | []()  | Easy  |   |
+|9   | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  | []()  |   |   |
 
 ---
 ### K-way merge
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 | 1  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [heap](Python/k-way-merge/merge-k-sortedlist.py)|Hard | |
-| 2  | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | []()| | |
+| 2  | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Heap](Python/Heap/kth-smallest-in-matrix.py)|Medium | |
 | 3  | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | []()| | |
 | 4 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | []()| | |
 | 5  | [partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/) | []()| | |
