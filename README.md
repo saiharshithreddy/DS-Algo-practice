@@ -1,7 +1,8 @@
 # DS-Algo-interview-preparation in Python
-<!-- TOC -->
 
-
+#### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
+#### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
+---
 **Install jupyter notebook extensions**
 ```
 In Anaconda powershell prompt
@@ -10,9 +11,6 @@ conda install -c conda-forge jupyter_nbextensions_configurator
 ```
 Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for easier navigation through the notebooks.
 
-#### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
-#### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
----
 ### Notebooks
 1. [Arrays](Notebooks/Arrays.ipynb) (In progress)
 2. [Strings](Notebooks/Strings.ipynb) (Not started)
@@ -20,7 +18,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 4. [Trees](Notebooks/Trees.ipynb) (Almost done)
 5. [Graphs](Notebooks/Graphs.ipynb) (In progress)
 6. [Linked List](Notebooks/LinkedList.ipynb) (Almost done)
-7. [Trie](Notebooks/Trie.ipynb) (Not started)
+7. [Heap](Notebooks/Heap.ipynb) (Not started)
 8. [Backtracking](Notebooks/Backtracking.ipynb) (Just started)
 9. [DynamicProgramming](Notebooks/DynamicProgramming.ipynb) (Just started)
 ---

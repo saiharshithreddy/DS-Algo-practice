@@ -12,8 +12,9 @@ class Solution:
         while left < right:
             # as the array is sorted
             if nums[left] + nums[right] == target:
-                return [left, right]
+                return True
             elif nums[left] + nums[right] < target:
                 left += 1
             else:
                 right -= 1
+        return False
