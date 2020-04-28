@@ -1,9 +1,10 @@
 '''
-Time complexity: O(1)
-Space complexity: O(capacity)
+Fast look ups and fast removals.
+Idea: Hashmap and doubly linked list.
+
+TC: O(1)
+SC: O(capacity)
 '''
-
-
 # doubly linkedlist
 class Node:
     def __init__(self,key,value):
@@ -27,7 +28,7 @@ class LRUCache:
         if key not in self.map:
             return -1
         n = self.map[key]
-        # Move the node first of the list 
+        # Move the node first of the list
         self.remove(n)
         self.add_front(n)
         return n.value
@@ -40,23 +41,27 @@ class LRUCache:
         self.add_front(n)
         self.map[key] = n
         if len(self.map) > self.capacity:
-            n = self.head.next
+            n = self.tail.prev
             self.remove(n)
             del self.map[n.key]
-            
+
     def remove(self, node):
-        prev_node = node.prev
-        next_node = node.next
-        prev_node.next = next_node
-        next_node.prev = prev_node
-        
+        p = node.prev
+        n = node.next
+        p.next = n
+        n.prev = p
+
     def add_front(self,node):
-        p = self.tail.prev
-        p.next = node
-        self.tail.prev = node
-        node.prev = p
-        node.next = self.tail
-        
+
+        # 1. node's prev should point to head
+        node.prev = self.head
+        # 2. new node should point to prev start node
+        node.next = self.head.next
+        # 3. head.next.prev should point to node
+        self.head.next.prev = node
+        # 4. head's next should point to node
+        self.head.next = node
+
 
 
 # Your LRUCache object will be instantiated and called as such:

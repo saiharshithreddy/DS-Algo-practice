@@ -12,15 +12,16 @@ conda install -c conda-forge jupyter_nbextensions_configurator
 Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for easier navigation through the notebooks.
 
 ### Notebooks
-1. [Arrays](Notebooks/Arrays.ipynb) (In progress)
-2. [Strings](Notebooks/Strings.ipynb) (Not started)
-3. [Sliding window](Notebooks/SlidingWindow.ipynb) (Not started)
-4. [Trees](Notebooks/Trees.ipynb) (Almost done)
-5. [Graphs](Notebooks/Graphs.ipynb) (In progress)
-6. [Linked List](Notebooks/LinkedList.ipynb) (Almost done)
-7. [Heap](Notebooks/Heap.ipynb) (Not started)
-8. [Backtracking](Notebooks/Backtracking.ipynb) (Just started)
-9. [DynamicProgramming](Notebooks/DynamicProgramming.ipynb) (Just started)
+1. [Arrays](Notebooks/Arrays.ipynb)
+2. [Strings](Notebooks/Strings.ipynb)
+3. [Sliding window](Notebooks/SlidingWindow.ipynb)
+4. [Trees](Notebooks/Trees.ipynb)
+5. [Graphs](Notebooks/Graphs.ipynb)
+6. [Linked List](Notebooks/LinkedList.ipynb)
+7. [Heap](Notebooks/Heap.ipynb)
+8. [Backtracking](Notebooks/Backtracking.ipynb)
+9. [DynamicProgramming](Notebooks/DynamicProgramming.ipynb)
+10. [Design datastructures](Notebooks/DesignStructures.ipynb)
 ---
 ## Table of contents
 - [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
@@ -104,17 +105,19 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ---
 
-### Design questions
+### Design datastructures questions
 
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1   | [Design lru-cache](https://leetcode.com/problems/lru-cache)  | []()  |   |   |
-|2   | [insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)  | []()  |   |   |
-|3   | [min-stack](https://leetcode.com/problems/min-stack)  | []()  |   |   |
-|4   | [lfu-cache](https://leetcode.com/problems/lfu-cache)  | []()  |   |   |
-|5   | [design-tic-tac-toe](https://leetcode.com/problems/design-tic-tac-toe)  | []()  |   |   |
-|6   | [design-in-memory-file-system](https://leetcode.com/problems/design-in-memory-file-system)  | []()  |   |   |
-|7   | [design-hashmap](https://leetcode.com/problems/design-hashmap/)  | []()  |   |   |
+|1   | [Design lru-cache](https://leetcode.com/problems/lru-cache)  | [Solution](Python/DesignQuestions/LRUcache.py)  | Medium  | Use doubly LL  |
+|2   | [insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)  | [](Python/DesignQuestions/insert-getrandom.py)  | Medium  |   |
+|3   | [min-stack](https://leetcode.com/problems/min-stack)  | [Solution](Python/DesignQuestions/min-stack.py)  | Easy  |   |
+|4   | [MaxStack](https://leetcode.com/problems/max-stack/)  | [Solution](Python/DesignQuestions/max-stack.py)  | Easy  |   |
+|5   | [Design stack with increment operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)  | [Solution](Python/DesignQuestions/stack-with-increment.py)  | Medium  |   |
+|6   | [lfu-cache](https://leetcode.com/problems/lfu-cache)  | []()  |   |   |
+|7   | [design-tic-tac-toe](https://leetcode.com/problems/design-tic-tac-toe)  | []()  |   |   |
+|8   | [design-in-memory-file-system](https://leetcode.com/problems/design-in-memory-file-system)  | []()  |   |   |
+|9   | [design-hashmap](https://leetcode.com/problems/design-hashmap/)  | [Solution](Python/DesignQuestions/Design_Hashmap.py)  | Medium  |   |10 | [Design HashSet]()|[]() | | |
 
 ---
 
