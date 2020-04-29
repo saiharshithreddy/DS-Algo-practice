@@ -55,8 +55,10 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |2   |[Search in 2D matrix](https://leetcode.com/problems/search-a-2d-matrix-ii)   |[Matrix](Python/Arrays/search-in-2d-matrix.py)   |  Medium | ```BinarySearch``` ```Matrix``` | Tweak: Instead of performing a binary search check if the last row's first val is greater or lesser than the target|
 |3   |[Game of life](https://leetcode.com/problems/game-of-life/)   |[Array](Python/Arrays/game-of-life.py)   |  Medium | ```Matrix```||
 |4  |[Rotate Image](https://leetcode.com/problems/rotate-image)   | [Matrix transpose](Python/Arrays/rotate-image.py)  | Medium  |```Matrix```| Reverse rows and swap elements on either side of diagonals  |
-|5    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/Arrays/product_except_self.py)  | Medium  |```Array``` |Follow up: O(N) Left product & right product  |
+|5    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/Arrays/product_except_self.py)  | Medium  |```Array``` ```Two pointers```|Follow up: O(N) Left product & right product  |
 |6   | [Set matrix to zeros](https://leetcode.com/problems/set-matrix-zeroes)  | [Matrix](Python/Arrays/set-matrix-zeroes.py)  | Medium   | ```Matrix```  | Get the position of 0s in the matrix and in another iteration update the values  |
+|7   | [Generate spiral matrix](https://leetcode.com/problems/spiral-matrix-ii)  | [Matrix](Python/Arrays/spiral-matrix2.py)  |```Matrix```   | Medium  | Similar to spiral matrix  |
+|8   | [Diagonal traverse](https://leetcode.com/problems/diagonal-traverse)  | [Matrix](Python/Arrays/diagonal-traverse.py)  | ```Matrix``` ```deque```  | Medium  |   |
 
 ---
 
@@ -123,7 +125,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ### Fast and slow pointers
 
-[Notes]()
+
 
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -137,7 +139,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ---
 
 ### In-place reverse
-[Pattern]()
+
 
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
