@@ -68,7 +68,14 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ---
 
+### Stack
 
+| #   |Question| Solution |Difficulty | Notes |
+| -|----- | ---------- |-----|-------|
+|1   | [Daily temperatures](https://leetcode.com/problems/daily-temperatures)  | [Stack](Python/Stack/daily-temperatures.py)  |  Medium | Store (day, temp) in stack  |
+|2   | []()  |   |   |   |
+
+---
 ### Math
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -158,6 +165,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |6   | [Circular array loop](https://leetcode.com/problems/circular-array-loop/) | [ ](Python/Fast_and_slow_pointers/) | Medium | |
 
 ---
+
 
 ### In-place reverse
 
@@ -300,8 +308,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### DFS
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1   | []()  | []()  |   |   |
-|2   | []()  | []()  |   |   |
+|1   | [Number of islands]()  | []()  |   |   |
+|2   | [Number of distinct islands]()  | []()  |   |   |
 
 ---
 ### BFS
@@ -413,10 +421,10 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |9   | [Word search](https://leetcode.com/problems/word-search)  | [Backtracking](Python/Backtracking/word-search.py)  | Medium  |   |
 |10   | [Word search 2](https://leetcode.com/problems/word-search-ii)  | []()  |   |   |
 |11   | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)  | []()  |   |   |
-|12   | [word-break](https://leetcode.com/problems/word-break)  | [Backtracking/word-break.py]()  |   |   |
+|12   | [word-break](https://leetcode.com/problems/word-break)  | [](Python/Backtracking/word-break.py)  |   |   |
 |13  | [word-break-ii](https://leetcode.com/problems/word-break-ii)  | []()  |   |   |
 |14   |[wildcard-matching](https://leetcode.com/problems/wildcard-matching)   | [](Python/Backtracking/)  |   |   |
-|15   |[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)   | [](Python/Backtracking/)  |   |   |
+|15   |[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)   | [Backtracking](Python/Backtracking/letter-combinations-of-number.py)  |   |   |
 |16   |[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)   | [](Python/Backtracking/)  |   |   |
 |17   |[n-queens](https://leetcode.com/problems/n-queens)   |   |   |   |
 |18   |[sudoku-solver](https://leetcode.com/problems/sudoku-solver)   |   |   |   |
@@ -424,6 +432,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |20   |[n-queens-ii](https://leetcode.com/problems/n-queens-ii)   |   |   |   |
 |21   | [android-unlock-patterns](https://leetcode.com/problems/android-unlock-patterns)  |   |   |   |
 |22   | [permutation-sequence](https://leetcode.com/problems/permutation-sequence)  |   |   |   |
+|23   | [Word ladder]()  | []()  |   |   |
+|24   | [Word ladder 2]()  | []()  |   |   |
 
 ---
 ### Trie
