@@ -23,12 +23,15 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 9. [DynamicProgramming](Notebooks/DynamicProgramming.ipynb)
 10. [Design datastructures](Notebooks/DesignStructures.ipynb)
 ---
-## Table of contents
+<!-- TOC -->
+
 - [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
+  - [Array](#array)
+  - [2D Array](#2d-array)
+  - [Stack](#stack)
   - [Math](#math)
-  - [Arrays with unique approaches](#arrays-with-unique-approaches)
   - [Two pointers](#two-pointers)
-  - [Design questions](#design-questions)
+  - [Design datastructures questions](#design-datastructures-questions)
   - [Fast and slow pointers](#fast-and-slow-pointers)
   - [In-place reverse](#in-place-reverse)
   - [LinkedList](#linkedlist)
@@ -39,13 +42,15 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
   - [Bitwise XOR](#bitwise-xor)
   - [Top K elements (Heap)](#top-k-elements-heap)
   - [K-way merge](#k-way-merge)
+  - [DFS](#dfs)
+  - [BFS](#bfs)
   - [Trees](#trees)
   - [Graphs](#graphs)
   - [Topological sort](#topological-sort)
   - [Dynamic Programming](#dynamic-programming)
   - [Backtracking](#backtracking)
   - [Trie](#trie)
----
+
 <!-- /TOC -->
 
 ### Array
