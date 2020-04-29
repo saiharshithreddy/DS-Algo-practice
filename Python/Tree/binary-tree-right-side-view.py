@@ -14,20 +14,30 @@ Space complexity: O(N)
 Algorithm: Level order traversal
 1. Retrieve the last element from each level
 '''
+
+
 class Solution:
     def rightSideView(self, root: TreeNode) -> List[int]:
+        # levels = []
+        res = []
+        ans = []
         if not root:
             return
-        res = []
+
         def helper(root, level):
+
             if len(res) == level:
                 res.append([])
 
             res[level].append(root.val)
+            # ans.append(res[level][-1])
+            # print(ans)
             if root.left:
                 helper(root.left, level + 1)
             if root.right:
                 helper(root.right, level + 1)
 
-        helper(root, 0)
-        return [x[-1] for x in res]
+        helper(root,0)
+        for i in range(len(res)):
+            ans.append(res[i][-1])
+        return ans

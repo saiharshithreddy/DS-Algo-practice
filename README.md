@@ -59,7 +59,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |1    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/Arrays/product_except_self.py)  | Medium  |```Array``` ```Two pointers```|Follow up: O(N) Left product & right product  |
 
 ---
-### 2D Array
+### Matrix
 | #   |Question| Solution |Difficulty | Tags |Notes |
 | -|----- | ---------- |-----|-------|----|
 |1   |[Spiral matrix](https://leetcode.com/problems/spiral-matrix)   |[Arrays](Python/Arrays/spiral-matrix.py)   | Medium  | ```Matrix``` | |
@@ -182,12 +182,12 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |3   | [Rotate LL](https://leetcode.com/problems/rotate-list) | [In-place reverse](Python/LinkedList/rotateLL.py) | Medium| Move one ptr k times and then move start moving both ptrs. Update next of ptr1 to head and ptr2 to None |
 |4   | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [In-place reverse](Python/LinkedList/reverse-nodes-k-groups.py) | Hard | Check if nodes are multiple of k then only reverse |
 |5   | Reverse nodes in k-alternating subgroup | [In-place reverse](Python/LinkedList/reverse-nodes-kgroups-alternatively.py) | Medium | Reverse k groups with a while loop to skip k nodes |
-|6   | [Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | []()  | Medium  |   |
+|6   | [Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [In-place reverse](Python\LinkedList\swap-nodes-in-pairs.py)  | Medium  |   |
 
 ---
 
 ### LinkedList
-[pattern]()
+
 
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -201,8 +201,9 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 8  | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | [Linked List](Python/LinkedList/plus-one-LL.py)| Medium | Dummy nodes and move till non nine nodes and increment by 1. Set 9s to 0|
 | 9  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [ ](Python/LinkedList/insert-sorted-circularLL.py)| | |
 |10  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](Python/LinkedList/remove-nth-node.py)| Medium | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
-| 11  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [ ](Python/LinkedList/)|Medium | |
-|12   | [Sort list](https://leetcode.com/problems/sort-list)  |   |   |   |
+| 11  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Linked List ](Python\LinkedList\remove-dup.py)|Easy | |
+| 12  | [Remove duplicates from LinkedList 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Linked List ](Python\LinkedList\remove-dup-2.py)|Medium | |
+|13  | [Sort list](https://leetcode.com/problems/sort-list)  |   |   |   |
 
 ---
 
@@ -331,39 +332,39 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |3|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Recursion](Python/Tree/diameter.py)|Easy | |
 |4|[maximum-depth-of-n-ary-tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Tree DFS](Python/Tree/max_depth-nary-tree.py)|Easy | Get the max depth of subtrees|
 |5|[maximum-depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[DFS](Python/Tree/max_depth_BT.py)|Easy | |
-|6|[range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst/)|[](Python/Tree/range_sum.py)|Easy | |
+|6|[range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst/)|[DFS](Python/Tree/range_sum.py)|Easy | |
 |7|[merge-two-binary-trees](https://leetcode.com/problems/merge-two-binary-trees/)|[DFS](Python/Tree/merge_BT.py)|Easy | |
 |8|[search-in-a-binary-search-tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[DFS](Python/Tree/search-bst.py)| | |
 |9|[path-sum](https://leetcode.com/problems/path-sum/)|[DFS](Python/Tree/path_sum.py)| Easy |  |
 |10|[diameter-of-binary-tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Tree](Python/Tree/diameter-BT.py) | Easy |  |
 |11 | [kth-smallest-element-in-a-bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Tree DFS](Python/Tree/kth-smallest.py) | Medium | Push left tree nodes into stack and pop them by decrementing k. when k=0 return node.val  |
-|12 | [all-nodes-distance-k-in-binary-tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [](Python/Tree/nodes-k-distance.py) | Medium |  |
+|12 | [all-nodes-distance-k-in-binary-tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [Graph](Python/Tree/nodes-k-distance.py) | Medium |  |
 |13 | [lowest-common-ancestor-of-a-binary-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [DFS](Python/Tree/lowest_common-ancestor.py) | Medium |  |
 |14 |[minimum-depth-of-binary-tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[DFS](Python/Tree/min_depth_BT.py)|Easy | |
-|15 | [serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [](Python/Tree/) |  |  |
+|15 | [serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Solution](Python\Tree\serialize-deserialize-bt.py) | Hard  | same as BST |
 |16 | [minimum-cost-tree-from-leaf-values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | [](Python/Tree/) |  |  |
 |17 | [Iterative postorderTraversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)  |[DFS](Python/Tree/postorder_iterative.py)   | Hard  | Using stack |
 |18 | [binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator) | [](Python/Tree/) |  |  |
-|19 | [serialize-and-deserialize-bst](https://leetcode.com/problems/serialize-and-deserialize-bst) | [](Python/Tree/) |  |  |
-|20 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [](Python/Tree/) |  |  |
-|21 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [](Python/Tree/)| | |
+|19 | [serialize-and-deserialize-bst](https://leetcode.com/problems/serialize-and-deserialize-bst) | [Solution](Python\Tree\serialize-deserialize-BST.py) | Medium | same as BT |
+|20 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [inorder](Python\Tree\convert-bst-to-doublyLL.py) |  |  |
+|21 | [construct-BT-from-preorder-and-inorder-traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [Solution](Python\Tree\construct-bt-from-preandin.py)| Medium | |
 | 22  | [Valid BST](https://leetcode.com/problems/validate-binary-search-tree/) | [BST](Python/Tree/valid-bst.py)| Medium| Use lower & upper, initialize them to extremes. Check val <= lower or val>= upper (recursively for all nodes) |
 | 23  | [Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [Tree BFS](Python/Tree/binary-tree-level-order.py)| Medium|Use a queue |
 | 24  | [Reverse level order traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [Tree BFS](Python/Tree/reverse-level-order-traversal.py)|Medium | |
 | 25  | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | [](Python/Tree/)| Medium| |
-| 26  | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [](Python/Tree/)| Easy | |
+| 26  | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [BFS](Python\Tree\average-of-levels-BT.py)| Easy | |
 | 27  | Next interval | [Tree DFS](Python/Tree/)| | |
 | 28  | [Populating next right ptrs in tree](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [](Python/Tree/)| | |
-| 29  | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [](Python/Tree/)| | |
-| 30  | [Tree boundary](https://leetcode.com/problems/boundary-of-binary-tree/) | [](Python/Tree/)| | |
+| 29  | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [BFS](Python\Tree\binary-tree-right-side-view.py)|Medium | |
+| 30  | [boundary of a tree](https://leetcode.com/problems/boundary-of-binary-tree/) | [Solution](Python\Tree\boundary-tree.py)| Medium| Left: Preorder, leaves: Inorder, right: Postorder |
 | 31  | [ipo](https://leetcode.com/problems/ipo/) | [](Python/Tree/)|
-| 32  | [Path sum 2](https://leetcode.com/problems/path-sum-ii) | [](Python/Tree/)| | |
+| 32  | [Path sum 2](https://leetcode.com/problems/path-sum-ii) | [DFS](Python\Tree\path_sum2.py)|Medium | |
 | 33  | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | [](Python/Tree/)| | |
 | 34  | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [](Python/Tree/)| | |
 | 35  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [](Python/Tree/)| | |
 | 36  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [](Python/Tree/)| | |
-| 37  | [find-median-from-data-stream](https://leetcode.com/problems/find-median-from-data-stream/) | [](Python/Tree/)| | |
-| 38  | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) | [](Python/Tree/)| | |
+
+
 
 ---
 ### Graphs
@@ -375,11 +376,11 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |4   | Find mother vertex  | [](Python/Graphs/)  |   |   |
 |5   | Count num of edges  | [](Python/Graphs/)  |   |   |
 |6   | Path exists   | [](Python/Graphs/)  |   |   |
-|7   | [Graph valid tree](https://leetcode.com/problems/graph-valid-tree)  |  [Cycle detection in undirected](Python/Graph/graph-valid-tree.py) | Medium  |   |
+|7   | [Graph valid tree](https://leetcode.com/problems/graph-valid-tree)  |  [Cycle detection in undirected](Python/Graph/graph-valid-tree.py) | Medium  | check for cycle and disconnected components  |
 |8   | Shortest path between two vertices  |[](Python/Graphs/)   |   |   |
 |9   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   | [](Python/Graphs/)  |   |
 |10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |  [BFS + hashmap](Python/Graph/clone-graph.py) | Medium  | [Notes](Notes/CloneGraph.pdf)  |
-|11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  |   |  [BFS](Python/Graphs/bipartite-graph.py) |  Graph coloring |
+|11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  | [BFS](Python/Graphs/bipartite-graph.py)  | Medium  |  Graph coloring |
 |12   | Detect cycle in a directed graph  | []()  | Medium  |   |
 |13   | Detect cycle in an undirected graph  | [DFS](Python/Graphs/cycle-undirected.py)  | Medium  |   |
 |14   | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary)  | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  | [Notes](Notes/Reconstruct-itinerary.pdf)  |
@@ -451,3 +452,4 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |5   |[palindrome-pairs](https://leetcode.com/problems/palindrome-pairs)   | []()  |   |   |
 |6   |[concatenated-words](https://leetcode.com/problems/concatenated-words)   | []()  |   |   |
 |7   |[longest-word-in-dictionary](https://leetcode.com/problems/longest-word-in-dictionary)   | []()  |   |   |
+|8   | [Search Suggestions System ](https://leetcode.com/problems/search-suggestions-system)  | [Trie](Python\Trie\search-suggestions.py)  |  Medium |   |

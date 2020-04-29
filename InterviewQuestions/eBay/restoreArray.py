@@ -9,7 +9,7 @@ NOTE: The original and reversed arrays are both considered to be correct answers
 
 Example
 
-For pairs = [[3, 5]. [1,4], [2, 4]. [1, 5]], the output can be restored Array(pairs) = [3, 5, 1, 4, 2] .
+For pairs = [[3, 5] [1,4], [2, 4] [1, 5]], the output can be restored Array(pairs) = [3, 5, 1, 4, 2] .
 
 • The result of splitting the array [3, 5, 1, 4, 2] into pairs is [[3, 5], [5, 1], [1,4], [4, 2]] .
 

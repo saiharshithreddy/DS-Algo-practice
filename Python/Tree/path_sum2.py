@@ -1,19 +1,19 @@
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
-'''
-Approach:
-Difficulties faced:
-Steps to resolve Difficulties:
-Ran on Leetcode without help:
-Time complexity:
-Space complexity:
-'''
-
 class Solution:
+    def pathSum(self, root, sum):
+        def dfs(root, sum, path_nodes, all_paths):
+            if not root:
+                return
+            # add node to path
+            path_nodes.append(root.val)
 
-    def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
+            if root.val == sum and root.left is None and root.right is None:
+                all_paths.append(list(path_nodes))
+            else:
+                dfs(root.left, sum - root.val, path_nodes, all_paths)
+                dfs(root.right, sum - root.val, path_nodes, all_paths)
+            # pop the node when its subtrees are traversed.
+            path_nodes.pop()
+
+        all_paths = []
+        dfs(root, sum, [], all_paths)
+        return all_paths
