@@ -10,7 +10,7 @@ class Solution:
         nums.sort()
         pair_count = 0
         while right < len(nums):
-            if nums[right] - nums[left] == k:     
+            if nums[right] - nums[left] == k:
                 pair_count += 1
                 left += 1
                 right += 1
@@ -21,8 +21,5 @@ class Solution:
                 right += 1
             else:
                 break
-            #while left < right and nums[left] == nums[left+1]:
-            #    left += 1
-            #while left < right and nums[right] == nums[right-1]:
-            #    right -= 1
+            
         return pair_count

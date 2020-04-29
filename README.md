@@ -51,14 +51,20 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### Array
 | #   |Question| Solution |Difficulty | Tags |Notes |
 | -|----- | ---------- |-----|-------|----|
+|1    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/Arrays/product_except_self.py)  | Medium  |```Array``` ```Two pointers```|Follow up: O(N) Left product & right product  |
+
+---
+### 2D Array
+| #   |Question| Solution |Difficulty | Tags |Notes |
+| -|----- | ---------- |-----|-------|----|
 |1   |[Spiral matrix](https://leetcode.com/problems/spiral-matrix)   |[Arrays](Python/Arrays/spiral-matrix.py)   | Medium  | ```Matrix``` | |
 |2   |[Search in 2D matrix](https://leetcode.com/problems/search-a-2d-matrix-ii)   |[Matrix](Python/Arrays/search-in-2d-matrix.py)   |  Medium | ```BinarySearch``` ```Matrix``` | Tweak: Instead of performing a binary search check if the last row's first val is greater or lesser than the target|
 |3   |[Game of life](https://leetcode.com/problems/game-of-life/)   |[Array](Python/Arrays/game-of-life.py)   |  Medium | ```Matrix```||
 |4  |[Rotate Image](https://leetcode.com/problems/rotate-image)   | [Matrix transpose](Python/Arrays/rotate-image.py)  | Medium  |```Matrix```| Reverse rows and swap elements on either side of diagonals  |
-|5    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/Arrays/product_except_self.py)  | Medium  |```Array``` ```Two pointers```|Follow up: O(N) Left product & right product  |
+|5   | [Diagonal traverse](https://leetcode.com/problems/diagonal-traverse)  | [Matrix](Python/Arrays/diagonal-traverse.py)  |  Medium  |  ```Matrix``` ```deque```|   |
 |6   | [Set matrix to zeros](https://leetcode.com/problems/set-matrix-zeroes)  | [Matrix](Python/Arrays/set-matrix-zeroes.py)  | Medium   | ```Matrix```  | Get the position of 0s in the matrix and in another iteration update the values  |
-|7   | [Generate spiral matrix](https://leetcode.com/problems/spiral-matrix-ii)  | [Matrix](Python/Arrays/spiral-matrix2.py)  |```Matrix```   | Medium  | Similar to spiral matrix  |
-|8   | [Diagonal traverse](https://leetcode.com/problems/diagonal-traverse)  | [Matrix](Python/Arrays/diagonal-traverse.py)  | ```Matrix``` ```deque```  | Medium  |   |
+|7   | [Generate spiral matrix](https://leetcode.com/problems/spiral-matrix-ii)  | [Matrix](Python/Arrays/spiral-matrix2.py)  | Medium  | ```Matrix```  | Similar to spiral matrix  |
+
 
 ---
 
@@ -112,20 +118,35 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 |1   | [Design lru-cache](https://leetcode.com/problems/lru-cache)  | [Solution](Python/DesignQuestions/LRUcache.py)  | Medium  | Use doubly LL  |
-|2   | [insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)  | [](Python/DesignQuestions/insert-getrandom.py)  | Medium  |   |
+|2   | [insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)  | [Solution](Python/DesignQuestions/insert-getrandom.py)  | Medium  |   |
 |3   | [min-stack](https://leetcode.com/problems/min-stack)  | [Solution](Python/DesignQuestions/min-stack.py)  | Easy  |   |
 |4   | [MaxStack](https://leetcode.com/problems/max-stack/)  | [Solution](Python/DesignQuestions/max-stack.py)  | Easy  |   |
 |5   | [Design stack with increment operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)  | [Solution](Python/DesignQuestions/stack-with-increment.py)  | Medium  |   |
 |6   | [lfu-cache](https://leetcode.com/problems/lfu-cache)  | []()  |   |   |
 |7   | [design-tic-tac-toe](https://leetcode.com/problems/design-tic-tac-toe)  | []()  |   |   |
 |8   | [design-in-memory-file-system](https://leetcode.com/problems/design-in-memory-file-system)  | []()  |   |   |
-|9   | [design-hashmap](https://leetcode.com/problems/design-hashmap/)  | [Solution](Python/DesignQuestions/Design_Hashmap.py)  | Medium  |   |10 | [Design HashSet]()|[]() | | |
+|9   | [design-hashmap](https://leetcode.com/problems/design-hashmap/)  | [Solution](Python/DesignQuestions/Design_Hashmap.py)  | Medium  | |
+|10 | [Design HashSet](https://leetcode.com/problems/design-hashset)|[]() | | |
+|11   |[design-hit-counter](https://leetcode.com/problems/design-hit-counter)   |   |   |   |
+|12   |[add-and-search-word-data-structure-design](https://leetcode.com/problems/add-and-search-word-data-structure-design)   |   |   |   |
+|13   |[design-log-storage-system](https://leetcode.com/problems/design-log-storage-system)   |   |   |   |
+|14   |[design-circular-queue](https://leetcode.com/problems/design-circular-queue)   |   |   |   |
+|15   |[design-file-system](https://leetcode.com/problems/design-file-system)   |   |   |   |
+|16   |[implement-stack-using-queues](https://leetcode.com/problems/implement-stack-using-queues)   |   |   |   |
+|17   |[design-skiplist](https://leetcode.com/problems/design-skiplist)   |   |   |   |
+|18   |[design-circular-deque](https://leetcode.com/problems/design-circular-deque)   |   |   |   |
+|19   |[design-linked-list](https://leetcode.com/problems/design-linked-list)   |   |   |   |
+|20   |[design-twitter](https://leetcode.com/problems/design-twitter/)   |   |   |   |
+|21   |[design-snake-game](https://leetcode.com/problems/design-snake-game)   |   |   |   |
+|22   |[all-oone-data-structure](https://leetcode.com/problems/all-oone-data-structure)   |   |   |   |
+|23   |[flatten-nested-list-iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)   |   |   |   |
+|24   |[design-search-autocomplete-system](https://leetcode.com/problems/design-search-autocomplete-system)   |   |   |   |
+|25   |[time-based-key-value-store](https://leetcode.com/problems/time-based-key-value-store/)   |   |   |   |
+
 
 ---
 
 ### Fast and slow pointers
-
-
 
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
@@ -167,7 +188,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 8  | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | [Linked List](Python/LinkedList/plus-one-LL.py)| Medium | Dummy nodes and move till non nine nodes and increment by 1. Set 9s to 0|
 | 9  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [ ](Python/LinkedList/insert-sorted-circularLL.py)| | |
 |10  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](Python/LinkedList/remove-nth-node.py)| Medium | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
-| 11  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [ ](Python/CyclicSort/)|Medium | |
+| 11  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [ ](Python/LinkedList/)|Medium | |
+|12   | [Sort list](https://leetcode.com/problems/sort-list)  |   |   |   |
 
 ---
 
@@ -178,14 +200,14 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 | 1  |[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](Python/SlidingWindow/max_sum_subarray.py) | Easy | |
-| 2   |[Smallest Subarray with a given sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](Python/SlidingWindow/smallest_sub_array_with_given_sum.py)|  Easy |[Algo](Notes/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
+| 2   |[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](Python/SlidingWindow/smallest_sub_array_with_given_sum.py)|  Easy |[Algo](Notes/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
 | 3   |[Longest Substring with at most K Distinct Characters *](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | [Sliding window](Python/SlidingWindow/Longest_substring_withK_distinct_characters.py) | Hard | |
 |4  |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](Python/SlidingWindow/fruits_into_baskets.py) | Medium |[Algo](Notes/Fruits_into_baskets.pdf) |
 |5  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](Python/SlidingWindow/Longest_repeating_character_replacement.py)| Medium | |
 |6  | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Sliding Window](Python/SlidingWindow/permutation_in_string.py)| Medium | |
-|7  | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [ ]() | | |
-|8   | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | [ ]() | Medium | |
-|9   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | []() | Medium | |
+|7  | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Sliding Window ](Python/SlidingWindow/longest-substring-without-repeating-characters.py) |Medium | |
+|8   | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | [Sliding Window ](Python/SlidingWindow/max-consecutive-ones.py) | Medium | |
+|9   | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | []() | Medium | |
 |10 | [Minimum Window substring](https://leetcode.com/problems/minimum-window-substring/) | []() || | |
 |11  | [Concatenated words](https://leetcode.com/problems/concatenated-words/) | [ ]() | | |
 |12  | [Minimum Window substring](https://leetcode.com/problems/) | []() | Hard| |
@@ -196,7 +218,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |17   | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/)  |   |   |   |
 |18   | [subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)  |   |   |   |
 |19   | [number-of-submatrices-that-sum-to-target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)  |   |   |   |
-|20  | [Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[](Python/TwoPointers/)| Medium| |
+|20   | [subarray-product-less-than-k](https://leetcode.com/problems/subarray-product-less-than-k/)  | [Sliding Window](Python/SlidingWindow/subarray_prod_less_thanK.py)  | Medium  |   |
+
 
 ---
 
@@ -209,7 +232,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 3  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [Merge intervals](Python/MergeIntervals/interval-list-intersections.py)| Medium| |
 | 4  |[Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals](Python/MergeIntervals/meeting-rooms.py)| Easy| |
 | 5  |[Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) | [Merge intervals](Python/MergeIntervals/meeting-rooms2.py)| Medium| |
-| 6  |[Insert intervals](https://leetcode.com/problems/insert-interval/) | [ ](Python/MergeIntervals/insert-intervals.py)| Hard| |
+| 6  |[Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals ](Python/MergeIntervals/insert-intervals.py)| Hard| |
 | 7  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [ ](Python/MergeIntervals/employee-free-time.py)|Hard | |
 
 ---
@@ -229,7 +252,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 3  | [kth Missing element in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [ ](Python/)| Medium | |
 | 4  | Search Bitonic Array | [ ]()| | |
 | 5  | Bitonic array maximum[]() | [ ]()| | |
-| 6  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [ ](Python/BinarySearch/search-rotated-sortedarray.py)|Medium | |
+| 6  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Modified BinarySearch ](Python/BinarySearch/search-rotated-sortedarray.py)|Medium | |
 | 7  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Modified BinarySearch ](Python/BinarySearch/min-rotated-sortedarray.py)| Medium | 1. O(N) updating minimum    2. O(logN) Binary search|
 |8   | [Search in rotated sorted array with duplicates ](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)  | []()  |  Medium |   |
 |9   | [Find min in rotated sorted array with duplicates](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)  | []()  | Hard   |   |
