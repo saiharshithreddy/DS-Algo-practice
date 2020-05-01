@@ -362,7 +362,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 33  | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | [](Python/Tree/)| | |
 | 34  | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [](Python/Tree/)| | |
 | 35  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [](Python/Tree/)| | |
-| 36  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) &dollar;| [](Python/Tree/)| | |
+| 36  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) &hearts;| [](Python/Tree/)| | |
 
 
 
