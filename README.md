@@ -77,7 +77,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1   | [Daily temperatures](https://leetcode.com/problems/daily-temperatures)  | [Stack](Python/Stack/daily-temperatures.py)  |  Medium | Store (day, temp) in stack  |
+|1   | [Daily temperatures](https://leetcode.com/problems/daily-temperatures) :star2: | [Stack](Python/Stack/daily-temperatures.py)  |  Medium | Store (day, temp) in stack  |
 |2   | []()  |   |   |   |
 
 ---
@@ -129,7 +129,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1   | [Design lru-cache](https://leetcode.com/problems/lru-cache)  | [Solution](Python/DesignQuestions/LRUcache.py)  | Medium  | Use doubly LL  |
+|1   | [Design lru-cache](https://leetcode.com/problems/lru-cache) :star2: | [Solution](Python/DesignQuestions/LRUcache.py)  | Medium  | Use doubly LL  |
 |2   | [insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)  | [Solution](Python/DesignQuestions/insert-getrandom.py)  | Medium  |   |
 |3   | [min-stack](https://leetcode.com/problems/min-stack)  | [Solution](Python/DesignQuestions/min-stack.py)  | Easy  |   |
 |4   | [MaxStack](https://leetcode.com/problems/max-stack/)  | [Solution](Python/DesignQuestions/max-stack.py)  | Easy  |   |
@@ -241,11 +241,11 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 [Notes](Patterns/merge-intervals.md)
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) | [Merge intervals](Python/MergeIntervals/merge_intervals.py)|Medium | |
+| 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) :star2: | [Merge intervals](Python/MergeIntervals/merge_intervals.py)|Medium | |
 | 2  |[Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Merge intervals](Python/MergeIntervals/non-overlapping-intervals.py)| Medium| |
 | 3  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [Merge intervals](Python/MergeIntervals/interval-list-intersections.py)| Medium| |
 | 4  |[Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals](Python/MergeIntervals/meeting-rooms.py)| Easy| |
-| 5  |[Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) | [Merge intervals](Python/MergeIntervals/meeting-rooms2.py)| Medium| |
+| 5  |[Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) :star2: | [Merge intervals](Python/MergeIntervals/meeting-rooms2.py)| Medium| |
 | 6  |[Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals ](Python/MergeIntervals/insert-intervals.py)| Hard| |
 | 7  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [ ](Python/MergeIntervals/employee-free-time.py)|Hard | |
 
@@ -266,7 +266,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 3  | [kth Missing element in sorted array](https://leetcode.com/problems/missing-element-in-sorted-array/) | [ ](Python/)| Medium | |
 | 4  | Search Bitonic Array | [ ]()| | |
 | 5  | Bitonic array maximum[]() | [ ]()| | |
-| 6  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Modified BinarySearch ](Python/BinarySearch/search-rotated-sortedarray.py)|Medium | |
+| 6  | [search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/) :star2: | [Modified BinarySearch ](Python/BinarySearch/search-rotated-sortedarray.py)|Medium | |
 | 7  | [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Modified BinarySearch ](Python/BinarySearch/min-rotated-sortedarray.py)| Medium | 1. O(N) updating minimum    2. O(logN) Binary search|
 |8   | [Search in rotated sorted array with duplicates ](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)  | []()  |  Medium |   |
 |9   | [Find min in rotated sorted array with duplicates](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)  | []()  | Hard   |   |
@@ -290,7 +290,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### Top K elements (Heap)
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Dictionary](Python/Heap/top-k-elements.py) | Medium | Use dictionary O(nlogn). Quickselect O(N) |
+| 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) :star2: | [Dictionary](Python/Heap/top-k-elements.py) | Medium | Use dictionary O(nlogn). Quickselect O(N) |
 | 2  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements](Python/Heap/sort-characters-freq.py)| Medium | Use dictionary |
 | 3 | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)   |[Top k elements](Python/Heap/kth-smallest-in-list.py)   |Medium   | Use heapq  |
 | 4  | [maximum-frequency-stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Top k elements]()| | |
@@ -304,7 +304,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### K-way merge
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-| 1  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [heap](Python/k-way-merge/merge-k-sortedlist.py)|Hard | |
+| 1  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) :star2: | [heap](Python/k-way-merge/merge-k-sortedlist.py)|Hard | |
 | 2  | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Heap](Python/Heap/kth-smallest-in-matrix.py)|Medium | |
 | 3  | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | []()| | |
 | 4 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | []()| | |
@@ -314,8 +314,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### DFS
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1   | [Number of islands]()  | []()  |   |   |
-|2   | [Number of distinct islands]()  | []()  |   |   |
+|1   | [Number of islands](https://leetcode.com/problems/number-of-islands) :star2: | [DFS](Python\DFS\NumOfIslands.py)  | Medium  |   |
+|2   | [Number of distinct islands](https://leetcode.com/problems/number-of-distinct-islands)  | [DFS](Python\DFS\NumofDistinctIslands.py)  | Medium  |   |
 
 ---
 ### BFS
