@@ -239,6 +239,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ### Merge Intervals
 [Notes](Patterns/merge-intervals.md)
+
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
 | 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) :star2: | [Merge intervals](Python/MergeIntervals/merge_intervals.py)|Medium | |
@@ -314,7 +315,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### DFS
 | #   |Question| Solution |Difficulty | Notes |
 | -|----- | ---------- |-----|-------|
-|1   | [Number of islands](https://leetcode.com/problems/number-of-islands) :star2: | [DFS](Python\DFS\NumOfIslands.py)  | Medium  |   |
+|1   | [Number of islands](https://leetcode.com/problems/number-of-islands) :star: | [DFS](Python\DFS\NumOfIslands.py)  | Medium  |   |
 |2   | [Number of distinct islands](https://leetcode.com/problems/number-of-distinct-islands)  | [DFS](Python\DFS\NumofDistinctIslands.py)  | Medium  |   |
 
 ---
