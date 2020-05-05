@@ -10,5 +10,5 @@ def reverse(str):
     return str
 
 def test():
-    assert reverse('harshith') == 'htihsrah'
+    assert reverse('harshith') == 'htihsrah
     
