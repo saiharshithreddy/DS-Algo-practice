@@ -1,5 +1,15 @@
 # DS-Algo-interview-preparation in Python
 
+
+# Pie chart
+{{Pie-Chart}}
+- a:1
+- b:2
+- c: 3
+- a:1
+- b:2
+- c: 3
+
 #### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
 #### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
 ---
@@ -78,7 +88,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### String
 | #   |Question| Solution |Difficulty | Tags |Notes |
 | -|----- | ---------- |-----|-------|----|
-|1 | []() | []() | Medium | ```ascii``` ```hashmap```|  |
+| 1| [group-anagrams](https://leetcode.com/problems/group-anagrams.py) |[String](Python/String/group-anagrams.py) |Medium| | |
 
 ---
 ### Stack
@@ -270,7 +280,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 10  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Binary search + Two pointers](Python/BinarySearch/k-closest-elements.py)|Medium | | |
 
 ---
-### Bitwise XOR
+### BitwiseXOR
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  | [single-number](https://leetcode.com/problems/single-number/) | [XOR](Python\bitwiseXOR\single-number.py)| Easy  || This is a follow up to: Space O(1) |
@@ -280,7 +290,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 5  | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | [ ]()| | | |
 
 ---
-### Top K elements (Heap)
+### Heap
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) :star: | [Heap](Python/Heap/top-k-elements.py) | Medium | | Use dictionary O(nlogn). Quickselect O(N) |
@@ -295,7 +305,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |10   |[top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words)   | [Heap](Python\Heap\top-k-frequent-words.py)  | Medium  |   | | |
 
 ---
-### K-way merge
+### K-wayMerge
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) :star: | [heap](Python/k-way-merge/merge-k-sortedlist.py)|Hard | | |

@@ -10,7 +10,7 @@ def add_content(topic, filename, difficulty):
 
     leetcode = 'https://leetcode.com/problems/'
     category = "### " + topic
-    print(category)
+    
     try:
         new_file_path = 'Python/' + topic + '/' + filename
         Path(new_file_path).touch()
