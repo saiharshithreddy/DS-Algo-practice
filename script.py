@@ -2,15 +2,13 @@ import fileinput
 import sys
 from pathlib import Path
 
-
-
 readme = 'README.md'
 
 def add_content(topic, filename, difficulty):
 
     leetcode = 'https://leetcode.com/problems/'
     category = "### " + topic
-    
+
     try:
         new_file_path = 'Python/' + topic + '/' + filename
         Path(new_file_path).touch()
@@ -50,6 +48,7 @@ def add_content(topic, filename, difficulty):
                     count += 1
                 f.write(line)
         f.close()
+
 
 
 if __name__ == "__main__":

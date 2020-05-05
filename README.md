@@ -1,15 +1,8 @@
 # DS-Algo-interview-preparation in Python
 
-
-# Pie chart
-{{Pie-Chart}}
-- a:1
-- b:2
-- c: 3
-- a:1
-- b:2
-- c: 3
-
+![Language](https://img.shields.io/badge/language-Python%20-orange.svg)&nbsp;
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
+![Progress](https://img.shields.io/badge/progress-255%20%2F%201439-green4.svg)&nbsp;
 #### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
 #### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
 ---
