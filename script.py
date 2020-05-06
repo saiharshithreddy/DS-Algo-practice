@@ -16,7 +16,7 @@ def add_content(topic, filename, difficulty):
     def content(count):
         s_no = "| " + str(count)
         question = "| [" + filename[:-3] + "]"
-        question_link = "(" + leetcode + filename + ") |"
+        question_link = "(" + leetcode + filename[:-3] + ") |"
         solution = "[" + topic + "]" + "(" + new_file_path + ") |"
         diff = difficulty + "| | |"
         text = s_no + question + question_link + solution + diff

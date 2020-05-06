@@ -101,12 +101,12 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |5   | [powx-n](https://leetcode.com/problems/powx-n)  | []()  |   |   ||
 |6   | [perfect-squares](https://leetcode.com/problems/perfect-squares)  | []()  |   |   ||
 |7   | [excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number)  | []()  |   |   ||
-|8   | [sqrtx](https://leetcode.com/problems/sqrtx)  | []()  |   |   ||
+| -2| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
 |9   | [factorial-trailing-zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)  | []()  |   |   ||
 
 ---
 
-### Two pointers
+### TwoPointers
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  |[Two sum ](https://leetcode.com/problems/two-sum/) | [Dictionary](Python/TwoPointers/twosum.py) [Two pointers](Python/TwoPointers/twosum_sorted.py) | Easy |  ||
@@ -129,7 +129,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |18  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](Python/TwoPointers/Remove_duplicates_from_sortedarray.py)|Easy |  ||
 |19  | [Candy crush](https://leetcode.com/problems/candy-crush)|[](Python/TwoPointers/)|Medium | ||
 |20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard ||1. Two pointers is O(n+m).  2. Binary search O(log(min(n,m)) [Algo](Notes/Median-of-2sortedarrays.pdf)|
-
+| 21| [valid-triangle-number](https://leetcode.com/problems/valid-triangle-number) |[TwoPointers](Python/TwoPointers/valid-triangle-number.py) |Medium|```BinarySearch``` ```TwoPointers``` | Similar to 3 sum closest |
 
 ---
 
@@ -256,7 +256,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 3  |[First missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort](Python/CyclicSort/first-missing-positive.py)| Hard | | TC: O(N), SC: O(1) |
 
 ---
-### Modified Binary Search
+### BinarySearch
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  | [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Modified binary search](Python/BinarySearch/find-first-last-in-sortedarray.py)| Medium |  | |
@@ -271,8 +271,12 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 8  | Rotation count | [ ]()| | | |
 | 9  | Order agnostic binary search | [ ]()| | | |
 | 10  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Binary search + Two pointers](Python/BinarySearch/k-closest-elements.py)|Medium | | |
-
+| 13| [first-bad-version](https://leetcode.com/problems/first-bad-version) |[BinarySearch](Python/BinarySearch/first-bad-version.py) |Easy| | |
+| 14| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
+| -2| [valid-triangle-number](https://leetcode.com/problems/valid-triangle-number) |[TwoPointers](Python/TwoPointers/valid-triangle-number.py) |Medium| | |
+| 16| [valid-perfect-square](https://leetcode.com/problems/valid-perfect-square) |[BinarySearch](Python/BinarySearch/valid-perfect-square.py) |Easy| | |
 ---
+| 18| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
 ### BitwiseXOR
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
@@ -281,7 +285,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 3  | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/) | []()| | | |
 | 4  | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [ ]()| | | |
 | 5  | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | [ ]()| | | |
-
+| -2| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
 ---
 ### Heap
 | #   |Question| Solution |Difficulty | Tags| Notes |
@@ -382,7 +386,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |13   | Detect cycle in an undirected graph  | [DFS](Python/Graphs/cycle-undirected.py)  | Medium  | |  |
 |14   | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary)  | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  || [Notes](Notes/Reconstruct-itinerary.pdf)  |
 |15   |[Number of connected components](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)   | [DFS](Python/Graphs/connected-components.py)   | Medium  | |  |
-| 16| [alien-dictionary](https://leetcode.com/problems/alien-dictionary.py) |[Graphs](Python/Graphs/alien-dictionary.py) |Hard| | |
+| 16| [alien-dictionary](https://leetcode.com/problems/alien-dictionary) |[Graphs](Python/Graphs/alien-dictionary.py) |Hard| | |
 
 
 ---
