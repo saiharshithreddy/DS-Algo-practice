@@ -40,6 +40,8 @@ def add_content(topic, filename, difficulty):
             elif (found and len(line.strip()) == 0) or filename[:-3] in line.strip():
                 f.write(content(count-2))
                 f.write('\n')
+                if len(line.strip()) == 0:
+                    f.write('\n')
                 found = False
                 count = 0
 

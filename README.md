@@ -2,9 +2,11 @@
 
 ![Language](https://img.shields.io/badge/language-Python%20-orange.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
-![Progress](https://img.shields.io/badge/progress-255%20%2F%201439-green4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-258%20%2F%201439-green4.svg)&nbsp;
+
 #### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
 #### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
+
 ---
 **Install jupyter notebook extensions**
 ```
@@ -58,13 +60,19 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 <!-- /TOC -->
 
-### Array
+### Arrays
 | #   |Question| Solution |Difficulty | Tags |Notes |
 | -|----- | ---------- |-----|-------|----|
 |1    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/Arrays/product_except_self.py)  | Medium  |```Array``` ```Two pointers```|Follow up: O(N) Left product & right product  |
 |2   | [Right rotate array](https://leetcode.com/problems/rotate-array/)  | [Reverse array](Python\Arrays\right_rotate.py)  | Easy  |   |   |
+| 3| [find-all-numbers-disappeared-in-an-array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) |[Array](Python/Array/find-all-numbers-disappeared-in-an-array.py) |Easy| | |
+| 4| [find-all-duplicates-in-an-array](https://leetcode.com/problems/find-all-duplicates-in-an-array) |[Arrays](Python/Arrays/find-all-duplicates-in-an-array.py) |Medium| | |
+
 
 ---
+
+
+
 ### Matrix
 | #   |Question| Solution |Difficulty | Tags |Notes |
 | -|----- | ---------- |-----|-------|----|
@@ -101,7 +109,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |5   | [powx-n](https://leetcode.com/problems/powx-n)  | []()  |   |   ||
 |6   | [perfect-squares](https://leetcode.com/problems/perfect-squares)  | []()  |   |   ||
 |7   | [excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number)  | []()  |   |   ||
-| -2| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
+| 8| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
 |9   | [factorial-trailing-zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)  | []()  |   |   ||
 
 ---
@@ -133,7 +141,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ---
 
-### Design datastructures questions
+### DesignDatastructures
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 |1   | [Design lru-cache](https://leetcode.com/problems/lru-cache) :star: | [Solution](Python/DesignQuestions/LRUcache.py)  | Medium|  | Use doubly LL  |
@@ -209,12 +217,12 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ---
 
-### Sliding Window
+### SlidingWindow
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  |[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](Python/SlidingWindow/max_sum_subarray.py) | Easy | ||
 | 2   |[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](Python/SlidingWindow/smallest_sub_array_with_given_sum.py)|  Easy | |[Algo](Notes/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
-| 3   |[Longest Substring with at most K Distinct Characters *](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) | [Sliding window](Python/SlidingWindow/Longest_substring_withK_distinct_characters.py) | Hard | | |
+| 3| [longest-substring-with-at-most-k-distinct-characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) |[SlidingWindow](Python/SlidingWindow/longest-substring-with-at-most-k-distinct-characters.py) |Hard| | |
 |4  |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](Python/SlidingWindow/fruits_into_baskets.py) | Medium | |[Algo](Notes/Fruits_into_baskets.pdf) |
 |5  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](Python/SlidingWindow/Longest_repeating_character_replacement.py)| Medium | | |
 |6  | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Sliding Window](Python/SlidingWindow/permutation_in_string.py)| Medium | | |
@@ -229,9 +237,11 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |15   | [grumpy-bookstore-owner](https://leetcode.com/problems/grumpy-bookstore-owner/)  |   |   |   | |
 |16   | [minimum-window-subsequence](https://leetcode.com/problems/minimum-window-subsequence/)  |   |   |   | |
 |17   | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/)  |   |   |   | |
-|18   | [subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)  |   |    ||   |
+| 18| [subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers) |[SlidingWindow](Python/SlidingWindow/subarrays-with-k-different-integers.py) |Hard| | |
 |19   | [number-of-submatrices-that-sum-to-target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)  |   ||   |   |
 |20   | [subarray-product-less-than-k](https://leetcode.com/problems/subarray-product-less-than-k/)  | [Sliding Window](Python/SlidingWindow/subarray_prod_less_thanK.py)  | Medium  |   ||
+| 21| [longest-substring-with-at-most-two-distinct-characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters) |[SlidingWindow](Python/SlidingWindow/longest-substring-with-at-most-two-distinct-characters.py) |Medium| | |
+| 22| subarrays-with-at-most-k-different-integers |[SlidingWindow](Python/SlidingWindow/subarrays-with-at-most-k-different-integers.py) |Medium| | |
 
 
 ---
@@ -247,13 +257,16 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 6  |[Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals ](Python/MergeIntervals/insert-intervals.py)| Hard| |
 | 7  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [ ](Python/MergeIntervals/employee-free-time.py)|Hard | |
 
+
+
 ---
-### Cyclic sort
+### CyclicSort
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  | [Missing number](https://leetcode.com/problems/missing-number/) | [Cyclic sort](Python/CyclicSort/)| Easy| | n*n+1/2|
-| 2  | [Find all missing numbers](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Cyclic sort](Python/CyclicSort/find-all-missing-nos.py)| Medium | |index + 1 == nums[index]? |
-| 3  |[First missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort](Python/CyclicSort/first-missing-positive.py)| Hard | | TC: O(N), SC: O(1) |
+| 2  |[First missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort](Python/CyclicSort/first-missing-positive.py)| Hard | | TC: O(N), SC: O(1) |
+
+
 
 ---
 ### BinarySearch
@@ -275,8 +288,13 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 14| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
 | -2| [valid-triangle-number](https://leetcode.com/problems/valid-triangle-number) |[TwoPointers](Python/TwoPointers/valid-triangle-number.py) |Medium| | |
 | 16| [valid-perfect-square](https://leetcode.com/problems/valid-perfect-square) |[BinarySearch](Python/BinarySearch/valid-perfect-square.py) |Easy| | |
+| 17| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
+| 18| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
+
+
+
 ---
-| 18| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
+
 ### BitwiseXOR
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
@@ -285,8 +303,11 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 3  | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/) | []()| | | |
 | 4  | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [ ]()| | | |
 | 5  | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | [ ]()| | | |
-| -2| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
+
+
+
 ---
+
 ### Heap
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
@@ -301,7 +322,13 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |9   | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  | [Heap](Python\Heap\kth-largest-element-in-stream.py)  | Easy  |   | |
 |10   |[top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words)   | [Heap](Python\Heap\top-k-frequent-words.py)  | Medium  |   | | |
 
+
+
+
 ---
+
+
+
 ### K-wayMerge
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
@@ -311,20 +338,40 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 4 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | []()| | | |
 | 5  | [partition-equal-subset-sum](https://leetcode.com/problems/partition-equal-subset-sum/) | []()| | | |
 
+
+
 ---
+
+
+
 ### DFS
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 |1   | [Number of islands](https://leetcode.com/problems/number-of-islands) :star: | [DFS](Python\DFS\NumOfIslands.py)  | Medium  |   | |
 |2   | [Number of distinct islands](https://leetcode.com/problems/number-of-distinct-islands)  | [DFS](Python\DFS\NumofDistinctIslands.py)  | Medium  |   | |
 
+
+
 ---
+
+
+
+
 ### BFS
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 |1   | [rotting-oranges](https://leetcode.com/problems/rotting-oranges/)  | [BFS](Python/Tree/rotting-oranges.py)  | Medium  |   | |
 
+
+
+
 ---
+
+
+
+
+
+
 ### Trees
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
@@ -368,6 +415,10 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 
 ---
+
+
+
+
 ### Graphs
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
@@ -390,6 +441,11 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 
 ---
+
+
+
+
+
 ### TopologicalSort
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
@@ -411,7 +467,17 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |5   | [Min cost climbing stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)  |   | |  |   |
 | 6| [longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence.py) |[DynamicProgramming](Python/DynamicProgramming/longest-consecutive-sequence.py) |Medium| ||
 | 7| [coin-change-ii](https://leetcode.com/problems/coin-change-ii.py) |[DynamicProgramming](Python/DynamicProgramming/coin-change-ii.py) |Medium| | ||
+
+
+
+
+
 ---
+
+
+
+
+
 ###  Backtracking
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
@@ -439,7 +505,11 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |22   | [permutation-sequence](https://leetcode.com/problems/permutation-sequence)  |   |   |   ||
 |23   | [Word ladder 2]()  | []()  |   |   ||
 
+
+
 ---
+
+
 ### Trie
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
