@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/language-Python%20-orange.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
-![Progress](https://img.shields.io/badge/progress-258%20%2F%201439-green4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-262%20%2F%201439-green4.svg)&nbsp;
 
 #### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
 #### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
@@ -42,7 +42,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
     - [Fast and slow pointers](#fast-and-slow-pointers)
     - [In-place reverse](#in-place-reverse)
     - [LinkedList](#linkedlist)
-    - [Sliding Window](#sliding-window)
+    - [SlidingWindow](#sliding-window)
     - [Merge Intervals](#merge-intervals)
     - [Cyclic sort](#cyclic-sort)
     - [Modified Binary Search](#modified-binary-search)
@@ -67,6 +67,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |2   | [Right rotate array](https://leetcode.com/problems/rotate-array/)  | [Reverse array](Python\Arrays\right_rotate.py)  | Easy  |   |   |
 | 3| [find-all-numbers-disappeared-in-an-array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) |[Array](Python/Array/find-all-numbers-disappeared-in-an-array.py) |Easy| | |
 | 4| [find-all-duplicates-in-an-array](https://leetcode.com/problems/find-all-duplicates-in-an-array) |[Arrays](Python/Arrays/find-all-duplicates-in-an-array.py) |Medium| | |
+| 5| [subarray-sum-equals-k](https://leetcode.com/problems/subarray-sum-equals-k) :star:|[Arrays](Python/Arrays/subarray-sum-equals-k.py) |Medium| | |
 
 
 ---
@@ -242,6 +243,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |20   | [subarray-product-less-than-k](https://leetcode.com/problems/subarray-product-less-than-k/)  | [Sliding Window](Python/SlidingWindow/subarray_prod_less_thanK.py)  | Medium  |   ||
 | 21| [longest-substring-with-at-most-two-distinct-characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters) |[SlidingWindow](Python/SlidingWindow/longest-substring-with-at-most-two-distinct-characters.py) |Medium| | |
 | 22| subarrays-with-at-most-k-different-integers |[SlidingWindow](Python/SlidingWindow/subarrays-with-at-most-k-different-integers.py) |Medium| | |
+| 23| [count-number-of-nice-subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays) |[SlidingWindow](Python/SlidingWindow/count-number-of-nice-subarrays.py) |Medium| | |
+| 24| [binary-subarrays-with-sum](https://leetcode.com/problems/binary-subarrays-with-sum) |[SlidingWindow](Python/SlidingWindow/binary-subarrays-with-sum.py) |Medium| ```atmostK - atmostk-1 concept``` | |
 
 
 ---
