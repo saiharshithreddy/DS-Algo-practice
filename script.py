@@ -1,7 +1,7 @@
 import fileinput
 import sys
 from pathlib import Path
-
+import git
 readme = 'README.md'
 
 def add_content(topic, filename, difficulty):
@@ -50,8 +50,8 @@ def add_content(topic, filename, difficulty):
                     count += 1
                 f.write(line)
         f.close()
-
-
+        git.add()
+            
 
 if __name__ == "__main__":
     add_content(sys.argv[1], sys.argv[2], sys.argv[3])
