@@ -24,7 +24,7 @@ class Solution:
             
             i = win_start
             while sum == S and i < win_end and A[i] == 0:
-                count += 1 
+                count += 1  
                 i += 1
                 
         return count

@@ -26,7 +26,9 @@ class Solution:
             if odd_count == k:
                 nice_subarrays += 1
             
-            # If 
+            # [1,2,3,2,1] num of odd: 3 but k = 2 so if we shrink the window to [2,3,2,1] we have a subarray with odd nums = 2 
+            # [2,2,2,1,2,3,1] num of odd = 3 k = 2 then shrink to to [2,2,1,2,3,1] but stil odd = 3 so that why we iterate till odd_count is
+            # not greater than k
             while win_start < win_end and odd_count > k:
                 
                 if nums[win_start] % 2 != 0:
@@ -42,8 +44,6 @@ class Solution:
             while odd_count == k and i < win_end and nums[i] % 2 == 0:
                 nice_subarrays += 1
                 i += 1
-                
-            
 
         return nice_subarrays
 

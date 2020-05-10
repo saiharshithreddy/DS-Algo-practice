@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/language-Python%20-orange.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
-![Progress](https://img.shields.io/badge/progress-262%20%2F%201439-green4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-270%20%2F%20500-green4.svg)&nbsp;
 
 #### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
 #### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
@@ -32,28 +32,29 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 <!-- TOC -->
 
 - [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
-    - [Array](#array)
+
+    - [Arrays](#arrays)
     - [Matrix](#matrix)
     - [String](#string)
     - [Stack](#stack)
     - [Math](#math)
-    - [Two pointers](#two-pointers)
-    - [Design datastructures questions](#design-datastructures-questions)
+    - [TwoPointers](#twopointers)
+    - [DesignDatastructures](#designdatastructures)
     - [Fast and slow pointers](#fast-and-slow-pointers)
     - [In-place reverse](#in-place-reverse)
     - [LinkedList](#linkedlist)
-    - [SlidingWindow](#sliding-window)
+    - [SlidingWindow](#slidingwindow)
     - [Merge Intervals](#merge-intervals)
-    - [Cyclic sort](#cyclic-sort)
-    - [Modified Binary Search](#modified-binary-search)
-    - [Bitwise XOR](#bitwise-xor)
-    - [Top K elements (Heap)](#top-k-elements-heap)
-    - [K-way merge](#k-way-merge)
+    - [CyclicSort](#cyclicsort)
+    - [BinarySearch](#binarysearch)
+    - [BitwiseXOR](#bitwisexor)
+    - [Heap](#heap)
+    - [K-wayMerge](#k-waymerge)
     - [DFS](#dfs)
     - [BFS](#bfs)
     - [Trees](#trees)
     - [Graphs](#graphs)
-    - [Topological sort](#topological-sort)
+    - [TopologicalSort](#topologicalsort)
     - [DynamicProgramming](#dynamicprogramming)
     - [Backtracking](#backtracking)
     - [Trie](#trie)
@@ -68,6 +69,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 3| [find-all-numbers-disappeared-in-an-array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) |[Array](Python/Array/find-all-numbers-disappeared-in-an-array.py) |Easy| | |
 | 4| [find-all-duplicates-in-an-array](https://leetcode.com/problems/find-all-duplicates-in-an-array) |[Arrays](Python/Arrays/find-all-duplicates-in-an-array.py) |Medium| | |
 | 5| [subarray-sum-equals-k](https://leetcode.com/problems/subarray-sum-equals-k) :star:|[Arrays](Python/Arrays/subarray-sum-equals-k.py) |Medium| | |
+| 6| [max consecutive ones](https://leetcode.com/problems/max-consecutive-ones) |[Arrays](Python/Arrays/max-consecutive-ones.py) |Easy| | |
 
 
 ---
@@ -87,6 +89,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 
 ---
+
 ### String
 | #   |Question| Solution |Difficulty | Tags |Notes |
 | -|----- | ---------- |-----|-------|----|
@@ -137,7 +140,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |17 | [Move zeros](https://leetcode.com/problems/move-zeroes)|[Two pointers](Python/TwoPointers/move_zeroes.py)|Easy |  ||
 |18  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](Python/TwoPointers/Remove_duplicates_from_sortedarray.py)|Easy |  ||
 |19  | [Candy crush](https://leetcode.com/problems/candy-crush)|[](Python/TwoPointers/)|Medium | ||
-|20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard ||1. Two pointers is O(n+m).  2. Binary search O(log(min(n,m)) [Algo](Notes/Median-of-2sortedarrays.pdf)|
+|20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard ||1. Two pointers is O(n+m)<br>.  2. Binary search O(log(min(n,m)) [Algo](Notes/Median-of-2sortedarrays.pdf)|
 | 21| [valid-triangle-number](https://leetcode.com/problems/valid-triangle-number) |[TwoPointers](Python/TwoPointers/valid-triangle-number.py) |Medium|```BinarySearch``` ```TwoPointers``` | Similar to 3 sum closest |
 
 ---
@@ -226,16 +229,16 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 3| [longest-substring-with-at-most-k-distinct-characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) |[SlidingWindow](Python/SlidingWindow/longest-substring-with-at-most-k-distinct-characters.py) |Hard| | |
 |4  |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](Python/SlidingWindow/fruits_into_baskets.py) | Medium | |[Algo](Notes/Fruits_into_baskets.pdf) |
 |5  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](Python/SlidingWindow/Longest_repeating_character_replacement.py)| Medium | | |
-|6  | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Sliding Window](Python/SlidingWindow/permutation_in_string.py)| Medium | | |
+| 6| [permutation in string](https://leetcode.com/problems/permutation-in-string) |[SlidingWindow](Python/SlidingWindow/permutation-in-string.py) |Medium|```Hashmap``` ```Two strings``` | |
 |7  | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Sliding Window ](Python/SlidingWindow/longest-substring-without-repeating-characters.py) |Medium | | |
-|8   | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | [Sliding Window ](Python/SlidingWindow/max-consecutive-ones.py) | Medium | | |
-|9   | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | []() | Medium | | |
-|10 | [Minimum Window substring](https://leetcode.com/problems/minimum-window-substring/) | []() || | |
-|11  | [Concatenated words](https://leetcode.com/problems/concatenated-words/) | [ ]() | | | |
-|12  | [Minimum Window substring](https://leetcode.com/problems/) | []() | Hard| | |
+| 8| [max consecutive ones iii](https://leetcode.com/problems/max-consecutive-ones-iii) |[SlidingWindow](Python/SlidingWindow/max-consecutive-ones-iii.py) |Medium| | |
+| 9| [find all anagrams in a string](https://leetcode.com/problems/find-all-anagrams-in-a-string) |[SlidingWindow](Python/SlidingWindow/find-all-anagrams-in-a-string.py) |Medium|```Hashmap``` ```Two strings``` | |
+| 10| [minimum window substring](https://leetcode.com/problems/minimum-window-substring) |[SlidingWindow](Python/SlidingWindow/minimum-window-substring.py) |Hard| | |
+| 11| [substring with concatenation of all words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) |[SlidingWindow](Python/SlidingWindow/substring-with-concatenation-of-all-words.py) |Hard| | |
+| 12| subarrays-with-at-most-k-different-integers |[SlidingWindow](Python/SlidingWindow/subarrays-with-at-most-k-different-integers.py) |Medium| | |
 |13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [ ]() | Hard | | Use max heap |
 |14   | [consecutive-numbers-sum](https://leetcode.com/problems/consecutive-numbers-sum/)  | [Sliding window & Math](Python/SlidingWindow/consecutive-numbers-sum.py)  | Hard  |   | |
-|15   | [grumpy-bookstore-owner](https://leetcode.com/problems/grumpy-bookstore-owner/)  |   |   |   | |
+| 15| [grumpy bookstore owner](https://leetcode.com/problems/grumpy-bookstore-owner) |[SlidingWindow](Python/SlidingWindow/grumpy-bookstore-owner.py) |Medium| | |
 |16   | [minimum-window-subsequence](https://leetcode.com/problems/minimum-window-subsequence/)  |   |   |   | |
 |17   | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/)  |   |   |   | |
 | 18| [subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers) |[SlidingWindow](Python/SlidingWindow/subarrays-with-k-different-integers.py) |Hard| | |
@@ -247,9 +250,11 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 24| [binary-subarrays-with-sum](https://leetcode.com/problems/binary-subarrays-with-sum) |[SlidingWindow](Python/SlidingWindow/binary-subarrays-with-sum.py) |Medium| ```atmostK - atmostk-1 concept``` | |
 
 
+
+
 ---
 
-### Merge Intervals
+### Merge_Intervals
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) :star: | [Merge intervals](Python/MergeIntervals/merge_intervals.py)|Medium | |
@@ -324,6 +329,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 8  | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | [Top k elements]()| | | |
 |9   | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  | [Heap](Python\Heap\kth-largest-element-in-stream.py)  | Easy  |   | |
 |10   |[top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words)   | [Heap](Python\Heap\top-k-frequent-words.py)  | Medium  |   | | |
+| 11| [find median from data stream](https://leetcode.com/problems/find-median-from-data-stream) |[Heap](Python/Heap/find-median-from-data-stream.py) |Hard| | |
 
 
 

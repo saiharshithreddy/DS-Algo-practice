@@ -1,7 +1,6 @@
 import fileinput
 import sys
 from pathlib import Path
-import git
 readme = 'README.md'
 
 def add_content(topic, filename, difficulty):
@@ -15,7 +14,8 @@ def add_content(topic, filename, difficulty):
     except: pass
     def content(count):
         s_no = "| " + str(count)
-        question = "| [" + filename[:-3] + "]"
+        filen = ' '.join(filename[:-3].split('-'))
+        question = "| [" + filen + "]"
         question_link = "(" + leetcode + filename[:-3] + ") |"
         solution = "[" + topic + "]" + "(" + new_file_path + ") |"
         diff = difficulty + "| | |"
@@ -50,7 +50,7 @@ def add_content(topic, filename, difficulty):
                     count += 1
                 f.write(line)
         f.close()
-        git.add()
+        
             
 
 if __name__ == "__main__":
