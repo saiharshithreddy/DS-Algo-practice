@@ -18,3 +18,5 @@ class Solution:
             if nums[j] > 0: # if positive then appears twice
                 duplicate_nums.append(abs(nums[i]))
         return duplicate_nums
+
+        

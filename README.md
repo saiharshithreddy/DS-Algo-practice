@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/language-Python%20-orange.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
-![Progress](https://img.shields.io/badge/progress-270%20%2F%20500-green4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-270%20%2F%20350-green4.svg)&nbsp;
 
 #### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
 #### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
@@ -90,22 +90,17 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ---
 
-### String
+### Strings
 | #   |Question| Solution |Difficulty | Tags |Notes |
 | -|----- | ---------- |-----|-------|----|
 | 1| [group-anagrams](https://leetcode.com/problems/group-anagrams.py) |[String](Python/String/group-anagrams.py) |Medium| | |
+| 2| [reverse words in a string](https://leetcode.com/problems/reverse-words-in-a-string) |[Strings](Python/Strings/reverse-words-in-a-string.py) |Medium| ```Two pointers``` | |
+
+
+
 
 ---
-### Stack
-| #   |Question| Solution |Difficulty | Tags| Notes |
-| -|----- | ---------- |-----|---|----|
-|1   | [Daily temperatures](https://leetcode.com/problems/daily-temperatures) :star: | [Stack](Python/Stack/daily-temperatures.py)  |  Medium |```stack``` | logic: Next greater element in a stack, Store (day, temp) in stack  |
-|2   | Evaluate Postfix Expression Using a Stack  | []()  |   |   |
-| 3| [next greater element i](https://leetcode.com/problems/next-greater-element-i) |[Stack](Python/Stack/next-greater-element-i.py) |Easy| | |
-| 4| [next greater element ii](https://leetcode.com/problems/next-greater-element-ii) |[Stack](Python/Stack/next-greater-element-ii.py) |Medium| | |
-| 5| [next greater element iii](https://leetcode.com/problems/next-greater-element-iii) |[Stack](Python/Stack/next-greater-element-iii.py) |Medium| | |
 
----
 ### Math
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
@@ -124,7 +119,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### TwoPointers
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
-| 1  |[Two sum ](https://leetcode.com/problems/two-sum/) | [Dictionary](Python/TwoPointers/twosum.py) [Two pointers](Python/TwoPointers/twosum_sorted.py) | Easy |  ||
+| 1  |[Two sum ](https://leetcode.com/problems/two-sum/) | [Dictionary](Python/TwoPointers/twosum.py) <br> [Two pointers](Python/TwoPointers/twosum_sorted.py) | Easy |  ||
 | 2  | [Two sum less than k](https://leetcode.com/problems/two-sum-less-than-k/)  | [Two pointers](Python/TwoPointers/twosum-lessthanK.py)  | Easy  |   ||
 |3   | [3 Sum](https://leetcode.com/problems/3sum/) | [Two pointers](Python/TwoPointers/3sum.py) | Medium | ||
 |4  | [3 Sum closest](https://leetcode.com/problems/3sum-closest/) | [Two pointers](Python/TwoPointers/3sum_closest.py) | Medium | ||
@@ -143,10 +138,27 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |17 | [Move zeros](https://leetcode.com/problems/move-zeroes)|[Two pointers](Python/TwoPointers/move_zeroes.py)|Easy |  ||
 |18  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](Python/TwoPointers/Remove_duplicates_from_sortedarray.py)|Easy |  ||
 |19  | [Candy crush](https://leetcode.com/problems/candy-crush)|[](Python/TwoPointers/)|Medium | ||
-|20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard ||1. Two pointers is O(n+m)<br>.  2. Binary search O(log(min(n,m)) [Algo](Notes/Median-of-2sortedarrays.pdf)|
+|20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard ||1. Two pointers is O(n+m)<br>  2. Binary search O(log(min(n,m)) [Algo](Notes/Median-of-2sortedarrays.pdf)|
 | 21| [valid-triangle-number](https://leetcode.com/problems/valid-triangle-number) |[TwoPointers](Python/TwoPointers/valid-triangle-number.py) |Medium|```BinarySearch``` ```TwoPointers``` | Similar to 3 sum closest |
 
 ---
+
+### Stack
+| #   |Question| Solution |Difficulty | Tags| Notes |
+| -|----- | ---------- |-----|---|----|
+|1   | [Daily temperatures](https://leetcode.com/problems/daily-temperatures) :star: | [Stack](Python/Stack/daily-temperatures.py)  |  Medium |```stack``` | logic: Next greater element in a stack, Store (day, temp) in stack  |
+|2   | Evaluate Postfix Expression Using a Stack  | []()  |   |   |
+| 3| [next greater element i](https://leetcode.com/problems/next-greater-element-i) |[Stack](Python/Stack/next-greater-element-i.py) |Easy| | |
+| 4| [next greater element ii](https://leetcode.com/problems/next-greater-element-ii) |[Stack](Python/Stack/next-greater-element-ii.py) |Medium| | |
+| 5| [next greater element iii](https://leetcode.com/problems/next-greater-element-iii) |[Stack](Python/Stack/next-greater-element-iii.py) |Medium| | |
+
+---
+
+### Greedy
+| #   |Question| Solution |Difficulty | Tags| Notes |
+| -|----- | ---------- |-----|---|----|
+| 1| [walking robot simulation](https://leetcode.com/problems/walking-robot-simulation) |[Greedy](Python/Greedy/walking-robot-simulation.py) |Easy| | |
+
 
 ### DesignDatastructures
 | #   |Question| Solution |Difficulty | Tags| Notes |
@@ -260,13 +272,14 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### Merge_Intervals
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
-| 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) :star: | [Merge intervals](Python/MergeIntervals/merge_intervals.py)|Medium | |
-| 2  |[Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Merge intervals](Python/MergeIntervals/non-overlapping-intervals.py)| Medium| |
-| 3  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [Merge intervals](Python/MergeIntervals/interval-list-intersections.py)| Medium| |
-| 4  |[Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals](Python/MergeIntervals/meeting-rooms.py)| Easy| |
-| 5  |[Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) :star: | [Merge intervals](Python/MergeIntervals/meeting-rooms2.py)| Medium| |
-| 6  |[Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals ](Python/MergeIntervals/insert-intervals.py)| Hard| |
-| 7  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [ ](Python/MergeIntervals/employee-free-time.py)|Hard | |
+| 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) :star: | [Merge intervals](Python/MergeIntervals/merge_intervals.py)|Medium |
+```sort``` | |
+| 2  |[Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Merge intervals](Python/MergeIntervals/non-overlapping-intervals.py)| Medium|```sort``` | |
+| 3  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [Merge intervals](Python/MergeIntervals/interval-list-intersections.py)| Medium|```sort``` | |
+| 4  |[Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals](Python/MergeIntervals/meeting-rooms.py)| Easy|```sort``` | |
+| 5  |[Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) :star: | [Merge intervals](Python/MergeIntervals/meeting-rooms2.py)| Medium|```sort``` | |
+| 6  |[Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals ](Python/MergeIntervals/insert-intervals.py)| Hard|```sort``` | |
+| 7  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [ ](Python/MergeIntervals/employee-free-time.py)|Hard |```sort``` | |
 
 
 
@@ -301,6 +314,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 16| [valid-perfect-square](https://leetcode.com/problems/valid-perfect-square) |[BinarySearch](Python/BinarySearch/valid-perfect-square.py) |Easy| | |
 | 17| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
 | 18| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
+| 19| [find peak element](https://leetcode.com/problems/find-peak-element) |[BinarySearch](Python/BinarySearch/find-peak-element.py) |Medium| | |
 
 
 
@@ -361,6 +375,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | -|----- | ---------- |-----|---|----|
 |1   | [Number of islands](https://leetcode.com/problems/number-of-islands) :star: | [DFS](Python\DFS\NumOfIslands.py)  | Medium  |   | |
 |2   | [Number of distinct islands](https://leetcode.com/problems/number-of-distinct-islands)  | [DFS](Python\DFS\NumofDistinctIslands.py)  | Medium  |   | |
+| 3| [friends circles](https://leetcode.com/problems/friends-circles) |[DFS](Python/DFS/friends-circles.py) |Medium| | |
 
 
 
@@ -423,6 +438,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 34  | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [](Python/Tree/)| | ||
 | 35  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [](Python/Tree/)| | ||
 | 36  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) :lock:| [](Python/Tree/)| | ||
+| 37| [recover binary search tree](https://leetcode.com/problems/recover-binary-search-tree) |[Tree](Python/Tree/recover-binary-search-tree.py) |Hard| | |
 
 
 
@@ -448,7 +464,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |12   | Detect cycle in a directed graph  | []()  | Medium | |   |
 |13   | Detect cycle in an undirected graph  | [DFS](Python/Graphs/cycle-undirected.py)  | Medium  | |  |
 |14   | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary)  | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  || [Notes](Notes/Reconstruct-itinerary.pdf)  |
-|15   |[Number of connected components](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)   | [DFS](Python/Graphs/connected-components.py)   | Medium  | |  |
+| 15| [number of connected components in an undirected graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) |[Graphs](Python/Graphs/number-of-connected-components-in-an-undirected-graph.py) |Medium| | |
 | 16| [alien-dictionary](https://leetcode.com/problems/alien-dictionary) |[Graphs](Python/Graphs/alien-dictionary.py) |Hard| | |
 
 
