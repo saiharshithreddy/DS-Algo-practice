@@ -2,7 +2,7 @@
 
 ![Language](https://img.shields.io/badge/language-Python%20-orange.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
-![Progress](https://img.shields.io/badge/progress-270%20%2F%20350-green4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-275%20%2F%20350-green4.svg)&nbsp;
 
 #### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
 #### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
@@ -29,35 +29,37 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 9. [DynamicProgramming](Notebooks/DynamicProgramming.ipynb)
 10. [Design datastructures](Notebooks/DesignStructures.ipynb)
 ---
+
 <!-- TOC -->
 
 - [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
-
-    - [Arrays](#arrays)
-    - [Matrix](#matrix)
-    - [String](#string)
-    - [Stack](#stack)
-    - [Math](#math)
-    - [TwoPointers](#twopointers)
-    - [DesignDatastructures](#designdatastructures)
-    - [Fast and slow pointers](#fast-and-slow-pointers)
-    - [In-place reverse](#in-place-reverse)
-    - [LinkedList](#linkedlist)
-    - [SlidingWindow](#slidingwindow)
-    - [Merge Intervals](#merge-intervals)
-    - [CyclicSort](#cyclicsort)
-    - [BinarySearch](#binarysearch)
-    - [BitwiseXOR](#bitwisexor)
-    - [Heap](#heap)
-    - [K-wayMerge](#k-waymerge)
-    - [DFS](#dfs)
-    - [BFS](#bfs)
-    - [Trees](#trees)
-    - [Graphs](#graphs)
-    - [TopologicalSort](#topologicalsort)
-    - [DynamicProgramming](#dynamicprogramming)
-    - [Backtracking](#backtracking)
-    - [Trie](#trie)
+  
+  - [Arrays](#arrays)
+  - [Matrix](#matrix)
+  - [Strings](#strings)
+  - [Math](#math)
+  - [TwoPointers](#twopointers)
+  - [Stack](#stack)
+  - [Greedy](#greedy)
+  - [DesignQuestions](#designquestions)
+  - [Fast_and_slow_pointers](#fast_and_slow_pointers)
+  - [In-place reverse](#in-place-reverse)
+  - [LinkedList](#linkedlist)
+  - [SlidingWindow](#slidingwindow)
+  - [Merge_Intervals](#merge_intervals)
+  - [CyclicSort](#cyclicsort)
+  - [BinarySearch](#binarysearch)
+  - [BitwiseXOR](#bitwisexor)
+  - [Heap](#heap)
+  - [k-way-merge](#k-way-merge)
+  - [DFS](#dfs)
+  - [BFS](#bfs)
+  - [Trees](#trees)
+  - [Graphs](#graphs)
+  - [TopologicalSort](#topologicalsort)
+  - [DynamicProgramming](#dynamicprogramming)
+  - [Backtracking](#backtracking)
+  - [Trie](#trie)
 
 <!-- /TOC -->
 
@@ -70,6 +72,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 4| [find-all-duplicates-in-an-array](https://leetcode.com/problems/find-all-duplicates-in-an-array) |[Arrays](Python/Arrays/find-all-duplicates-in-an-array.py) |Medium| | Hint: Multiply -1 to the num at index (A[i]-1) |
 | 5| [subarray-sum-equals-k](https://leetcode.com/problems/subarray-sum-equals-k) :star:|[Arrays](Python/Arrays/subarray-sum-equals-k.py) |Medium|```hashmap``` | |
 | 6| [max consecutive ones](https://leetcode.com/problems/max-consecutive-ones) |[Arrays](Python/Arrays/max-consecutive-ones.py) |Easy| | |
+| 7| [majority element](https://leetcode.com/problems/majority-element) |[Arrays](Python/Arrays/majority-element.py) |Easy| | |
 
 
 ---
@@ -86,6 +89,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |5   | [Diagonal traverse](https://leetcode.com/problems/diagonal-traverse)  | [Matrix](Python/Matrix/diagonal-traverse.py)  |  Medium  |  ```Matrix``` ```deque```|   |
 |6   | [Set matrix to zeros](https://leetcode.com/problems/set-matrix-zeroes)  | [Matrix](Python/Matrix/set-matrix-zeroes.py)  | Medium   | ```Matrix```  | Get the position of 0s in the matrix and in another iteration update the values  |
 |7   | [Generate spiral matrix](https://leetcode.com/problems/spiral-matrix-ii)  | [Matrix](Python/Matrix/spiral-matrix2.py)  | Medium  | ```Matrix```  | Similar to spiral matrix  |
+| 8| [sort the matrix diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally) |[Matrix](Python/Matrix/sort-the-matrix-diagonally.py) |Medium| | |
 
 
 ---
@@ -151,6 +155,15 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 3| [next greater element i](https://leetcode.com/problems/next-greater-element-i) |[Stack](Python/Stack/next-greater-element-i.py) |Easy| | |
 | 4| [next greater element ii](https://leetcode.com/problems/next-greater-element-ii) |[Stack](Python/Stack/next-greater-element-ii.py) |Medium| | |
 | 5| [next greater element iii](https://leetcode.com/problems/next-greater-element-iii) |[Stack](Python/Stack/next-greater-element-iii.py) |Medium| | |
+| 6| [132 pattern](https://leetcode.com/problems/132-pattern) |[Stack](Python/Stack/132-pattern.py) |Medium| | |
+| 7| [maximal rectangle](https://leetcode.com/problems/maximal-rectangle) |[Stack](Python/Stack/maximal-rectangle.py) |Hard| | |
+| 8| [basic calculator](https://leetcode.com/problems/basic-calculator) |[Stack](Python/Stack/basic-calculator.py) |Hard| | |
+| 9| [minimum remove to make valid parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses) |[Stack](Python/Stack/minimum-remove-to-make-valid-parentheses.py) |Medium| | |
+| 10| [basic calculator ii](https://leetcode.com/problems/basic-calculator-ii) |[Stack](Python/Stack/basic-calculator-ii.py) |Hard| | |
+| 11| [largest rectangle in histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) |[Stack](Python/Stack/largest-rectangle-in-histogram.py) |Hard| | |
+| 12| [basic calculator iv](https://leetcode.com/problems/basic-calculator-iv) |[Stack](Python/Stack/basic-calculator-iv.py) |Hard| | |
+| 13| [maximum frequency stack](https://leetcode.com/problems/maximum-frequency-stack) |[Stack](Python/Stack/maximum-frequency-stack.py) |Hard| | |
+| 14| [minimum add to make parentheses valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) |[Stack](Python/Stack/minimum-add-to-make-parentheses-valid.py) |Medium| | |
 
 ---
 
@@ -160,10 +173,10 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 1| [walking robot simulation](https://leetcode.com/problems/walking-robot-simulation) |[Greedy](Python/Greedy/walking-robot-simulation.py) |Easy| | |
 
 
-### DesignDatastructures
+### DesignQuestions
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
-|1   | [Design lru-cache](https://leetcode.com/problems/lru-cache) :star: | [Solution](Python/DesignQuestions/LRUcache.py)  | Medium|  | Use doubly LL  |
+|1   | [Design lru-cache](https://leetcode.com/problems/lru-cache) :star: | [Solution](Python/DesignQuestions/LRUcache.py)  | Medium|  | Use doubly LL  and hashmap |
 |2   | [insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)  | [Solution](Python/DesignQuestions/insert-getrandom.py)  | Medium  |   ||
 |3   | [min-stack](https://leetcode.com/problems/min-stack)  | [Solution](Python/DesignQuestions/min-stack.py)  | Easy  |   ||
 |4   | [MaxStack](https://leetcode.com/problems/max-stack/)  | [Solution](Python/DesignQuestions/max-stack.py)  | Easy  |   ||
@@ -171,7 +184,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |6   | [lfu-cache](https://leetcode.com/problems/lfu-cache)  | []()  |   |   ||
 |7   | [design-tic-tac-toe](https://leetcode.com/problems/design-tic-tac-toe)  | []()  |   |   ||
 |8   | [design-in-memory-file-system](https://leetcode.com/problems/design-in-memory-file-system)  | []()  |   |   ||
-|9   | [design-hashmap](https://leetcode.com/problems/design-hashmap/)  | [Solution](Python/DesignQuestions/Design_Hashmap.py)  | Medium  | ||
+|9   | [design-hashmap :star:](https://leetcode.com/problems/design-hashmap/)  | [Solution](Python/DesignQuestions/Design_Hashmap.py)  | Medium  | ||
 |10 | [Design HashSet](https://leetcode.com/problems/design-hashset)|[]() | | ||
 |11   |[design-hit-counter](https://leetcode.com/problems/design-hit-counter)   |   |   |   ||
 |12   |[add-and-search-word-data-structure-design](https://leetcode.com/problems/add-and-search-word-data-structure-design)   |   |   |   ||
@@ -192,7 +205,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ---
 
-### Fast and slow pointers
+### Fast_and_slow_pointers
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 |1   | [Linkedlist cycle](https://leetcode.com/problems/linked-list-cycle) | [Fast & slow ptrs](Python/Fast_and_slow_pointers/linkedlist_cycle.py) | Easy | |When slow and fast ptrs meet there is a cycle |
@@ -254,7 +267,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |13   | [Sliding window maximum](https://leetcode.com/problems/sliding-window-maximum/) | [ ]() | Hard | | Use max heap |
 |14   | [consecutive-numbers-sum](https://leetcode.com/problems/consecutive-numbers-sum/)  | [Sliding window & Math](Python/SlidingWindow/consecutive-numbers-sum.py)  | Hard  |   | |
 | 15| [grumpy bookstore owner](https://leetcode.com/problems/grumpy-bookstore-owner) |[SlidingWindow](Python/SlidingWindow/grumpy-bookstore-owner.py) |Medium| | |
-|16   | [minimum-window-subsequence](https://leetcode.com/problems/minimum-window-subsequence/)  |   |   |   | |
+| 16| [binary-subarrays-with-sum](https://leetcode.com/problems/binary-subarrays-with-sum) |[SlidingWindow](Python/SlidingWindow/binary-subarrays-with-sum.py) |Medium| ```atmostK - atmostk-1 concept``` | |
 |17   | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/)  |   |   |   | |
 | 18| [subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers) |[SlidingWindow](Python/SlidingWindow/subarrays-with-k-different-integers.py) |Hard| | |
 |19   | [number-of-submatrices-that-sum-to-target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)  |   ||   |   |
@@ -262,7 +275,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 21| [longest-substring-with-at-most-two-distinct-characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters) |[SlidingWindow](Python/SlidingWindow/longest-substring-with-at-most-two-distinct-characters.py) |Medium| | |
 | 22| subarrays-with-at-most-k-different-integers |[SlidingWindow](Python/SlidingWindow/subarrays-with-at-most-k-different-integers.py) |Medium| | |
 | 23| [count-number-of-nice-subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays) |[SlidingWindow](Python/SlidingWindow/count-number-of-nice-subarrays.py) |Medium| | |
-| 24| [binary-subarrays-with-sum](https://leetcode.com/problems/binary-subarrays-with-sum) |[SlidingWindow](Python/SlidingWindow/binary-subarrays-with-sum.py) |Medium| ```atmostK - atmostk-1 concept``` | |
+
 
 
 
@@ -272,8 +285,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### Merge_Intervals
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
-| 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) :star: | [Merge intervals](Python/MergeIntervals/merge_intervals.py)|Medium |
-```sort``` | |
+| 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) :star: | [Merge intervals](Python/MergeIntervals/merge_intervals.py)|Medium |```sort``` | |
 | 2  |[Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) | [Merge intervals](Python/MergeIntervals/non-overlapping-intervals.py)| Medium|```sort``` | |
 | 3  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections/) | [Merge intervals](Python/MergeIntervals/interval-list-intersections.py)| Medium|```sort``` | |
 | 4  |[Meeting rooms ](https://leetcode.com/problems/meeting-rooms) | [Merge intervals](Python/MergeIntervals/meeting-rooms.py)| Easy|```sort``` | |
@@ -339,7 +351,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) :star: | [Heap](Python/Heap/top-k-elements.py) | Medium | | Use dictionary O(nlogn). Quickselect O(N) |
 | 2  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements](Python/Heap/sort-characters-freq.py)| Medium | | Use dictionary |
 | 3 | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)   |[Top k elements](Python/Heap/kth-smallest-in-list.py)   |Medium    | | Use heapq  |
-| 4  | [maximum-frequency-stack](https://leetcode.com/problems/maximum-frequency-stack/) | [Top k elements]()| | | |
+| -2| [maximum frequency stack](https://leetcode.com/problems/maximum-frequency-stack) |[Stack](Python/Stack/maximum-frequency-stack.py) |Hard| | |
 | 5  | [maximum-distinct-elements-removing-k-elements](https://www.geeksforgeeks.org/maximum-distinct-elements-removing-k-elements/) | [Top k elements]()| | | |
 | 6  | [reorganize-string](https://leetcode.com/problems/reorganize-string/) | [Heap](Python\Heap\reorganize-strings.py)|Medium | | |
 | 7  | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | | |
@@ -355,7 +367,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 
 
-### K-wayMerge
+### k-way-merge
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) :star: | [heap](Python/k-way-merge/merge-k-sortedlist.py)|Hard | | |
@@ -485,24 +497,17 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 
 ---
+
 ### DynamicProgramming
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
-|1   | 0/1 knapsack  | [DP with memoization](https://github.com/saiharshithreddy/DS-Algo-practice/blob/master/Python/DynamicProgramming/0-1-knapsack.py)  | Easy  |   ||
-|2   |  [Partition equal  subset sum](https://leetcode.com/problems/partition-equal-subset-sum) | []()  | Medium  |  | |
-|3   | [Climbing stairs](https://leetcode.com/problems/climbing-stairs/)  | [DP](Python/DynamicProgramming/climbing-stairs.py)  | Easy  ||   |
-|4   | [Fibonacci number](https://leetcode.com/problems/fibonacci-number/)  | [Bottom up DP](Python/DynamicProgramming/fibonaci.py)  |  Easy| |   |
-|5   | [Min cost climbing stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)  |   | |  |   |
-| 6| [longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence.py) |[DynamicProgramming](Python/DynamicProgramming/longest-consecutive-sequence.py) |Medium| ||
-| 7| [coin-change-ii](https://leetcode.com/problems/coin-change-ii.py) |[DynamicProgramming](Python/DynamicProgramming/coin-change-ii.py) |Medium| | ||
-
-
+| 1| [house robber](https://leetcode.com/problems/house-robber) |[DynamicProgramming](Python/DynamicProgramming/house-robber.py) |Easy|```Decision making``` | |
+| 2| [best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) |[DynamicProgramming](Python/DynamicProgramming/best-time-to-buy-and-sell-stock.py) |Easy|```Decision making``` | |
+| 3| [best time to buy and sell stock ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) |[DynamicProgramming](Python/DynamicProgramming/best-time-to-buy-and-sell-stock-ii.py) |Easy| | |
 
 
 
 ---
-
-
 
 
 
