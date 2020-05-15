@@ -2,10 +2,8 @@
 
 ![Language](https://img.shields.io/badge/language-Python%20-orange.svg)&nbsp;
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)&nbsp;
-![Progress](https://img.shields.io/badge/progress-275%20%2F%20350-green4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-285%20%2F%20350-green4.svg)&nbsp;
 
-#### Cracking the coding interview in Python [Notebook](Notebooks/Ctci.ipynb)
-#### Daily coding problems [Notebook](Notebooks/dailycodingproblem.ipynb)
 
 ---
 **Install jupyter notebook extensions**
@@ -388,6 +386,10 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |1   | [Number of islands](https://leetcode.com/problems/number-of-islands) :star: | [DFS](Python\DFS\NumOfIslands.py)  | Medium  |   | |
 |2   | [Number of distinct islands](https://leetcode.com/problems/number-of-distinct-islands)  | [DFS](Python\DFS\NumofDistinctIslands.py)  | Medium  |   | |
 | 3| [friends circles](https://leetcode.com/problems/friends-circles) |[DFS](Python/DFS/friends-circles.py) |Medium| | |
+| 4| [max area of island](https://leetcode.com/problems/max-area-of-island) |[DFS](Python/DFS/max-area-of-island.py) |Medium| | |
+| 5| [surrounded regions](https://leetcode.com/problems/surrounded-regions) |[DFS](Python/DFS/surrounded-regions.py) |Medium| | |
+| 6| [number of closed islands](https://leetcode.com/problems/number-of-closed-islands) |[DFS](Python/DFS/number-of-closed-islands.py) |Medium| | |
+| 7| [making a large island](https://leetcode.com/problems/making-a-large-island) |[DFS](Python/DFS/making-a-large-island.py) |Hard| | |
 
 
 
@@ -400,6 +402,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 |1   | [rotting-oranges](https://leetcode.com/problems/rotting-oranges/)  | [BFS](Python/Tree/rotting-oranges.py)  | Medium  |   | |
+| 2| [word ladder](https://leetcode.com/problems/word-ladder) |[BFS](Python/BFS/word-ladder.py) |Medium| | |
 
 
 
@@ -411,7 +414,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 
 
-### Trees
+### Tree
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 |1|[Same Tree](https://leetcode.com/problems/same-tree/)|[Recursion](Python/Tree/same-tree.py)| Easy | | |
@@ -451,6 +454,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 35  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [](Python/Tree/)| | ||
 | 36  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) :lock:| [](Python/Tree/)| | ||
 | 37| [recover binary search tree](https://leetcode.com/problems/recover-binary-search-tree) |[Tree](Python/Tree/recover-binary-search-tree.py) |Hard| | |
+| 38| [convert sorted list to binary search tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree) |[Tree](Python/Tree/convert-sorted-list-to-binary-search-tree.py) |Medium| | |
 
 
 
