@@ -1,4 +1,4 @@
-# DS-Algo-interview-preparation
+# Coding interview-preparation
 
 ![Language](https://img.shields.io/badge/language-Python%20-orange.svg)&nbsp;
 ![Progress](https://img.shields.io/badge/progress-300%20%2F%20350-green4.svg)&nbsp;
@@ -129,9 +129,9 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |7    | [Merge sorted array](https://leetcode.com/problems/merge-sorted-array) | [Two pointers](Python/TwoPointers/merge_sorted_array.py) | Easy | ||
 |8   | [Dutch national flag/Sort colors](https://leetcode.com/problems/sort-colors/) | [Two pointers](Python/TwoPointers/dutch_national_flag.py) | | ||
 |9   | [4sum](https://leetcode.com/problems/4sum) | [Two pointers](Python/TwoPointers/4sum.py) | Medium || Extension of 3sum |
-|10| [Trapping water](https://leetcode.com/problems/trapping-rain-water)|[Two pointers](Python/TwoPointers/trapping_water.py)| Hard || Use left_max and right_max|
+|10| [Trapping water](https://leetcode.com/problems/trapping-rain-water)|[Two pointers](Python/TwoPointers/trapping_water.py)| Hard |```Two pointers``` <br> ```Stack```| Use left_max and right_max|
 |11   | [Backspace string compare](https://leetcode.com/problems/backspace-string-compare/) | [Using stack](Python/Stack/backspace_string_compare.py) |Easy |  ||
-|12  |[k-diff-pairs](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Two pointers](Python/TwoPointers/k-diff-pairs-array.py)|Easy| ||
+|12  |[k-diff-pairs](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Two pointers](Python/TwoPointers/k-diff-pairs-array.py)|Easy| | |
 |13   | [Shortest unsorted continuous subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Two pointers](Python/TwoPointers/Shortest-unsorted-continuous-subarray.py) | Easy| ||
 |14  | [Interval list intersections](https://leetcode.com/problems/interval-list-intersections)|[](Python/TwoPointers/)|Medium|||
 |15  |[Reverse string](https://leetcode.com/problems/reverse-string)|[Two pointers](Python/TwoPointers/reverse_vowels_string.py)| Easy|||
@@ -147,7 +147,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### Stack
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
-|1   | [Daily temperatures](https://leetcode.com/problems/daily-temperatures) :star: | [Stack](Python/Stack/daily-temperatures.py)  |  Medium |```stack``` | logic: Next greater element in a stack, Store (day, temp) in stack  |
+|1   | [Daily temperatures](https://leetcode.com/problems/daily-temperatures) :star: | [Stack](Python/Stack/daily-temperatures.py)  |  Medium |```MDS``` | logic: Next greater element in a stack, Store (day, temp) in stack  |
 |2   | Evaluate Postfix Expression Using a Stack  | []()  |   |   |
 | 3| [next greater element i](https://leetcode.com/problems/next-greater-element-i) |[Stack](Python/Stack/next-greater-element-i.py) |Easy|```MDS``` | |
 | 4| [next greater element ii](https://leetcode.com/problems/next-greater-element-ii) |[Stack](Python/Stack/next-greater-element-ii.py) |Medium| ```MDS```| |
@@ -192,13 +192,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |17   |[design-skiplist](https://leetcode.com/problems/design-skiplist)   |   |   |   ||
 |18   |[design-circular-deque](https://leetcode.com/problems/design-circular-deque)   |   |   |   ||
 |19   |[design-linked-list](https://leetcode.com/problems/design-linked-list)   |   |   |   ||
-|20   |[design-twitter](https://leetcode.com/problems/design-twitter/)   |   |   |   ||
-|21   |[design-snake-game](https://leetcode.com/problems/design-snake-game)   |   |   |   ||
-|22   |[all-oone-data-structure](https://leetcode.com/problems/all-oone-data-structure)   |   |   |   ||
-|23   |[flatten-nested-list-iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)   |   |   |   ||
-|24   |[design-search-autocomplete-system](https://leetcode.com/problems/design-search-autocomplete-system)   |   |   |   ||
-|25   |[time-based-key-value-store](https://leetcode.com/problems/time-based-key-value-store/)   |   |   |   ||
-|25   |[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) :star:  | [Solution](Python\DesignQuestions\implement-queue-two-stacks.py)  | Easy  |   ||
+|20   |[time-based-key-value-store](https://leetcode.com/problems/time-based-key-value-store/)   |   |   |   ||
+|21   |[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) :star:  | [Solution](Python\DesignQuestions\implement-queue-two-stacks.py)  | Easy  |   ||
 
 ---
 
@@ -210,7 +205,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |3   | [Middle of Linkedlist](https://leetcode.com/problems/middle-of-the-linked-list) | [Fast & slow ptrs](Python/Fast_and_slow_pointers/middle_linkedlist.py) |Easy | |The node at which slow ptr stops |
 |4   | [Palindrome LL ](https://leetcode.com/problems/palindrome-linked-list) | [Fast & slow ptrs](Python/Fast_and_slow_pointers/palindrome_linkedlist.py) |Medium || Find middle and reverse the 2nd half of the list and compare both|
 |5   | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Fast & slow ptrs](Python/Fast_and_slow_pointers/reorder-list.py) | Medium | |Find middle, reverse 2nd half and merge one from 1st list and one from 2nd list|
-|6   | [Circular array loop](https://leetcode.com/problems/circular-array-loop/) | [ ](Python/Fast_and_slow_pointers/) | Medium | ||
+
 
 ---
 
@@ -218,12 +213,12 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### In-place reverse
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
-|1   | [Reverse LL](https://leetcode.com/problems/reverse-linked-list) | [In-place reverse](Python/LinkedList/reverseLL.py) |Easy || Use prev and next to update the links |
-|2   | [Reverse LL between](https://leetcode.com/problems/reverse-linked-list-ii) | [In-place reverse](Python/LinkedList/reverseLL-between.py) | Medium | |loop till k-1th node and reverse |
-|3   | [Rotate LL](https://leetcode.com/problems/rotate-list) | [In-place reverse](Python/LinkedList/rotateLL.py) | Medium| |Move one ptr k times and then move start moving both ptrs. Update next of ptr1 to head and ptr2 to None |
-|4   | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [In-place reverse](Python/LinkedList/reverse-nodes-k-groups.py) | Hard | |Check if nodes are multiple of k then only reverse |
-|5   | Reverse nodes in k-alternating subgroup | [In-place reverse](Python/LinkedList/reverse-nodes-kgroups-alternatively.py) | Medium| | Reverse k groups with a while loop to skip k nodes |
-|6   | [Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [In-place reverse](Python\LinkedList\swap-nodes-in-pairs.py)  | Medium  |   ||
+|1   | [Reverse LL](https://leetcode.com/problems/reverse-linked-list) | [In-place reverse](Python/LinkedList/reverseLL.py) |Easy |```prev curr next```| Use prev and next to update the links |
+|2   | [Reverse LL between](https://leetcode.com/problems/reverse-linked-list-ii) | [In-place reverse](Python/LinkedList/reverseLL-between.py) | Medium |```prev curr next``` |loop till k-1th node and reverse |
+|3   | [Rotate LL](https://leetcode.com/problems/rotate-list) | [In-place reverse](Python/LinkedList/rotateLL.py) | Medium|```prev curr next``` |Move one ptr k times and then move start moving both ptrs. Update next of ptr1 to head and ptr2 to None |
+|4   | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [In-place reverse](Python/LinkedList/reverse-nodes-k-groups.py) | Hard |```prev curr next``` |Check if nodes are multiple of k then only reverse |
+|5   | Reverse nodes in k-alternating subgroup | [In-place reverse](Python/LinkedList/reverse-nodes-kgroups-alternatively.py) | Medium|```prev curr next``` | Reverse k groups with a while loop to skip k nodes |
+|6   | [Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [In-place reverse](Python\LinkedList\swap-nodes-in-pairs.py)  | Medium  | ```prev curr next```  ||
 
 ---
 
@@ -232,8 +227,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | -|----- | ---------- |-----|---|----|
 |1   | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [ ](Python/LinkedList/flatten_doublylist.py) |Medium | ||
 |2   | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](Python/LinkedList/oddevenLL.py) | Medium || Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
-|3   | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | [   ](Python/LinkedList/maxpoints-on-line.py) | Medium| |
-|4   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [hashmap ](Python/LinkedList/copy-list-with-random-ptr.py) | Medium | |
+|3   | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | [   ](Python/LinkedList/maxpoints-on-line.py) | Medium| | |
+|4   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [hashmap ](Python/LinkedList/copy-list-with-random-ptr.py) | Medium |```hashmap``` | |
 | 5  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) :star: | [Linked List](Python/LinkedList/add2numbers.py)|Medium| | Take care of carry. Create a new node after adding |
 | 6  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](Python/LinkedList/add-numbers-reverse.py)|Medium | ||
 | 7  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](Python/LinkedList/partition-list.py)|Medium | |Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
@@ -252,8 +247,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 1  |[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](Python/SlidingWindow/max_sum_subarray.py) | Easy | ||
 | 2   |[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](Python/SlidingWindow/smallest_sub_array_with_given_sum.py)|  Easy | |[Algo](Notes/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
 | 3| [longest-substring-with-at-most-k-distinct-characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) :star:|[SlidingWindow](Python/SlidingWindow/longest-substring-with-at-most-k-distinct-characters.py) |Hard| | |
-|4  |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](Python/SlidingWindow/fruits_into_baskets.py) | Medium | |[Algo](Notes/Fruits_into_baskets.pdf) |
-|5  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](Python/SlidingWindow/Longest_repeating_character_replacement.py)| Medium | | |
+|4  |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](Python/SlidingWindow/fruits_into_baskets.py) | Medium |```array``` |[Algo](Notes/Fruits_into_baskets.pdf) |
+|5  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](Python/SlidingWindow/Longest_repeating_character_replacement.py)| Medium |```Hashmap``` | |
 | 6| [permutation in string](https://leetcode.com/problems/permutation-in-string) |[SlidingWindow](Python/SlidingWindow/permutation-in-string.py) |Medium|```Hashmap``` ```Two strings``` | |
 |7  | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Sliding Window ](Python/SlidingWindow/longest-substring-without-repeating-characters.py) |Medium | | |
 | 8| [max consecutive ones iii](https://leetcode.com/problems/max-consecutive-ones-iii) |[SlidingWindow](Python/SlidingWindow/max-consecutive-ones-iii.py) |Medium| | |
@@ -297,7 +292,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  | [Missing number](https://leetcode.com/problems/missing-number/) | [Cyclic sort](Python/CyclicSort/)| Easy| | n*n+1/2|
-| 2  |[First missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort](Python/CyclicSort/first-missing-positive.py)| Hard | | TC: O(N), SC: O(1) |
+| 2  |[First missing positive](https://leetcode.com/problems/first-missing-positive/) | [Cyclic sort](Python/CyclicSort/first-missing-positive.py)| Hard | | Works only for 1 - N range numbers. TC: O(N), SC: O(1) |
 
 
 
@@ -324,21 +319,6 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 17| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
 | 18| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
 | 19| [find peak element](https://leetcode.com/problems/find-peak-element) |[BinarySearch](Python/BinarySearch/find-peak-element.py) |Medium| | |
-
-
-
----
-
-### BitwiseXOR
-| #   |Question| Solution |Difficulty | Tags| Notes |
-| -|----- | ---------- |-----|---|----|
-| 1  | [single-number](https://leetcode.com/problems/single-number/) | [XOR](Python\bitwiseXOR\single-number.py)| Easy  || This is a follow up to: Space O(1) |
-| 2  | [single-number-ii](https://leetcode.com/problems/single-number-ii/) | [ ]()| | | |
-| 3  | [complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/) | []()| | | |
-| 4  | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [ ]()| | | |
-| 5  | [Min-Cost-to-Connect-Ropes](https://leetcode.com/discuss/interview-question/344677/Amazon-or-Online-Assessment-2019-or-Min-Cost-to-Connect-Ropes) | [ ]()| | | |
-
-
 
 ---
 

@@ -6,7 +6,7 @@ SC: O(1)
 
 import math
 class Solution:
-    def findUnsortedSubarray(self, nums: List[int]) -> int:
+    def findUnsortedSubarray(self, nums: List[int]):
         low, high = 0, len(nums)-1
         
         # find the first number out of sorting order
