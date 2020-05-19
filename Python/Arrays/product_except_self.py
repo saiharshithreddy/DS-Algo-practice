@@ -5,7 +5,7 @@ Space complexity: O(1) if output array is not considered as per the leetcode req
 
 '''
 class Solution:
-    def productExceptSelf(self, nums: List[int]) -> List[int]:
+    def productExceptSelf(self, nums: List[int]):
         # left product right product approach
         # without using additional space
         # single pass O(n)

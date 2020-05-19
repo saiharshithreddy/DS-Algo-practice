@@ -110,10 +110,12 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |3   | [roman-to-integer](https://leetcode.com/problems/roman-to-integer)  | []()  |   |   ||
 |4   | [divide-two-integers](https://leetcode.com/problems/divide-two-integers)  | []()  |   ||   |
 |5   | [powx-n](https://leetcode.com/problems/powx-n)  | []()  |   |   ||
-|6   | [perfect-squares](https://leetcode.com/problems/perfect-squares)  | []()  |   |   ||
+| -2| [perfect squares](https://leetcode.com/problems/perfect-squares) |[DynamicProgramming](Python/DynamicProgramming/perfect-squares.py) |Medium |  | |
 |7   | [excel-sheet-column-number](https://leetcode.com/problems/excel-sheet-column-number)  | []()  |   |   ||
 | 8| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
 |9   | [factorial-trailing-zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)  | []()  |   |   ||
+| 10| [count primes](https://leetcode.com/problems/count-primes) |[Math](Python/Math/count-primes.py) |Easy | ```sieve_of_erathenoses```| |
+|11   | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | [   ](Python/LinkedList/maxpoints-on-line.py) | Hard| | |
 
 ---
 
@@ -227,7 +229,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | -|----- | ---------- |-----|---|----|
 |1   | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [ ](Python/LinkedList/flatten_doublylist.py) |Medium | ||
 |2   | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](Python/LinkedList/oddevenLL.py) | Medium || Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
-|3   | [Max points on a line](https://leetcode.com/problems/max-points-on-a-line) | [   ](Python/LinkedList/maxpoints-on-line.py) | Medium| | |
+|3  | [Sort list](https://leetcode.com/problems/sort-list)  | []()  | Medium  | |Merge sort  |
 |4   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [hashmap ](Python/LinkedList/copy-list-with-random-ptr.py) | Medium |```hashmap``` | |
 | 5  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) :star: | [Linked List](Python/LinkedList/add2numbers.py)|Medium| | Take care of carry. Create a new node after adding |
 | 6  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](Python/LinkedList/add-numbers-reverse.py)|Medium | ||
@@ -237,7 +239,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |10  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](Python/LinkedList/remove-nth-node.py)| Medium| | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
 | 11  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Linked List ](Python\LinkedList\remove-dup.py)|Easy | ||
 | 12  | [Remove duplicates from LinkedList 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Linked List ](Python\LinkedList\remove-dup-2.py)|Medium | ||
-|13  | [Sort list](https://leetcode.com/problems/sort-list)  | []()  | Medium  | |Merge sort  |
+
 
 ---
 
@@ -353,44 +355,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 4 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | []()| | | |
 
 
-
-
 ---
-
-
-
-### DFS
-| #   |Question| Solution |Difficulty | Tags| Notes |
-| -|----- | ---------- |-----|---|----|
-|1   | [Number of islands](https://leetcode.com/problems/number-of-islands) :star: | [DFS](Python\DFS\NumOfIslands.py)  | Medium  |   | |
-|2   | [Number of distinct islands](https://leetcode.com/problems/number-of-distinct-islands)  | [DFS](Python\DFS\NumofDistinctIslands.py)  | Medium  |   | |
-| 3| [friends circles](https://leetcode.com/problems/friends-circles) |[DFS](Python/DFS/friends-circles.py) |Medium| | |
-| 4| [max area of island](https://leetcode.com/problems/max-area-of-island) |[DFS](Python/DFS/max-area-of-island.py) |Medium| | |
-| 5| [surrounded regions](https://leetcode.com/problems/surrounded-regions) :star: |[DFS](Python/DFS/surrounded-regions.py) |Medium| | |
-| 6| [number of closed islands](https://leetcode.com/problems/number-of-closed-islands) |[DFS](Python/DFS/number-of-closed-islands.py) |Medium| | |
-| 7| [making a large island](https://leetcode.com/problems/making-a-large-island) |[DFS](Python/DFS/making-a-large-island.py) |Hard| | |
-| 8| [island perimeter](https://leetcode.com/problems/island-perimeter) |[DFS](Python/DFS/island-perimeter.py) |Easy| | |
-| 9| [flood fill](https://leetcode.com/problems/flood-fill) |[DFS](Python/DFS/flood-fill.py) |Easy| | |
-
----
-
-### BFS
-| #   |Question| Solution |Difficulty | Tags| Notes |
-| -|----- | ---------- |-----|---|----|
-|1   | [rotting-oranges](https://leetcode.com/problems/rotting-oranges/) :star: | [BFS](Python/Tree/rotting-oranges.py)  | Medium  |   | |
-| 2| [word ladder](https://leetcode.com/problems/word-ladder) |[BFS](Python/BFS/word-ladder.py) |Medium| | |
-| 3| [shortest path in binary matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) |[BFS](Python/BFS/shortest-path-in-binary-matrix.py) |Medium| | |
-| 4| [shortest bridge](https://leetcode.com/problems/shortest-bridge) :star: |[BFS](Python/BFS/shortest-bridge.py) |Medium| ```dfs + bfs```| [Video](https://www.youtube.com/watch?v=KiCBXu4P-2Y) 7:45|
-| 5| [as far from land as possible](https://leetcode.com/problems/as-far-from-land-as-possible) |[BFS](Python/BFS/as-far-from-land-as-possible.py) |Medium| | |
-
-
-
-
----
-
-
-
-
 
 
 ### Tree
@@ -433,14 +398,38 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 35  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [](Python/Tree/)| | ||
 | 36  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) :lock:| [](Python/Tree/)| | ||
 | 37| [recover binary search tree](https://leetcode.com/problems/recover-binary-search-tree) |[Tree](Python/Tree/recover-binary-search-tree.py) |Hard| | |
+| 38| [maximum width of binary tree](https://leetcode.com/problems/maximum-width-of-binary-tree) |[Tree](Python/Tree/maximum-width-of-binary-tree.py) |Medium |  | |
 
 
 
 
 ---
 
+### DFS
+| #   |Question| Solution |Difficulty | Tags| Notes |
+| -|----- | ---------- |-----|---|----|
+|1   | [Number of islands](https://leetcode.com/problems/number-of-islands) :star: | [DFS](Python\DFS\NumOfIslands.py)  | Medium  |   | |
+|2   | [Number of distinct islands](https://leetcode.com/problems/number-of-distinct-islands)  | [DFS](Python\DFS\NumofDistinctIslands.py)  | Medium  |   | |
+| 3| [friends circles](https://leetcode.com/problems/friends-circles) |[DFS](Python/DFS/friends-circles.py) |Medium| | |
+| 4| [max area of island](https://leetcode.com/problems/max-area-of-island) |[DFS](Python/DFS/max-area-of-island.py) |Medium| | |
+| 5| [surrounded regions](https://leetcode.com/problems/surrounded-regions) :star: |[DFS](Python/DFS/surrounded-regions.py) |Medium| | |
+| 6| [number of closed islands](https://leetcode.com/problems/number-of-closed-islands) |[DFS](Python/DFS/number-of-closed-islands.py) |Medium| | |
+| 7| [making a large island](https://leetcode.com/problems/making-a-large-island) |[DFS](Python/DFS/making-a-large-island.py) |Hard| | |
+| 8| [island perimeter](https://leetcode.com/problems/island-perimeter) |[DFS](Python/DFS/island-perimeter.py) |Easy| | |
+| 9| [flood fill](https://leetcode.com/problems/flood-fill) |[DFS](Python/DFS/flood-fill.py) |Easy| | |
 
+---
 
+### BFS
+| #   |Question| Solution |Difficulty | Tags| Notes |
+| -|----- | ---------- |-----|---|----|
+|1   | [rotting-oranges](https://leetcode.com/problems/rotting-oranges/) :star: | [BFS](Python/Tree/rotting-oranges.py)  | Medium  |   | |
+| 2| [word ladder](https://leetcode.com/problems/word-ladder) |[BFS](Python/BFS/word-ladder.py) |Medium| | |
+| 3| [shortest path in binary matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) |[BFS](Python/BFS/shortest-path-in-binary-matrix.py) |Medium| | |
+| 4| [shortest bridge](https://leetcode.com/problems/shortest-bridge) :star: |[BFS](Python/BFS/shortest-bridge.py) |Medium| ```dfs + bfs```| [Video](https://www.youtube.com/watch?v=KiCBXu4P-2Y) 7:45|
+| 5| [as far from land as possible](https://leetcode.com/problems/as-far-from-land-as-possible) |[BFS](Python/BFS/as-far-from-land-as-possible.py) |Medium| | |
+
+---
 
 ### Graphs
 | #   |Question| Solution |Difficulty | Tags| Notes |
@@ -455,18 +444,15 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |8   | Shortest path between two vertices  |[](Python/Graphs/)   | |  |   |
 |9   | [evaluate-division](https://leetcode.com/problems/evaluate-division)  |   | [](Python/Graphs/)  |  | |
 |10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |  [BFS + hashmap](Python/Graph/clone-graph.py) | Medium  || [Notes](Notes/CloneGraph.pdf)  |
-|11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  | [BFS](Python/Graphs/bipartite-graph.py)  | Medium  | | Graph coloring |
+|11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  | [BFS](Python/Graphs/bipartite-graph.py)  | Medium  | ```BFS``` | Graph coloring |
 |12   | Detect cycle in a directed graph  | []()  | Medium | |   |
 |13   | Detect cycle in an undirected graph  | [DFS](Python/Graphs/cycle-undirected.py)  | Medium  | |  |
-|14   | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary) :star: | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  || [Notes](Notes/Reconstruct-itinerary.pdf)  |
+|14   | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary) :star: | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  | | [Notes](Notes/Reconstruct-itinerary.pdf)  |
 | 15| [number of connected components in an undirected graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) :star:|[Graphs](Python/Graphs/number-of-connected-components-in-an-undirected-graph.py) |Medium| | |
-| 16| [alien-dictionary](https://leetcode.com/problems/alien-dictionary) :star: |[Graphs](Python/Graphs/alien-dictionary.py) |Hard| | |
+| 16| [alien-dictionary](https://leetcode.com/problems/alien-dictionary) :star: |[Graphs](Python/Graphs/alien-dictionary.py) |Hard|```cycle detection``` ```topological sort``` | |
 
 
 ---
-
-
-
 
 
 ### TopologicalSort
@@ -488,6 +474,13 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 2| [best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) :star:|[DynamicProgramming](Python/DynamicProgramming/best-time-to-buy-and-sell-stock.py) |Easy|```Decision making``` | |
 | 3| [best time to buy and sell stock ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) |[DynamicProgramming](Python/DynamicProgramming/best-time-to-buy-and-sell-stock-ii.py) |Easy|```Decision making``` | |
 | 4| [maximal square](https://leetcode.com/problems/maximal-square) |[DynamicProgramming](Python/DynamicProgramming/maximal-square.py) |Medium| | |
+| 5| [minimum path sum](https://leetcode.com/problems/minimum-path-sum) |[DynamicProgramming](Python/DynamicProgramming/minimum-path-sum.py) |Medium |  | |
+| 6| [climbing stairs](https://leetcode.com/problems/climbing-stairs) |[DynamicProgramming](Python/DynamicProgramming/climbing-stairs.py) |Easy |  | |
+| 7| [word break](https://leetcode.com/problems/word-break) |[DynamicProgramming](Python/DynamicProgramming/word-break.py) |Medium |  | |
+| 8| [maximum product subarray](https://leetcode.com/problems/maximum-product-subarray) |[DynamicProgramming](Python/DynamicProgramming/maximum-product-subarray.py) |Medium |  | |
+| 9| [perfect squares](https://leetcode.com/problems/perfect-squares) |[DynamicProgramming](Python/DynamicProgramming/perfect-squares.py) |Medium |  | |
+| 10| [coin change](https://leetcode.com/problems/coin-change) |[DynamicProgramming](Python/DynamicProgramming/coin-change.py) |Medium |  | |
+| 11| [minimum falling path sum](https://leetcode.com/problems/minimum-falling-path-sum) |[DynamicProgramming](Python/DynamicProgramming/minimum-falling-path-sum.py) |Medium |  | |
 
 
 
@@ -509,8 +502,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |9   | [Word search](https://leetcode.com/problems/word-search) :star: | [Backtracking](Python/Backtracking/word-search.py)  | Medium  |   ||
 |10   | [Word ladder]()  | []()  |   |   ||
 |11   | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching) :star: | []()  |   |   ||
-|12   | [word-break](https://leetcode.com/problems/word-break)  | [](Python/Backtracking/word-break.py)  |   |   ||
-|13  | [word-break-ii](https://leetcode.com/problems/word-break-ii)  | []()  |   |   ||
+| -2| [word break](https://leetcode.com/problems/word-break) |[DynamicProgramming](Python/DynamicProgramming/word-break.py) |Medium |  | |
+| -2| [word break](https://leetcode.com/problems/word-break) |[DynamicProgramming](Python/DynamicProgramming/word-break.py) |Medium |  | |
 |14   |[wildcard-matching](https://leetcode.com/problems/wildcard-matching)   | [](Python/Backtracking/)  |   |   ||
 |15   |[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) :star:  | [Backtracking](Python/Backtracking/letter-combinations-of-number.py)  | Medium   |   ||
 |16   |[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)   | [](Python/Backtracking/)  |   |   ||
