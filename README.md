@@ -29,8 +29,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 <!-- TOC -->
 
-- [DS-Algo-interview-preparation in Python](#ds-algo-interview-preparation-in-python)
-  
+- [Coding interview-preparation](#coding-interview-preparation)
+  - [Notebooks](#notebooks)
   - [Arrays](#arrays)
   - [Matrix](#matrix)
   - [Strings](#strings)
@@ -39,19 +39,16 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
   - [Stack](#stack)
   - [Greedy](#greedy)
   - [DesignQuestions](#designquestions)
-  - [Fast_and_slow_pointers](#fast_and_slow_pointers)
-  - [In-place reverse](#in-place-reverse)
   - [LinkedList](#linkedlist)
   - [SlidingWindow](#slidingwindow)
   - [Merge_Intervals](#merge_intervals)
   - [CyclicSort](#cyclicsort)
   - [BinarySearch](#binarysearch)
-  - [BitwiseXOR](#bitwisexor)
   - [Heap](#heap)
   - [k-way-merge](#k-way-merge)
+  - [Tree](#tree)
   - [DFS](#dfs)
   - [BFS](#bfs)
-  - [Trees](#trees)
   - [Graphs](#graphs)
   - [TopologicalSort](#topologicalsort)
   - [DynamicProgramming](#dynamicprogramming)
@@ -60,7 +57,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 <!-- /TOC -->
 
-### Arrays
+### Arrays - [^](#coding-interview-preparation)
 | #   |Question| Solution |Difficulty | Tags |Notes |
 | -|----- | ---------- |-----|-------|----|
 |1    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/Arrays/product_except_self.py)  | Medium  |```Array``` ```Two pointers```|Follow up: O(N) Left product & right product  |
