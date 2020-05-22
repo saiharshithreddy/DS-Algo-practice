@@ -199,7 +199,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ---
 
-### Fast_and_slow_pointers
+### LinkedList
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 |1   | [Linkedlist cycle](https://leetcode.com/problems/linked-list-cycle) | [Fast & slow ptrs](Python/Fast_and_slow_pointers/linkedlist_cycle.py) | Easy | |When slow and fast ptrs meet there is a cycle |
@@ -207,38 +207,24 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |3   | [Middle of Linkedlist](https://leetcode.com/problems/middle-of-the-linked-list) | [Fast & slow ptrs](Python/Fast_and_slow_pointers/middle_linkedlist.py) |Easy | |The node at which slow ptr stops |
 |4   | [Palindrome LL ](https://leetcode.com/problems/palindrome-linked-list) | [Fast & slow ptrs](Python/Fast_and_slow_pointers/palindrome_linkedlist.py) |Medium || Find middle and reverse the 2nd half of the list and compare both|
 |5   | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Fast & slow ptrs](Python/Fast_and_slow_pointers/reorder-list.py) | Medium | |Find middle, reverse 2nd half and merge one from 1st list and one from 2nd list|
-
-
----
-
-
-### In-place reverse
-| #   |Question| Solution |Difficulty | Tags| Notes |
-| -|----- | ---------- |-----|---|----|
-|1   | [Reverse LL](https://leetcode.com/problems/reverse-linked-list) | [In-place reverse](Python/LinkedList/reverseLL.py) |Easy |```prev curr next```| Use prev and next to update the links |
-|2   | [Reverse LL between](https://leetcode.com/problems/reverse-linked-list-ii) | [In-place reverse](Python/LinkedList/reverseLL-between.py) | Medium |```prev curr next``` |loop till k-1th node and reverse |
-|3   | [Rotate LL](https://leetcode.com/problems/rotate-list) | [In-place reverse](Python/LinkedList/rotateLL.py) | Medium|```prev curr next``` |Move one ptr k times and then move start moving both ptrs. Update next of ptr1 to head and ptr2 to None |
-|4   | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [In-place reverse](Python/LinkedList/reverse-nodes-k-groups.py) | Hard |```prev curr next``` |Check if nodes are multiple of k then only reverse |
-|5   | Reverse nodes in k-alternating subgroup | [In-place reverse](Python/LinkedList/reverse-nodes-kgroups-alternatively.py) | Medium|```prev curr next``` | Reverse k groups with a while loop to skip k nodes |
-|6   | [Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [In-place reverse](Python\LinkedList\swap-nodes-in-pairs.py)  | Medium  | ```prev curr next```  ||
-
----
-
-### LinkedList
-| #   |Question| Solution |Difficulty | Tags| Notes |
-| -|----- | ---------- |-----|---|----|
-|1   | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [ ](Python/LinkedList/flatten_doublylist.py) |Medium | ||
-|2   | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](Python/LinkedList/oddevenLL.py) | Medium || Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
-|3  | [Sort list](https://leetcode.com/problems/sort-list)  | []()  | Medium  | |Merge sort  |
-|4   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [hashmap ](Python/LinkedList/copy-list-with-random-ptr.py) | Medium |```hashmap``` | |
-| 5  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) :star: | [Linked List](Python/LinkedList/add2numbers.py)|Medium| | Take care of carry. Create a new node after adding |
-| 6  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](Python/LinkedList/add-numbers-reverse.py)|Medium | ||
-| 7  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](Python/LinkedList/partition-list.py)|Medium | |Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
-| 8  | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | [Linked List](Python/LinkedList/plus-one-LL.py)| Medium || Dummy nodes and move till non nine nodes and increment by 1. Set 9s to 0|
-| 9  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [ ](Python/LinkedList/insert-sorted-circularLL.py)| | ||
-|10  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](Python/LinkedList/remove-nth-node.py)| Medium| | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
-| 11  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Linked List ](Python\LinkedList\remove-dup.py)|Easy | ||
-| 12  | [Remove duplicates from LinkedList 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Linked List ](Python\LinkedList\remove-dup-2.py)|Medium | ||
+|6   | [Reverse LL](https://leetcode.com/problems/reverse-linked-list) | [In-place reverse](Python/LinkedList/reverseLL.py) |Easy || Use prev and next to update the links |
+|7   | [Reverse LL between](https://leetcode.com/problems/reverse-linked-list-ii) | [In-place reverse](Python/LinkedList/reverseLL-between.py) | Medium ||loop till k-1th node and reverse |
+|8   | [Rotate LL](https://leetcode.com/problems/rotate-list) | [In-place reverse](Python/LinkedList/rotateLL.py) | Medium| |Move one ptr k times and then move start moving both ptrs. Update next of ptr1 to head and ptr2 to None |
+|9   | [Reverse nodes in k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [In-place reverse](Python/LinkedList/reverse-nodes-k-groups.py) | Hard | |Check if nodes are multiple of k then only reverse |
+|10   | Reverse nodes in k-alternating subgroup | [In-place reverse](Python/LinkedList/reverse-nodes-kgroups-alternatively.py) | Medium|| Reverse k groups with a while loop to skip k nodes |
+|11   | [Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [In-place reverse](Python\LinkedList\swap-nodes-in-pairs.py)  | Medium  | ||
+|12   | [Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [ ](Python/LinkedList/flatten_doublylist.py) |Medium | ||
+|13   | [Odd Even list](https://leetcode.com/problems/odd-even-linked-list) | [Linkedlist](Python/LinkedList/oddevenLL.py) | Medium || Initialize even_head & odd_head and update the links. Point the last node of oddlist to even head|
+|14  | [Sort list](https://leetcode.com/problems/sort-list)  | []()  | Medium  | |Merge sort  |
+|15   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [hashmap ](Python/LinkedList/copy-list-with-random-ptr.py) | Medium |```hashmap``` | |
+| 16  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) :star: | [Linked List](Python/LinkedList/add2numbers.py)|Medium| | Take care of carry. Create a new node after adding |
+| 17  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](Python/LinkedList/add-numbers-reverse.py)|Medium | ||
+| 18  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](Python/LinkedList/partition-list.py)|Medium | |Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
+| 19  | [Plus one LL](https://leetcode.com/problems/plus-one-linked-list) | [Linked List](Python/LinkedList/plus-one-LL.py)| Medium || Dummy nodes and move till non nine nodes and increment by 1. Set 9s to 0|
+| 20  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [ ](Python/LinkedList/insert-sorted-circularLL.py)| | ||
+|21  | [Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](Python/LinkedList/remove-nth-node.py)| Medium| | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
+| 22  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Linked List ](Python\LinkedList\remove-dup.py)|Easy | ||
+| 23  | [Remove duplicates from LinkedList 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Linked List ](Python\LinkedList\remove-dup-2.py)|Medium | ||
 
 
 ---
@@ -316,7 +302,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 10  | [find-k-closest-elements](https://leetcode.com/problems/find-k-closest-elements/) | [Binary search + Two pointers](Python/BinarySearch/k-closest-elements.py)|Medium | | |
 | 13| [first-bad-version](https://leetcode.com/problems/first-bad-version) |[BinarySearch](Python/BinarySearch/first-bad-version.py) |Easy| | |
 | 14| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
-| -2| [valid-triangle-number](https://leetcode.com/problems/valid-triangle-number) |[TwoPointers](Python/TwoPointers/valid-triangle-number.py) |Medium| | |
+| 15| [valid-triangle-number](https://leetcode.com/problems/valid-triangle-number) |[TwoPointers](Python/TwoPointers/valid-triangle-number.py) |Medium| | |
 | 16| [valid-perfect-square](https://leetcode.com/problems/valid-perfect-square) |[BinarySearch](Python/BinarySearch/valid-perfect-square.py) |Easy| | |
 | 17| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
 | 18| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
