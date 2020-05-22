@@ -1,7 +1,7 @@
 # Coding interview-preparation
 
 ![Language](https://img.shields.io/badge/language-Python%20-orange.svg)&nbsp;
-![Progress](https://img.shields.io/badge/progress-300%20%2F%20350-green4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-310%20%2F%20350-green4.svg)&nbsp;
 
 
 ---
@@ -330,14 +330,14 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 1  | [top-k-frequent-elements](https://leetcode.com/problems/top-k-frequent-elements/) :star: | [Heap](Python/Heap/top-k-elements.py) | Medium | | Use dictionary O(nlogn). Quickselect O(N) |
 | 2  | [sort-characters-by-frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Top k elements](Python/Heap/sort-characters-freq.py)| Medium | | Use dictionary |
 | 3 | [kth-largest-element-in-an-array](https://leetcode.com/problems/kth-largest-element-in-an-array/)   |[Top k elements](Python/Heap/kth-smallest-in-list.py)   |Medium    | | Use heapq  |
-| -2| [maximum frequency stack](https://leetcode.com/problems/maximum-frequency-stack) |[Stack](Python/Stack/maximum-frequency-stack.py) |Hard| | |
+| 4| [maximum frequency stack](https://leetcode.com/problems/maximum-frequency-stack) |[Stack](Python/Stack/maximum-frequency-stack.py) |Hard| | |
 | 5  | [maximum-distinct-elements-removing-k-elements](https://www.geeksforgeeks.org/maximum-distinct-elements-removing-k-elements/) | [Top k elements]()| | | |
 | 6  | [reorganize-string](https://leetcode.com/problems/reorganize-string/) :star: | [Heap](Python\Heap\reorganize-strings.py)|Medium | | |
 | 7  | [rearrange-string-k-distance-apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) | [Top k elements]()| | | |
 | 8  | [task-scheduler](https://leetcode.com/problems/task-scheduler/) | [Top k elements]()| | | |
 |9   | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  | [Heap](Python\Heap\kth-largest-element-in-stream.py)  | Easy  |   | |
 |10   |[top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words)  :star: | [Heap](Python\Heap\top-k-frequent-words.py)  | Medium  |   | | |
-| 11| [find median from data stream](https://leetcode.com/problems/find-median-from-data-stream) :star: |[Heap](Python/Heap/find-median-from-data-stream.py) |Hard| | |
+| 11| [find median from data stream](https://leetcode.com/problems/find-median-from-data-stream) :star: |[Heap](Python/Heap/find-median-from-data-stream.py) |Hard| ```two heaps``` | |
 
 
 
@@ -456,7 +456,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 15| [number of connected components in an undirected graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) :star:|[Graphs](Python/Graphs/number-of-connected-components-in-an-undirected-graph.py) |Medium| | |
 | 16| [alien-dictionary](https://leetcode.com/problems/alien-dictionary) :star: |[Graphs](Python/Graphs/alien-dictionary.py) |Hard|```cycle detection``` ```topological sort``` | |
 | 17| [cheapest flights within k stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) |[Graphs](Python/Graphs/cheapest-flights-within-k-stops.py) |Medium | ```dijkstra```| |
-| 18| [critical connections](https://leetcode.com/problems/critical-connections) |[Graphs](Python/Graphs/critical-connections.py) |Hard |  | |
+| 18| [critical connections](https://leetcode.com/problems/critical-connections) |[Graphs](Python/Graphs/critical-connections.py) |Hard | ```Articulation point``` | [Video](https://www.youtube.com/watch?v=RYaakWv5m6o)|
 
 
 ---

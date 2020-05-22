@@ -4,6 +4,7 @@ If I get the frequency of each character, how does that help in knowing if a str
 What am I missing here?
 In the example: 'aaab'. a:3 b:1 total: 4. a > total + 1 /2 so not possible
 
+
 '''
 class Solution:
         def reorganizeString(self, S: str) -> str:
