@@ -393,12 +393,13 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 30  | [boundary of a tree](https://leetcode.com/problems/boundary-of-binary-tree/) :star: | [Solution](Python\Tree\boundary-tree.py)| Medium|| Left: Preorder, leaves: Inorder, right: Postorder |
 | 31  | [ipo](https://leetcode.com/problems/ipo/) | [](Python/Tree/)||||
 | 32  | [Path sum 2](https://leetcode.com/problems/path-sum-ii) | [DFS](Python\Tree\path_sum2.py)|Medium | ||
-| 33  | [Path sum 3](https://leetcode.com/problems/path-sum-iii/) | [](Python/Tree/)| | ||
+| 33| [path sum iii](https://leetcode.com/problems/path-sum-iii) |[Tree](Python/Tree/path-sum-iii.py) |Easy | ```subarray_sum_equals_k```| |
 | 34  | [Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [](Python/Tree/)| | ||
 | 35  | [Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [](Python/Tree/)| | ||
 | 36  | [Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) :lock:| [](Python/Tree/)| | ||
 | 37| [recover binary search tree](https://leetcode.com/problems/recover-binary-search-tree) |[Tree](Python/Tree/recover-binary-search-tree.py) |Hard| | |
 | 38| [maximum width of binary tree](https://leetcode.com/problems/maximum-width-of-binary-tree) |[Tree](Python/Tree/maximum-width-of-binary-tree.py) |Medium |  | |
+| 39| [vertical order traversal of a binary tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree) |[Tree](Python/Tree/vertical-order-traversal-of-a-binary-tree.py) |Medium |  | |
 
 
 
@@ -428,6 +429,10 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 3| [shortest path in binary matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) |[BFS](Python/BFS/shortest-path-in-binary-matrix.py) |Medium| | |
 | 4| [shortest bridge](https://leetcode.com/problems/shortest-bridge) :star: |[BFS](Python/BFS/shortest-bridge.py) |Medium| ```dfs + bfs```| [Video](https://www.youtube.com/watch?v=KiCBXu4P-2Y) 7:45|
 | 5| [as far from land as possible](https://leetcode.com/problems/as-far-from-land-as-possible) |[BFS](Python/BFS/as-far-from-land-as-possible.py) |Medium| | |
+| 6| [walls and gates](https://leetcode.com/problems/walls-and-gates) |[BFS](Python/BFS/walls-and-gates.py) |Medium |  | |
+| 7| [the maze](https://leetcode.com/problems/the-maze) |[BFS](Python/BFS/the-maze.py) |Medium |  | |
+| 8| [the maze ii](https://leetcode.com/problems/the-maze-ii) |[BFS](Python/BFS/the-maze-ii.py) |Medium |  | |
+| 9| [minimum knight moves](https://leetcode.com/problems/minimum-knight-moves) |[BFS](Python/BFS/minimum-knight-moves.py) |Medium |  | |
 
 ---
 
@@ -450,6 +455,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |14   | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary) :star: | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  | | [Notes](Notes/Reconstruct-itinerary.pdf)  |
 | 15| [number of connected components in an undirected graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph) :star:|[Graphs](Python/Graphs/number-of-connected-components-in-an-undirected-graph.py) |Medium| | |
 | 16| [alien-dictionary](https://leetcode.com/problems/alien-dictionary) :star: |[Graphs](Python/Graphs/alien-dictionary.py) |Hard|```cycle detection``` ```topological sort``` | |
+| 17| [cheapest flights within k stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) |[Graphs](Python/Graphs/cheapest-flights-within-k-stops.py) |Medium | ```dijkstra```| |
+| 18| [critical connections](https://leetcode.com/problems/critical-connections) |[Graphs](Python/Graphs/critical-connections.py) |Hard |  | |
 
 
 ---
@@ -458,7 +465,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### TopologicalSort
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
-| 1  |[course-schedule](https://leetcode.com/problems/course-schedule) :star: | [Topological sort ](Python/Graphs/course-schedule.py)|Medium | |Cycle detection with Indegree idea |
+| 1  |[course-schedule](https://leetcode.com/problems/course-schedule) :star: | [Topological sort ](Python/Graphs/course-schedule.py)|Medium |```dfs``` ```bfs``` |1. Explored & exploring <br> 2. Cycle detection with Indegree idea |
 | 2  | [course-schedule-ii](https://leetcode.com/problems/course-schedule-ii) :star: | [Topological sort ](Python/Graphs/course-schedule-2.py)| | ||
 | 3 |  [sequence-reconstruction](https://leetcode.com/problems/sequence-reconstruction) | [ ]()| | ||
 | 4 | [longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | [ ]()| | ||

@@ -1,5 +1,5 @@
 class Solution:
-    def shortestBridge(self, A: List[List[int]]) -> int:
+    def shortestBridge(self, A: List[List[int]]):
         
         '''
         DFS + BFS
@@ -48,7 +48,7 @@ class Solution:
             # for each start state check 4 directions for a 1
             for _ in range(num_states):
                 i,j = start_states.popleft()
-                # num_states -= 1
+                
                 for x,y in directions:
                     if i+x < 0 or i+x >= r or j+y < 0 or j+y >= c or A[i+x][j+y] == 2:
                         continue
