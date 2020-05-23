@@ -16,19 +16,21 @@ class MedianFinder:
         self.maxheap = []
         
 
-    def addNum(self, num: int) -> None:
+    def addNum(self, num: int):
         if not self.maxheap or -self.maxheap[0] >= num:
             heapq.heappush(self.maxheap, -num)
         else:
             heapq.heappush(self.minheap, num)
         
-        # idea: Either both heaps should have equal num of elements or maxheap should have one element more
+        # If maxheap has 2 nums more than minheap then balance the two heaps by popping one from maxheap and push into minheap
         if len(self.maxheap) > len(self.minheap) + 1:
             heapq.heappush(self.minheap, -heapq.heappop(self.maxheap))
+            
         elif len(self.maxheap) < len(self.minheap):
             heapq.heappush(self.maxheap, -heapq.heappop(self.minheap))
 
-    def findMedian(self) -> float:
+    def findMedian(self):
+        # idea: Either both heaps should have equal num of elements or maxheap should have one element more
         if len(self.maxheap) == len(self.minheap):
             return ((-self.maxheap[0]) + self.minheap[0]) / 2
         else:

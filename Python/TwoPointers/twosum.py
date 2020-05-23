@@ -1,3 +1,8 @@
+# @Author: Sai Harshith
+# @Date:   21-Feb-2020-14-02
+# @Last modified by:   Sai Harshith
+# @Last modified time: 22-May-2020-13-05
+
 '''
 Approach 1: Using hash map, store new values in hash map, check if target - val is in hash map
 TC: O(n)

@@ -30,7 +30,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 <!-- TOC -->
 
 - [Coding interview-preparation](#coding-interview-preparation)
-  - [Notebooks](#notebooks)
+  
   - [Arrays](#arrays)
   - [Matrix](#matrix)
   - [Strings](#strings)
@@ -45,7 +45,6 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
   - [CyclicSort](#cyclicsort)
   - [BinarySearch](#binarysearch)
   - [Heap](#heap)
-  - [k-way-merge](#k-way-merge)
   - [Tree](#tree)
   - [DFS](#dfs)
   - [BFS](#bfs)
@@ -57,7 +56,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 <!-- /TOC -->
 
-### Arrays - [^](#coding-interview-preparation)
+### Arrays
 | #   |Question| Solution |Difficulty | Tags |Notes |
 | -|----- | ---------- |-----|-------|----|
 |1    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/Arrays/product_except_self.py)  | Medium  |```Array``` ```Two pointers```|Follow up: O(N) Left product & right product  |
@@ -67,6 +66,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 5| [subarray-sum-equals-k](https://leetcode.com/problems/subarray-sum-equals-k) :star:|[Arrays](Python/Arrays/subarray-sum-equals-k.py) |Medium|```hashmap``` | |
 | 6| [max consecutive ones](https://leetcode.com/problems/max-consecutive-ones) |[Arrays](Python/Arrays/max-consecutive-ones.py) |Easy| | |
 | 7| [majority element](https://leetcode.com/problems/majority-element) |[Arrays](Python/Arrays/majority-element.py) |Easy| ```boyre moore voting```| |
+| 8| [analyze user website visit pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern) |[Arrays](Python/Arrays/analyze-user-website-visit-pattern.py) |Medium |  | |
 
 
 ---
@@ -93,6 +93,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | -|----- | ---------- |-----|-------|----|
 | 1| [group-anagrams](https://leetcode.com/problems/group-anagrams.py) |[String](Python/String/group-anagrams.py) |Medium| | |
 | 2| [reverse words in a string](https://leetcode.com/problems/reverse-words-in-a-string) |[Strings](Python/Strings/reverse-words-in-a-string.py) |Medium| ```Two pointers``` | |
+| 3| [longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring) |[Strings](Python/Strings/longest-palindromic-substring.py) |Medium |  | |
+
 
 
 
@@ -245,7 +247,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |14   | [consecutive-numbers-sum](https://leetcode.com/problems/consecutive-numbers-sum/)  | [Sliding window & Math](Python/SlidingWindow/consecutive-numbers-sum.py)  | Hard  |   | |
 | 15| [grumpy bookstore owner](https://leetcode.com/problems/grumpy-bookstore-owner) |[SlidingWindow](Python/SlidingWindow/grumpy-bookstore-owner.py) |Medium| | |
 | 16| [binary-subarrays-with-sum](https://leetcode.com/problems/binary-subarrays-with-sum) |[SlidingWindow](Python/SlidingWindow/binary-subarrays-with-sum.py) |Medium| ```atmostK - atmostk-1 concept``` | |
-|17   | [sliding-window-median](https://leetcode.com/problems/sliding-window-median/) :star: |   |   |   | |
+| -2| [sliding window median](https://leetcode.com/problems/sliding-window-median) |[Heap](Python/Heap/sliding-window-median.py) |Hard | ```Two_heaps```| |
 | 18| [subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers) |[SlidingWindow](Python/SlidingWindow/subarrays-with-k-different-integers.py) |Hard| | |
 |19   | [number-of-submatrices-that-sum-to-target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)  |   ||   |   |
 |20   | [subarray-product-less-than-k](https://leetcode.com/problems/subarray-product-less-than-k/)  :star:| [Sliding Window](Python/SlidingWindow/subarray_prod_less_thanK.py)  | Medium  |   ||
@@ -304,6 +306,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 17| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
 | 18| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
 | 19| [find peak element](https://leetcode.com/problems/find-peak-element) |[BinarySearch](Python/BinarySearch/find-peak-element.py) |Medium| | |
+| 20| [find peak element in matrix](https://www.geeksforgeeks.org/find-peak-element-2d-array/) |[BinarySearch](Python/BinarySearch/find-peak-element-in-matrix.py) |Medium |  | |
 
 ---
 
@@ -321,21 +324,11 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |9   | [kth-largest-element-in-a-stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)  | [Heap](Python\Heap\kth-largest-element-in-stream.py)  | Easy  |   | |
 |10   |[top-k-frequent-words](https://leetcode.com/problems/top-k-frequent-words)  :star: | [Heap](Python\Heap\top-k-frequent-words.py)  | Medium  |   | | |
 | 11| [find median from data stream](https://leetcode.com/problems/find-median-from-data-stream) :star: |[Heap](Python/Heap/find-median-from-data-stream.py) |Hard| ```two heaps``` | |
-
-
-
-
----
-
-
-
-### k-way-merge
-| #   |Question| Solution |Difficulty | Tags| Notes |
-| -|----- | ---------- |-----|---|----|
-| 1  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) :star: | [heap](Python/k-way-merge/merge-k-sortedlist.py)|Hard | | |
-| 2  | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Heap](Python/Heap/kth-smallest-in-matrix.py)|Medium | | |
-| 3  | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | []()| | | |
-| 4 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | []()| | | |
+| 12| [sliding window median](https://leetcode.com/problems/sliding-window-median) |[Heap](Python/Heap/sliding-window-median.py) |Hard | ```Two_heaps```| |
+| 13  | [merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists/) :star: | [heap](Python/k-way-merge/merge-k-sortedlist.py)|Hard | | |
+| 14  | [kth-smallest-element-in-a-sorted-matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Heap](Python/Heap/kth-smallest-in-matrix.py)|Medium | | |
+| 15  | [smallest-range-i](https://leetcode.com/problems/smallest-range-i/) | []()| | | |
+| 16 | [find-k-pairs-with-smallest-sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | []()| | | |
 
 
 ---
@@ -360,7 +353,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |14 |[minimum-depth-of-binary-tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[DFS](Python/Tree/min_depth_BT.py)|Easy | ||
 |15 | [serialize-and-deserialize-binary-tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) :star: | [Solution](Python\Tree\serialize-deserialize-bt.py) | Hard  || same as BST |
 | 16| [convert sorted list to binary search tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree) |[Tree](Python/Tree/convert-sorted-list-to-binary-search-tree.py) |Medium| | |
-|17 | [Iterative postorderTraversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)  |[DFS](Python/Tree/postorder_iterative.py)   | Hard  || Using stack |
+| 17| [binary tree postorder traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) |[Tree](Python/Tree/binary-tree-postorder-traversal.py) |Medium |  | |
 |18 | [binary-search-tree-iterator](https://leetcode.com/problems/binary-search-tree-iterator) | [](Python/Tree/) | | |  |
 |19 | [serialize-and-deserialize-bst](https://leetcode.com/problems/serialize-and-deserialize-bst) | [Solution](Python\Tree\serialize-deserialize-BST.py) | Medium| | same as BT |
 |20 | [convert-BST-to-sorted-doublyLL](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [inorder](Python\Tree\convert-bst-to-doublyLL.py) |  | | |
@@ -383,6 +376,9 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 37| [recover binary search tree](https://leetcode.com/problems/recover-binary-search-tree) |[Tree](Python/Tree/recover-binary-search-tree.py) |Hard| | |
 | 38| [maximum width of binary tree](https://leetcode.com/problems/maximum-width-of-binary-tree) |[Tree](Python/Tree/maximum-width-of-binary-tree.py) |Medium |  | |
 | 39| [vertical order traversal of a binary tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree) |[Tree](Python/Tree/vertical-order-traversal-of-a-binary-tree.py) |Medium |  | |
+| 40| [binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) |[Tree](Python/Tree/binary-tree-preorder-traversal.py) |Medium |  | |
+| 41| [binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) |[Tree](Python/Tree/binary-tree-inorder-traversal.py) |Medium |  | |
+| 42| [maximum binary tree](https://leetcode.com/problems/maximum-binary-tree) |[Tree](Python/Tree/maximum-binary-tree.py) |Medium |  | |
 
 
 
@@ -440,6 +436,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 16| [alien-dictionary](https://leetcode.com/problems/alien-dictionary) :star: |[Graphs](Python/Graphs/alien-dictionary.py) |Hard|```cycle detection``` ```topological sort``` | |
 | 17| [cheapest flights within k stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) |[Graphs](Python/Graphs/cheapest-flights-within-k-stops.py) |Medium | ```dijkstra```| |
 | 18| [critical connections](https://leetcode.com/problems/critical-connections) |[Graphs](Python/Graphs/critical-connections.py) |Hard | ```Articulation point``` | [Video](https://www.youtube.com/watch?v=RYaakWv5m6o)|
+| 19| [accounts merge](https://leetcode.com/problems/accounts-merge) |[Graphs](Python/Graphs/accounts-merge.py) |Medium |  | |
 
 
 ---

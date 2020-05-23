@@ -1,3 +1,8 @@
+# @Author: Sai Harshith
+# @Date:   2020-05-06T20:00:11-07:00
+# @Last modified by:   Sai Harshith
+# @Last modified time: 2020-05-22T13:00:40-07:00
+
 class Solution:
     def subarraysWithKDistinct(self, A: List[int], K: int) -> int:
 
@@ -29,5 +34,5 @@ class Solution:
 
                 subarray_count += win_end - win_start + 1
             return subarray_count
-            
+
         return subarraysAtmostKDistinct(A, K) - subarraysAtmostKDistinct(A, K-1)

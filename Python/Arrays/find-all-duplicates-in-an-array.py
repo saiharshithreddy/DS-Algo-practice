@@ -1,3 +1,9 @@
+# @Author: Sai Harshith
+# @Date:   06-May-2020-16-05
+# @Last modified by:   Sai Harshith
+# @Last modified time: 22-May-2020-13-05
+
+
 '''
 Approach: Go over each num in the array and multiply -1 to the number at the index (num - 1)
 and check if the number at that index is positive. If positive then that occured twice
@@ -18,5 +24,3 @@ class Solution:
             if nums[j] > 0: # if positive then appears twice
                 duplicate_nums.append(abs(nums[i]))
         return duplicate_nums
-
-        
