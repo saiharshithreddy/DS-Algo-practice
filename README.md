@@ -1,7 +1,7 @@
 # Coding interview-preparation
 
 ![Language](https://img.shields.io/badge/language-Python%20-orange.svg)&nbsp;
-![Progress](https://img.shields.io/badge/progress-310%20%2F%20350-green4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-350%20%2F%20350-green4.svg)&nbsp;
 
 
 ---
@@ -95,6 +95,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 1| [group-anagrams](https://leetcode.com/problems/group-anagrams.py) |[String](Python/String/group-anagrams.py) |Medium| | |
 | 2| [reverse words in a string](https://leetcode.com/problems/reverse-words-in-a-string) |[Strings](Python/Strings/reverse-words-in-a-string.py) |Medium| ```Two pointers``` | |
 | 3| [longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring) |[Strings](Python/Strings/longest-palindromic-substring.py) |Medium |  | |
+| 4| [longest palindrome](https://leetcode.com/problems/longest-palindrome) |[Strings](Python/Strings/longest-palindrome.py) |Easy |  | |
 
 
 
@@ -259,7 +260,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 
 ---
 
-### Merge_Intervals
+### MergeIntervals
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  | [Merge intervals](https://leetcode.com/problems/merge-intervals) :star: | [Merge intervals](Python/MergeIntervals/merge_intervals.py)|Medium |```sort``` | |
@@ -269,6 +270,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 5  |[Meeting rooms 2](https://leetcode.com/problems/meeting-rooms-ii) :star: | [Merge intervals](Python/MergeIntervals/meeting-rooms2.py)| Medium|```sort``` | |
 | 6  |[Insert intervals](https://leetcode.com/problems/insert-interval/) | [Merge intervals ](Python/MergeIntervals/insert-intervals.py)| Hard|```sort``` | |
 | 7  | [Employee free time](https://leetcode.com/problems/employee-free-time/) | [ ](Python/MergeIntervals/employee-free-time.py)|Hard |```sort``` | |
+| 8| [meeting scheduler](https://leetcode.com/problems/meeting-scheduler) |[MergeIntervals](Python/MergeIntervals/meeting-scheduler.py) |Medium |  | |
 
 
 
@@ -303,6 +305,10 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 16| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
 | 17| [find peak element](https://leetcode.com/problems/find-peak-element) |[BinarySearch](Python/BinarySearch/find-peak-element.py) |Medium| | |
 | 18| [find peak element in matrix](https://www.geeksforgeeks.org/find-peak-element-2d-array/) |[BinarySearch](Python/BinarySearch/find-peak-element-in-matrix.py) |Medium |  | |
+| 19| [capacity to ship packages within d days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days) |[BinarySearch](Python/BinarySearch/capacity-to-ship-packages-within-d-days.py) |Medium | ```Important```| |
+| 20| [split array largest sum](https://leetcode.com/problems/split-array-largest-sum) |[BinarySearch](Python/BinarySearch/split-array-largest-sum.py) |Hard |  | |
+| 21| [find the smallest divisor given a threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold) |[BinarySearch](Python/BinarySearch/find-the-smallest-divisor-given-a-threshold.py) |Medium |  | |
+| 22| [koko eating bananas](https://leetcode.com/problems/koko-eating-bananas) |[BinarySearch](Python/BinarySearch/koko-eating-bananas.py) |Medium |  | |
 
 ---
 
@@ -375,6 +381,8 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 39| [vertical order traversal of a binary tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree) |[Tree](Python/Tree/vertical-order-traversal-of-a-binary-tree.py) |Medium |  | |
 | 40| [binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) |[Tree](Python/Tree/binary-tree-preorder-traversal.py) |Medium |  | |
 | 41| [binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) |[Tree](Python/Tree/binary-tree-inorder-traversal.py) |Medium |  | |
+| 42| [closest binary search tree value](https://leetcode.com/problems/closest-binary-search-tree-value) |[Tree](Python/Tree/closest-binary-search-tree-value.py) |Easy |  | |
+| 43| [count good nodes in binary tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree) |[Tree](Python/Tree/count-good-nodes-in-binary-tree.py) |Medium |  | |
 
 
 
@@ -434,7 +442,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 16| [alien-dictionary](https://leetcode.com/problems/alien-dictionary) :star: |[Graphs](Python/Graphs/alien-dictionary.py) |Hard|```cycle detection``` ```topological sort``` | |
 | 17| [cheapest flights within k stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) |[Graphs](Python/Graphs/cheapest-flights-within-k-stops.py) |Medium | ```dijkstra```| |
 | 18| [critical connections](https://leetcode.com/problems/critical-connections) :star: |[Graphs](Python/Graphs/critical-connections.py) |Hard | ```Articulation point``` | Tarjan's Algo <br> [Video](https://www.youtube.com/watch?v=RYaakWv5m6o)|
-| 19| [accounts merge](https://leetcode.com/problems/accounts-merge) |[Graphs](Python/Graphs/accounts-merge.py) |Medium | ```unconnected components``` | |
+| 19| [accounts merge](https://leetcode.com/problems/accounts-merge) |[Graphs](Python/Graphs/accounts-merge.py) |Medium | ```DFS``` | disconnected components|
 | 20| [redundant connection](https://leetcode.com/problems/redundant-connection) |[Graphs](Python/Graphs/redundant-connection.py) |Medium |  ```cycle detection```| |
 | 21| [connecting cities with minimum cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost) |[Graphs](Python/Graphs/connecting-cities-with-minimum-cost.py) |Medium | ```Dijkstra```| |
 | 22  |[evaluate-division](https://leetcode.com/problems/evaluate-division) :star: |   | [](Python/Graphs/)  |  | |
@@ -462,7 +470,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 10| [coin change](https://leetcode.com/problems/coin-change) |[DynamicProgramming](Python/DynamicProgramming/coin-change.py) |Medium |  | |
 | 11| [minimum falling path sum](https://leetcode.com/problems/minimum-falling-path-sum) |[DynamicProgramming](Python/DynamicProgramming/minimum-falling-path-sum.py) |Medium |  | |
 | 12| [unique paths](https://leetcode.com/problems/unique-paths) |[DynamicProgramming](Python/DynamicProgramming/unique-paths.py) |Medium |  | |
-| 13| [unique binary search tree](https://leetcode.com/problems/unique-binary-search-tree) |[DynamicProgramming](Python/DynamicProgramming/unique-binary-search-tree.py) |Medium |  |[Video](https://photos.app.goo.gl/eG6z1uaM6QAjBkrb7) |
+| 13| [unique binary search tree](https://leetcode.com/problems/unique-binary-search-trees) |[DynamicProgramming](Python/DynamicProgramming/unique-binary-search-tree.py) |Medium |  |[Video](https://photos.app.goo.gl/eG6z1uaM6QAjBkrb7) |
 
 
 
@@ -484,18 +492,17 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |9   | [Word search](https://leetcode.com/problems/word-search) :star: | [Backtracking](Python/Backtracking/word-search.py)  | Medium  |   ||
 |10   | [Word ladder]()  | []()  |   |   ||
 |11   | [regular-expression-matching](https://leetcode.com/problems/regular-expression-matching) :star: | []()  |   |   ||
-| -2| [word break](https://leetcode.com/problems/word-break) |[DynamicProgramming](Python/DynamicProgramming/word-break.py) |Medium |  | |
-| -2| [word break](https://leetcode.com/problems/word-break) |[DynamicProgramming](Python/DynamicProgramming/word-break.py) |Medium |  | |
+|12   | [permutation-sequence](https://leetcode.com/problems/permutation-sequence)  |   |   |   ||
+|13   | [Word ladder 2]()  | []()  |   |   ||
 |14   |[wildcard-matching](https://leetcode.com/problems/wildcard-matching)   | [](Python/Backtracking/)  |   |   ||
 |15   |[letter-combinations-of-a-phone-number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) :star:  | [Backtracking](Python/Backtracking/letter-combinations-of-number.py)  | Medium   |   ||
 |16   |[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)   | [](Python/Backtracking/)  |   |   ||
 |17   |[n-queens](https://leetcode.com/problems/n-queens)   |   |   |   ||
 |18   |[sudoku-solver](https://leetcode.com/problems/sudoku-solver)   |   |   |   ||
 |19   |[subsets-ii](https://leetcode.com/problems/subsets-ii)   | [Subsets](Python/Backtracking/subsets-2.py)  |   |   ||
-| | [n-queens-ii](https://leetcode.com/problems/n-queens-ii.py) |[Backtracking](Python/Backtracking/n-queens-ii.py) |Hard| ||
+|20 | [n-queens-ii](https://leetcode.com/problems/n-queens-ii.py) |[Backtracking](Python/Backtracking/n-queens-ii.py) |Hard| ||
 |21   | [android-unlock-patterns](https://leetcode.com/problems/android-unlock-patterns)  |   |   |   ||
-|22   | [permutation-sequence](https://leetcode.com/problems/permutation-sequence)  |   |   |   ||
-|23   | [Word ladder 2]()  | []()  |   |   ||
+
 
 
 
@@ -511,4 +518,4 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |4   |[palindrome-pairs](https://leetcode.com/problems/palindrome-pairs)   | []()  |   |   ||
 |5   |[concatenated-words](https://leetcode.com/problems/concatenated-words)   | []()  |   |   ||
 | | [longest-word-in-dict](https://leetcode.com/problems/longest-word-in-dict.py) |[Trie](Python/Trie/longest-word-in-dict.py) |Easy| ||
-|7   | [Search Suggestions System ](https://leetcode.com/problems/search-suggestions-system) :star: | [Trie](Python\Trie\search-suggestions.py)  |  Medium |   || |
+|7   | [Search Suggestions System ](https://leetcode.com/problems/search-suggestions-system) :star: | [Trie](Python\Trie\search-suggestions.py)  |  Medium |   | |
