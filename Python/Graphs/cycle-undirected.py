@@ -1,3 +1,10 @@
+# @Author: Sai Harshith
+# @Date:   06-Mar-2020-17-03
+# @Last modified by:   Sai Harshith
+# @Last modified time: 24-May-2020-19-05
+
+
+
 from collections import defaultdict
 class Graph:
     def __init__(self):
@@ -6,25 +13,22 @@ class Graph:
     def addEdge(self,u,v):
         self.graph[u].append(v)
         self.graph[v].append(u)
-        # print(self.graph)
+
     def hasCycle(self, node):
         visited = set()
 
-        print(self.dfs(node, visited, -1))
+        print(self.isCycle(node, visited, -1))
 
-    def dfs(self,node, visited, parent):
+    def isCycle(self,node, visited, parent):
 
         visited.add(node)
-        for neighbor in self.graph[node]:
-            if neighbor not in visited:
-                # visited.add(node)
-                if self.dfs(neighbor, visited, node):
+        for nodenext in self.graph[node]:
+            if(nodenext!=parent):
+                if nodenext in visited:
                     return True
-            elif parent != neighbor:
-                return True
+                if self.isCycle(nodenext,visited, node):
+                    return True
         return False
-
-        # print(visited)
 
 g = Graph()
 g.addEdge(1, 2)
