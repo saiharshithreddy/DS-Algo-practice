@@ -1,7 +1,13 @@
+# @Author: Sai Harshith
+# @Date:   05-Mar-2020-23-03
+# @Last modified by:   Sai Harshith
+# @Last modified time: 26-May-2020-13-05
+
+
+
 '''
 Approach: Backtracking
-Difficulties faced:
-Steps to resolve Difficulties:
+
 Time complexity: O(2^N)
 Space complexity: O(N)
 
@@ -13,6 +19,7 @@ class Solution:
         res = []
         if len(candidates) == 0:
             return
+            
         def func(curr, nums, target):
             if curr:
                 target -= curr[-1]

@@ -9,7 +9,7 @@ Algorithm:
 
 '''
 class Solution:
-    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+    def permuteUnique(self, nums):
 
         curr = []
         res = set()
@@ -22,5 +22,9 @@ class Solution:
 
 
         n = len(nums)
-        dfs([], nums,n)
+        dfs([], nums)
         return res
+
+if __name__ == '__main__':
+    s = Solution()
+    print(s.permuteUnique([1,1,2,3]))

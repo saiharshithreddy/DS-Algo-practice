@@ -1,7 +1,7 @@
 # @Author: Sai Harshith
 # @Date:   24-May-2020-11-05
 # @Last modified by:   Sai Harshith
-# @Last modified time: 24-May-2020-11-05
+# @Last modified time: 26-May-2020-12-05
 
 '''
 APPROACH : GREEDY
@@ -17,10 +17,11 @@ class Solution:
         items = [int(i) for i in nums_str]
 
         indices = {}
-
+        # store the last occurence of each number
         for index in range(len(items)):
             indices[items[index]] = index
 
+        #check if a number's index is less than a large number's last occurence
         for index, n in enumerate(items):
             for i in range(9,n,-1):
                 if indices.get(i,0) > index:

@@ -1,10 +1,11 @@
 # @Author: Sai Harshith
 # @Date:   12-May-2020-17-05
 # @Last modified by:   Sai Harshith
-# @Last modified time: 22-May-2020-13-05
+# @Last modified time: 26-May-2020-12-05
 
 
 '''
+boyre moore voting algo
 https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html
 
 The essential concepts is you keep a counter for the majority number X.
@@ -14,7 +15,7 @@ This could be explained as "4 X being paired out by 4 Y"
 '''
 class Solution:
     def majorityElement(self, nums: List[int]):
-        # boyre moore voting algo
+
         candidate = 0
         count = 0
         for i in range(len(nums)):

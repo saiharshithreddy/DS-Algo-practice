@@ -2,6 +2,11 @@
 Approach 1: Two pointers
 Time complexity: O(n)
 Space complexity: O(1)
+
+Algorithm:
+1. Check which building height is more and based on it update the respective max height (left/right). 
+2. If the current building height is than respective max height (left/right) then add the water count. 
+
 '''
 
 class Solution:
@@ -13,6 +18,7 @@ class Solution:
         
         while left < right:
             
+            # left
             if height[left]< height[right]:
                 
                 if height[left] > left_max:
@@ -22,6 +28,7 @@ class Solution:
                     
                 left += 1
                 
+            # right
             else:
                 if height[right] > right_max:
                     right_max = height[right]

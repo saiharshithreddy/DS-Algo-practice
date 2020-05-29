@@ -9,18 +9,24 @@ Algorithm:
 2. Add ) only when count of ) is less than (
 '''
 class Solution:
-    def generateParenthesis(self, n: int) -> List[str]:
-        def helper(braces,o,c):
+    def generateParenthesis(self, n):
+        def helper(braces,open_para,closed_para):
+            
             if(len(braces)==2*n):
                 self.result.append(braces)
                 return
 
-            if(o<=n):
-                helper(braces+"(",o+1,c);
-            if(c<o):
-                helper(braces+")",o,c+1)
+            if(open_para<=n):
+                helper(braces+"(",open_para+1,closed_para)
+
+            if(closed_para<open_para):
+                helper(braces+")",open_para,closed_para+1)
 
 
         self.result=[]
         helper("",1,1)
         return self.result
+
+if __name__ == '__main__':
+    s = Solution()
+    print(s.generateParenthesis(3))

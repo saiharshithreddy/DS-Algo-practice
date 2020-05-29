@@ -1,3 +1,10 @@
+# @Author: Sai Harshith
+# @Date:   10-Jan-2020-12-01
+# @Last modified by:   Sai Harshith
+# @Last modified time: 25-May-2020-15-05
+
+
+
 '''
 Fast look ups and fast removals.
 Idea: Hashmap and doubly linked list.
@@ -21,31 +28,38 @@ class LRUCache:
         # head and tail
         self.head = Node(0,0)
         self.tail = Node(0,0)
+
         self.head.next = self.tail
         self.tail.prev = self.head
 
     def get(self, key: int) -> int:
         if key not in self.map:
             return -1
+
+        # Once the node is accessed it has to be moved to front.
         n = self.map[key]
-        # Move the node first of the list
+        # 1. Remove from its position
         self.remove(n)
+        # 2. Add in front
         self.add_front(n)
         return n.value
 
     def put(self, key: int, value: int) -> None:
+        # put also works as update.
         if key in self.map:
             self.remove(self.map[key])
         # update the value for the key
         n = Node(key,value)
         self.add_front(n)
         self.map[key] = n
+        # check for capacity and remove node in the end.
         if len(self.map) > self.capacity:
             n = self.tail.prev
             self.remove(n)
             del self.map[n.key]
 
     def remove(self, node):
+        # standard doubly linkedlist deletion
         p = node.prev
         n = node.next
         p.next = n

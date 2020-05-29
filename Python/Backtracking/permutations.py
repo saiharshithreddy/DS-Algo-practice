@@ -1,9 +1,14 @@
+# @Author: Sai Harshith
+# @Date:   26-Feb-2020-01-02
+# @Last modified by:   Sai Harshith
+# @Last modified time: 27-May-2020-11-05
+
+
+
 '''
 Approach: Backtracking with dfs
-Difficulties faced:
-Steps to resolve Difficulties:
-Time complexity: O()
-Space complexity: O()
+Time complexity: O(N*N!)
+Space complexity: O(N*N!)
 
 Algorithm:
 

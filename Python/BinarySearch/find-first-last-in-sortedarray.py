@@ -7,7 +7,7 @@ Space complexity: O(1)
 '''
 
 class Solution:
-    def searchRange(self, nums: List[int], target: int) -> List[int]:
+    def searchRange(self, nums, target):
 
         result = []
 
@@ -27,12 +27,19 @@ class Solution:
     def binarysearch(self, nums,val, left):
         low = 0
         high = len(nums)
-        while low < high:
+        while low <= high:
 
             mid = (low + high )//2
+
             if nums[mid] > val or (left and nums[mid] == val):
-                high = mid
+                high = mid - 1
             else:
                 low = mid + 1
 
         return low
+
+if __name__ == '__main__':
+    s= Solution()
+    res = s.searchRange([1,2,3,4,4,5],4)
+    print(res)
+

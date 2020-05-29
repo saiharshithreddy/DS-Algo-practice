@@ -23,7 +23,7 @@ class Solution:
             for i in range(len(nums)):
                 dfs(curr + [nums[i]], nums[i+1:])
         dfs([],list(range(1,n+1)))
-        # print(res)
+        print(res)
 
 if __name__ == '__main__':
     s = Solution()

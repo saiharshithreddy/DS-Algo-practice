@@ -1,7 +1,7 @@
 # Coding interview-preparation
 
 ![Language](https://img.shields.io/badge/language-Python%20-orange.svg)&nbsp;
-![Progress](https://img.shields.io/badge/progress-350%20%2F%20350-green4.svg)&nbsp;
+![Progress](https://img.shields.io/badge/progress-330%20%2F%20350-green4.svg)&nbsp;
 
 
 ---
@@ -96,6 +96,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 2| [reverse words in a string](https://leetcode.com/problems/reverse-words-in-a-string) |[Strings](Python/Strings/reverse-words-in-a-string.py) |Medium| ```Two pointers``` | |
 | 3| [longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring) |[Strings](Python/Strings/longest-palindromic-substring.py) |Medium |  | |
 | 4| [longest palindrome](https://leetcode.com/problems/longest-palindrome) |[Strings](Python/Strings/longest-palindrome.py) |Easy |  | |
+| 5| [most common word](https://leetcode.com/problems/most-common-word) |[Strings](Python/Strings/most-common-word.py) |Easy |  | |
 
 
 
@@ -246,12 +247,12 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |14   | [consecutive-numbers-sum](https://leetcode.com/problems/consecutive-numbers-sum/)  | [Sliding window & Math](Python/SlidingWindow/consecutive-numbers-sum.py)  | Hard  |   | |
 | 15| [grumpy bookstore owner](https://leetcode.com/problems/grumpy-bookstore-owner) |[SlidingWindow](Python/SlidingWindow/grumpy-bookstore-owner.py) |Medium| | |
 | 16| [binary-subarrays-with-sum](https://leetcode.com/problems/binary-subarrays-with-sum) |[SlidingWindow](Python/SlidingWindow/binary-subarrays-with-sum.py) |Medium| ```atmostK - atmostk-1 concept``` | |
-
+| 17| subarrays-with-at-most-k-different-integers |[SlidingWindow](Python/SlidingWindow/subarrays-with-at-most-k-different-integers.py) |Medium| | |
 | 18| [subarrays-with-k-different-integers](https://leetcode.com/problems/subarrays-with-k-different-integers) |[SlidingWindow](Python/SlidingWindow/subarrays-with-k-different-integers.py) |Hard| | |
 |19   | [number-of-submatrices-that-sum-to-target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)  |   ||   |   |
 |20   | [subarray-product-less-than-k](https://leetcode.com/problems/subarray-product-less-than-k/)  :star:| [Sliding Window](Python/SlidingWindow/subarray_prod_less_thanK.py)  | Medium  |   ||
 | 21| [longest-substring-with-at-most-two-distinct-characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters) |[SlidingWindow](Python/SlidingWindow/longest-substring-with-at-most-two-distinct-characters.py) |Medium| | |
-| 22| subarrays-with-at-most-k-different-integers |[SlidingWindow](Python/SlidingWindow/subarrays-with-at-most-k-different-integers.py) |Medium| | |
+
 
 
 
@@ -367,7 +368,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 25  | [Zigzag conversion](https://leetcode.com/problems/zigzag-conversion) | [](Python/Tree/)| Medium| ||
 | 26  | [Average of levels in BT](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [BFS](Python\Tree\average-of-levels-BT.py)| Easy | ||
 | 27  | Next interval | [Tree DFS](Python/Tree/)| | ||
-| 28| [populating next right pointers in each node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) |[Tree](Python/Tree/populating-next-right-pointers-in-each-node.py) |Medium |  | |
+| 28| [next right pointer](https://leetcode.com/problems/next-right-pointer) |[Tree](Python/Tree/next-right-pointer.py) |Medium |  | |
 | 29  | [Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) :star:| [BFS](Python\Tree\binary-tree-right-side-view.py)|Medium | ||
 | 30  | [boundary of a tree](https://leetcode.com/problems/boundary-of-binary-tree/) :star: | [Solution](Python\Tree\boundary-tree.py)| Medium|| Left: Preorder, leaves: Inorder, right: Postorder |
 | 31  |[maximum binary tree](https://leetcode.com/problems/maximum-binary-tree) |[Tree](Python/Tree/maximum-binary-tree.py) |Medium |  | |
@@ -445,8 +446,9 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 19| [accounts merge](https://leetcode.com/problems/accounts-merge) |[Graphs](Python/Graphs/accounts-merge.py) |Medium | ```DFS``` | disconnected components|
 | 20| [redundant connection](https://leetcode.com/problems/redundant-connection) |[Graphs](Python/Graphs/redundant-connection.py) |Medium |  ```cycle detection```| |
 | 21| [connecting cities with minimum cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost) |[Graphs](Python/Graphs/connecting-cities-with-minimum-cost.py) |Medium | ```Dijkstra```| |
-| 22  |[evaluate-division](https://leetcode.com/problems/evaluate-division) :star: |   | [](Python/Graphs/)  |  | |
+| 22| [evaluate division](https://leetcode.com/problems/evaluate-division) |[Graphs](Python/Graphs/evaluate-division.py) |Medium | ```NegativeCycle```| |
 | 23  | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary) :star: | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  | | [Notes](Notes/Reconstruct-itinerary.pdf)  |
+| 24| [path with maximum minimum value](https://leetcode.com/problems/path-with-maximum-minimum-value) |[Graphs](Python/Graphs/path-with-maximum-minimum-value.py) |Medium | ```heap```| |
 
 
 
