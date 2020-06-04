@@ -3,6 +3,12 @@
 # @Last modified by:   Sai Harshith
 # @Last modified time: 22-May-2020-18-05
 
+'''
+Approach: Number of connected components 
+
+Merge the emails based on connected components. 
+'''
+
 class Solution:
     def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
 

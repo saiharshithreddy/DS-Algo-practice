@@ -1,3 +1,9 @@
+# @Author: Sai Harshith
+# @Date:   05-Mar-2020-01-03
+# @Last modified by:   Sai Harshith
+# @Last modified time: 01-Jun-2020-15-06
+
+
 
 '''
 Algorithm:
@@ -18,6 +24,7 @@ class Trie:
         Initialize your data structure here.
         """
         self.root = TrieNode()
+
     # O(l) l: length of the string
     def insert(self, word: str) -> None:
         """
@@ -43,8 +50,6 @@ class Trie:
             else:
                 return False
         return node.endofword
-
-
 
 
     def startsWith(self, prefix: str) -> bool:

@@ -6,11 +6,9 @@
 #         self.right = None
 
 '''
-Approach:
-Difficulties faced:
-Steps to resolve Difficulties:
-Time complexity: O()
-Space complexity: O()
+
+Time complexity: O(N) because we have to visit all the nodes in the worst case
+Space complexity: O(N)
 '''
 
 class Solution:

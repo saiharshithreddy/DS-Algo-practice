@@ -9,17 +9,15 @@ class Solution:
         dist = 0
         
         while land:
-            num = len(land)
             
-            for _ in range(num):
-                i,j = land.popleft()
-                
-                for x,y in directions:
-                    if (0 <= i + x < r and 0 <= j + y < c and grid[i+x][j+y] == 0):
-                        
-                        grid[i+x][j+y] = 1
-                        land.append((i+x,j+y))
+            i,j = land.popleft()
             
+            for x,y in directions:
+                if (0 <= i + x < r and 0 <= j + y < c and grid[i+x][j+y] == 0):
+                    
+                    grid[i+x][j+y] = 1
+                    land.append((i+x,j+y))
+        
             dist += 1
         return dist-1
         
