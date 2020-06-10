@@ -1,7 +1,7 @@
 # @Author: Sai Harshith
 # @Date:   22-May-2020-17-05
 # @Last modified by:   Sai Harshith
-# @Last modified time: 22-May-2020-17-05
+# @Last modified time: 07-Jun-2020-23-06
 
 
 # Definition for a binary tree node.
@@ -22,10 +22,10 @@ class Solution:
 
         # 1. add root to stack_a
         stack.append(root)
-        
+
         while stack:
-            
-            # 2. Pop from stack_a and push to stack_b
+
+            # 2. Pop from stack_a and push to result
             root = stack.pop()
             result.append(root.val)
 

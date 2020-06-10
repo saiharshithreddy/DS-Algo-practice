@@ -30,7 +30,7 @@ class CategoryTree:
 		self.dfs(root.left, category, parent)
 		self.dfs(root.right, category, parent)
 
-	def get_children(self, root, parent):
+	def get_children(self, parent):
 		
 		if not parent:
 			return []
@@ -50,5 +50,5 @@ c = CategoryTree()
 c.add_category('A', None)
 c.add_category('B', 'A')
 c.add_category('C', 'A')
-print(','.join(c.get_children(c.root, 'D')))
+print(','.join(c.get_children('D')))
 

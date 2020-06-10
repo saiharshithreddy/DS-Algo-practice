@@ -1,7 +1,15 @@
+# @Author: Sai Harshith
+# @Date:   24-Nov-2019-20-11
+# @Last modified by:   Sai Harshith
+# @Last modified time: 07-Jun-2020-01-06
+
+
+
 '''
-Approach 1: Find the middle and reverse the 2nd half of the LL, compare both 
+Approach 1: Find the middle and reverse the 2nd half of the LL, compare both
 TC: O(n)
 SC: O(1)
+
 '''
 
 class Solution:
@@ -26,7 +34,7 @@ class Solution:
 
         # Restore the list and return the result.
         first_half_end.next = self.reverse_list(second_half_start)
-        return result    
+        return result
 
     def end_of_first_half(self, head):
         fast = head

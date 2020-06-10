@@ -63,7 +63,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### Arrays
 | #   |Question| Solution |Difficulty | Tags |Notes |
 | -|----- | ---------- |-----|-------|----|
-|1    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Modified two pointers](Python/Arrays/product_except_self.py)  | Medium  |```Array``` ```Two pointers```|Follow up: O(N) Left product & right product  |
+|1    |[product-of-array-except-self](https://leetcode.com/problems/product-of-array-except-self)   | [Arrays](Python/Arrays/product_except_self.py)  | Medium  |```Array``` ```Two pointers```|Follow up: O(N) Left product & right product  |
 |2   | [Right rotate array](https://leetcode.com/problems/rotate-array/)  | [Reverse array](Python\Arrays\right_rotate.py)  | Easy  |   |   |
 | 3| [find all numbers disappeared in an array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) |[Arrays](Python/Arrays/find-all-numbers-disappeared-in-an-array.py) |Easy |  | |
 | 4| [find-all-duplicates-in-an-array](https://leetcode.com/problems/find-all-duplicates-in-an-array) |[Arrays](Python/Arrays/find-all-duplicates-in-an-array.py) |Medium| | Hint: Multiply -1 to the num at index (A[i]-1) |
@@ -72,6 +72,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 7| [majority element](https://leetcode.com/problems/majority-element) |[Arrays](Python/Arrays/majority-element.py) |Easy| ```boyre moore voting```| |
 | 8| [analyze user website visit pattern](https://leetcode.com/problems/analyze-user-website-visit-pattern) |[Arrays](Python/Arrays/analyze-user-website-visit-pattern.py) |Medium |  | |
 | 9| [maximum swap](https://leetcode.com/problems/maximum-swap) |[Arrays](Python/Arrays/maximum-swap.py) |Medium | ```hashmap``` | Finding the last occurence of each num|
+
 
 
 ---
@@ -88,7 +89,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |5   | [Diagonal traverse](https://leetcode.com/problems/diagonal-traverse)  | [Matrix](Python/Matrix/diagonal-traverse.py)  |  Medium  |  ```Matrix``` ```deque```|   |
 |6   | [Set matrix to zeros](https://leetcode.com/problems/set-matrix-zeroes)  | [Matrix](Python/Matrix/set-matrix-zeroes.py)  | Medium   | ```Matrix```  | Get the position of 0s in the matrix and in another iteration update the values  |
 |7   | [Generate spiral matrix](https://leetcode.com/problems/spiral-matrix-ii)  | [Matrix](Python/Matrix/spiral-matrix2.py)  | Medium  | ```Matrix```  | Similar to spiral matrix  |
-| 8| [sort the matrix diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally) |[Matrix](Python/Matrix/sort-the-matrix-diagonally.py) |Medium| | Hint: Any Diagonal elemements i-j is 0 |
+| 8| [sort the matrix diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally) |[Matrix](Python/Matrix/sort-the-matrix-diagonally.py) |Medium| | Hint: Any Diagonal elements i-j is 0 |
 
 
 ---
@@ -191,13 +192,12 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |14  |[Remove Nth node from the end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Linked List](Python/LinkedList/remove-nth-node.py)| Medium| | create dummy nodes (first & second) move first till k-1th node from start. Now, move both first and second. Second reaches k-1th node from start. Update the next ptr.|
 |15   | [Copy list with random ptr](https://leetcode.com/problems/copy-list-with-random-pointer) | [hashmap ](Python/LinkedList/copy-list-with-random-ptr.py) | Medium |```hashmap``` | |
 | 16  | [Add two numbers ](https://leetcode.com/problems/add-two-numbers) :star: | [Linked List](Python/LinkedList/add2numbers.py)|Medium| | Take care of carry. Create a new node after adding |
-| 17  | [Add two numbers 2](https://leetcode.com/problems/add-two-numbers-ii) | [Linked List](Python/LinkedList/add-numbers-reverse.py)|Medium | ||
-| 18  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](Python/LinkedList/partition-list.py)|Medium | |Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
-| 19  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [ ](Python/LinkedList/insert-sorted-circularLL.py)| | ||
-| 20  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Linked List ](Python/LinkedList/remove-dup.py)|Easy | ||
-| 21  | [Remove duplicates from LinkedList 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Linked List ](Python/LinkedList/remove-dup-2.py)|Medium | ||
-|22 | [Sort list](https://leetcode.com/problems/sort-list)  | []()  | Medium  | |Merge sort  |
-|23 |[Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [ ](Python/LinkedList/flatten_doublylist.py) |Medium | | |
+| 17  | [Partition list](https://leetcode.com/problems/partition-list) | [Linked List](Python/LinkedList/partition-list.py)|Medium | |Create two seperate nodes (smaller, larger). Link last of smaller to first of larger|
+| 18  | [Insert into a sorted circular LL](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list) | [ ](Python/LinkedList/insert-sorted-circularLL.py)| | ||
+| 19  | [Remove duplicates from LinkedList](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [Linked List ](Python/LinkedList/remove-dup.py)|Easy | ||
+| 20  | [Remove duplicates from LinkedList 2](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [Linked List ](Python/LinkedList/remove-dup-2.py)|Medium | ||
+|21| [Sort list](https://leetcode.com/problems/sort-list)  | []()  | Medium  | |Merge sort  |
+|22 |[Flatten a multilevel doubly LL](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [ ](Python/LinkedList/flatten_doublylist.py) |Medium | | |
 
 ---
 
@@ -273,7 +273,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 14| [valid-perfect-square](https://leetcode.com/problems/valid-perfect-square) |[BinarySearch](Python/BinarySearch/valid-perfect-square.py) |Easy| | |
 | 15| [sqrtx](https://leetcode.com/problems/sqrtx) |[BinarySearch](Python/BinarySearch/sqrtx.py) |Easy| | |
 | 16| [search-insert-position](https://leetcode.com/problems/search-insert-position) |[BinarySearch](Python/BinarySearch/search-insert-position.py) |Easy| | |
-| 17| [capacity to ship packages within d days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days) |[BinarySearch](Python/BinarySearch/capacity-to-ship-packages-within-d-days.py) |Medium | ```Important```| |
+| 17| [capacity to ship packages within d days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days) :star: |[BinarySearch](Python/BinarySearch/capacity-to-ship-packages-within-d-days.py) |Medium | | |
 | 18| [split array largest sum](https://leetcode.com/problems/split-array-largest-sum) |[BinarySearch](Python/BinarySearch/split-array-largest-sum.py) |Hard |  | |
 | 19| [find the smallest divisor given a threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold) |[BinarySearch](Python/BinarySearch/find-the-smallest-divisor-given-a-threshold.py) |Medium |  | |
 | 20| [koko eating bananas](https://leetcode.com/problems/koko-eating-bananas) |[BinarySearch](Python/BinarySearch/koko-eating-bananas.py) |Medium |  | |
@@ -360,7 +360,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 ### DFS
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
-|1   | [Number of islands](https://leetcode.com/problems/number-of-islands) :star: | [DFS](Python\DFS\NumOfIslands.py)  | Medium  |   | |
+|1   | [Number of islands](https://leetcode.com/problems/number-of-islands) :star: | [DFS](Python/DFS/NumOfIslands.py)  | Medium  |   | |
 |2   | [Number of distinct islands](https://leetcode.com/problems/number-of-distinct-islands)  | [DFS](Python\DFS\NumofDistinctIslands.py)  | Medium  |   | |
 | 3| [friends circles](https://leetcode.com/problems/friends-circles) |[DFS](Python/DFS/friends-circles.py) |Medium| | |
 | 4| [max area of island](https://leetcode.com/problems/max-area-of-island) |[DFS](Python/DFS/max-area-of-island.py) |Medium| | |
