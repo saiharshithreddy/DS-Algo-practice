@@ -1,3 +1,10 @@
+# @Author: Sai Harshith
+# @Date:   09-May-2020-19-05
+# @Last modified by:   Sai Harshith
+# @Last modified time: 11-Jun-2020-00-06
+
+
+
 '''
 TC: O(N+k)
 SC: O(k)
@@ -5,7 +12,7 @@ Similar to #567 Permutations in a string
 '''
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        
+
         window_start, matched, subs_start = 0, 0, 0
         min_length = len(s) + 1
         char_frequency = {}
@@ -41,4 +48,3 @@ class Solution:
         if min_length > len(s):
             return ""
         return s[subs_start:subs_start + min_length]
-            
