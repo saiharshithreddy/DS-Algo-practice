@@ -13,7 +13,7 @@ conda install -c conda-forge jupyter_contrib_nbextensions
 conda install -c conda-forge jupyter_nbextensions_configurator
 ```
 
-Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for easier navigation through the notebooks.
+Enable these extensions [image](Files/jupyter_extensions_screenshot.PNG) for easier navigation through the notebooks.
 
 
 ## Notebooks
@@ -29,32 +29,31 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 9. [DynamicProgramming](Notebooks/DynamicProgramming.ipynb)
 10. [Design datastructures](Notebooks/DesignStructures.ipynb)
 
----
 
 <!-- TOC -->
 
 ## Topics
 
-  - [1. Arrays](#arrays)
-  - [2. Matrix](#matrix)
-  - [3. Strings](#strings)
-  - [4. Math](#math)
-  - [5. TwoPointers](#twopointers)
-  - [6. Stack](#stack)
-  - [7. DesignQuestions](#designquestions)
-  - [8. LinkedList](#linkedlist)
-  - [9. SlidingWindow](#slidingwindow)
-  - [10. MergeIntervals](#mergeintervals)
-  - [11. CyclicSort](#cyclicsort)
-  - [12. BinarySearch](#binarysearch)
-  - [13. Heap](#heap)
-  - [14. Tree](#tree)
-  - [15. Backtracking](#backtracking)
-  - [16. DFS](#dfs)
-  - [17. BFS](#bfs)
-  - [18. Graphs](#graphs)
-  - [19. DynamicProgramming](#dynamicprogramming)
-  - [20. Trie](#trie)
+  1. [Arrays](#arrays)
+  2. [Matrix](#matrix)
+  3. [Strings](#strings)
+  4. [Math](#math)
+  5. [TwoPointers](#twopointers)
+  6. [Stack](#stack)
+  7. [DesignQuestions](#designquestions)
+  8. [LinkedList](#linkedlist)
+  9. [SlidingWindow](#slidingwindow)
+  10. [MergeIntervals](#mergeintervals)
+  11. [CyclicSort](#cyclicsort)
+  12. [BinarySearch](#binarysearch)
+  13. [Heap](#heap)
+  14. [Tree](#tree)
+  15. [Backtracking](#backtracking)
+  16. [DFS](#dfs)
+  17. [BFS](#bfs)
+  18. [Graphs](#graphs)
+  19. [DynamicProgramming](#dynamicprogramming)
+  20. [Trie](#trie)
 
 <!-- /TOC -->
 
@@ -138,7 +137,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |17 | [Move zeros](https://leetcode.com/problems/move-zeroes)|[Two pointers](Python/TwoPointers/move_zeroes.py)|Easy |  ||
 |18  | [Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Two pointers ](Python/TwoPointers/Remove_duplicates_from_sortedarray.py)|Easy |  | |
 | 19| [valid-triangle-number](https://leetcode.com/problems/valid-triangle-number) |[TwoPointers](Python/TwoPointers/valid-triangle-number.py) |Medium|```BinarySearch``` ```TwoPointers``` | Similar to 3 sum closest |
-|20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard ||1. Two pointers is O(n+m) <br>  2. Binary search O(log(min(n,m)) [Algo](Notes/Median-of-2sortedarrays.pdf) <br> [Video](https://www.youtube.com/watch?v=LPFhl65R7ww)|
+|20   | [Median of two sorted arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Two pointers](Python/TwoPointers/median-sorted-arrays.py) [Binary search](Python/BinarySearch/median-2sortedarrays.py)|Hard ||1. Two pointers is O(n+m) <br>  2. Binary search O(log(min(n,m)) [Algo](Files/Median-of-2sortedarrays.pdf) <br> [Video](https://www.youtube.com/watch?v=LPFhl65R7ww)|
 
 
 ---
@@ -203,9 +202,9 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | #   |Question| Solution |Difficulty | Tags| Notes |
 | -|----- | ---------- |-----|---|----|
 | 1  |[Max sum subarray of size k/ Max subarray](https://leetcode.com/problems/maximum-subarray/)| [Sliding Window](Python/SlidingWindow/max_sum_subarray.py) | Easy | ||
-| 2   |[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](Python/SlidingWindow/smallest_sub_array_with_given_sum.py)|  Easy | |[Algo](Notes/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
+| 2   |[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Sliding Window](Python/SlidingWindow/smallest_sub_array_with_given_sum.py)|  Easy | |[Algo](Files/Notes%20Smallest%20sub%20array%20with%20given%20sum.pdf) |
 | 3| [longest-substring-with-at-most-k-distinct-characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters) :star:|[SlidingWindow](Python/SlidingWindow/longest-substring-with-at-most-k-distinct-characters.py) |Hard| | |
-|4  |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](Python/SlidingWindow/fruits_into_baskets.py) | Medium |```array``` |[Algo](Notes/Fruits_into_baskets.pdf) |
+|4  |[Fruits into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Sliding Window](Python/SlidingWindow/fruits_into_baskets.py) | Medium |```array``` |[Algo](Files/Fruits_into_baskets.pdf) |
 |5  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Sliding Window](Python/SlidingWindow/Longest_repeating_character_replacement.py)| Medium |```Hashmap``` | |
 | 6| [permutation in string](https://leetcode.com/problems/permutation-in-string) |[SlidingWindow](Python/SlidingWindow/permutation-in-string.py) |Medium|```Hashmap``` ```Two strings``` | |
 |7  | [Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Sliding Window ](Python/SlidingWindow/longest-substring-without-repeating-characters.py) |Medium | | |
@@ -421,7 +420,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 |7   | Detect cycle in a directed graph  | [Solution](Python/Graphs/cycle-directed.py)  | Medium | ```DFS```| exploring explored  |
 |8   | Detect cycle in an undirected graph  | [Solution](Python/Graphs/cycle-undirected.py)  | Medium  | ```DFS```| nei != parent and nei in visited |
 |9   |Shortest path between two vertices  |[](Python/Graphs/)   |  |  |   |
-|10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |  [BFS + hashmap](Python/Graph/clone-graph.py) | Medium  |```hashmap``` | [Notes](Notes/CloneGraph.pdf)  |
+|10   | [clone-graph](https://leetcode.com/problems/clone-graph)  |  [BFS + hashmap](Python/Graph/clone-graph.py) | Medium  |```hashmap``` | [Notes](Files/CloneGraph.pdf)  |
 |11   | [is-graph-bipartite](https://leetcode.com/problems/is-graph-bipartite)  | [BFS](Python/Graphs/bipartite-graph.py)  | Medium  | ```BFS``` | Graph coloring |
 |12   |[Graph valid tree](https://leetcode.com/problems/graph-valid-tree)  |  [Cycle detection in undirected](Python/Graph/graph-valid-tree.py) | Medium  | |check for cycle and disconnected components  |
 |13   |[course-schedule](https://leetcode.com/problems/course-schedule) :star: | [Topological sort ](Python/Graphs/course-schedule.py)|Medium |```dfs``` ```bfs``` ```cycle detection``` |1. Explored & exploring <br> 2. Cycle detection with Indegree idea |
@@ -434,7 +433,7 @@ Enable these extensions [image](Notes/jupyter_extensions_screenshot.PNG) for eas
 | 20| [redundant connection](https://leetcode.com/problems/redundant-connection) |[Graphs](Python/Graphs/redundant-connection.py) |Medium |  ```cycle detection```| |
 | 21| [connecting cities with minimum cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost) |[Graphs](Python/Graphs/connecting-cities-with-minimum-cost.py) |Medium | ```Dijkstra```| |
 | 22| [evaluate division](https://leetcode.com/problems/evaluate-division) |[Graphs](Python/Graphs/evaluate-division.py) |Medium | ```NegativeCycle```| |
-| 23  | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary) :star: | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  | | [Notes](Notes/Reconstruct-itinerary.pdf)  |
+| 23  | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary) :star: | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  | | [Notes](Files/Reconstruct-itinerary.pdf)  |
 | 24| [path with maximum minimum value](https://leetcode.com/problems/path-with-maximum-minimum-value) |[Graphs](Python/Graphs/path-with-maximum-minimum-value.py) |Medium | ```heap```| |
 
 
