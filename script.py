@@ -16,7 +16,7 @@ def add_content(*args):
         try:
             if tags != " | |": 
                 s = tags.split('-')
-                tags = "```" + " ``` ```".join(s) + "```| |"
+                tags = "`" + " ` `".join(s) + "`| |"
         except:
             tags = " | |"    
         text = s_no + question + question_link + solution + diff + tags

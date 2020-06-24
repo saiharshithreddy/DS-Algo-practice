@@ -1,25 +1,18 @@
-# @Author: Sai Harshith
-# @Date:   15-May-2020-22-05
-# @Last modified by:   Sai Harshith
-# @Last modified time: 10-Jun-2020-15-06
-
 '''
-Approach: Similar to number of islands 
-
-Time complexity: O()
-Space complexity: O()
-
-Algorithm:
-
+Approach: DFS, Similar to Number of islands - instead of calling dfs on multiple 1s by looping through the matrix
+DFS() is perfomed on one cell image[sr][sc] 
+Time complexity : O(MN) where M is the number of rows and N is the number of columns.
+Space complexity : worst case O(M N) in case that the grid map is filled with lands where DFS goes by M×N deep
 '''
 
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int):
+        # base case when the new color is same as the old color.
         if image[sr][sc] == newColor:
             return image
 
         def dfs(image, i,j):
-
+            # out of bounds and when the cell has a different color - func return
             if i < 0 or i >= len(image) or j < 0 or j >= len(image[0]) or image[i][j] != color:
                 return
 
@@ -38,6 +31,7 @@ class Solution:
 
         row = len(image)
         col = len(image[0])
+        # get the color of the starting cell and check the color of its adjacent cells and update their color to the new color
         color = image[sr][sc]
 
         dfs(image, sr, sc)

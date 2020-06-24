@@ -83,7 +83,7 @@ Enable these extensions [image](Files/jupyter_extensions_screenshot.PNG) for eas
 |2   |[Search in 2D matrix](https://leetcode.com/problems/search-a-2d-matrix-ii)   |[Matrix](Python/Matrix/search-in-2d-matrix.py)   |  Medium | ```BinarySearch``` ```Matrix``` | Tweak: Instead of performing a binary search check if the last row's first val is greater or lesser than the target|
 |3   |[Game of life](https://leetcode.com/problems/game-of-life/)   |[Array](Python/Matrix/game-of-life.py)   |  Medium | ```Matrix```||
 |4  |[Rotate Image](https://leetcode.com/problems/rotate-image)   | [Matrix transpose](Python/Matrix/rotate-image.py)  | Medium  |```Matrix```| Reverse rows and swap elements on either side of diagonals  |
-|5   | [Diagonal traverse](https://leetcode.com/problems/diagonal-traverse)  | [Matrix](Python/Matrix/diagonal-traverse.py)  |  Medium  |  ```Matrix``` ```deque```|   |
+|5   | [Diagonal traverse](https://leetcode.com/problems/diagonal-traverse)  | [Matrix](Python/Matrix/diagonal-traverse.py)  |  Medium  |  `Matrix` ```deque```|   |
 |6   | [Set matrix to zeros](https://leetcode.com/problems/set-matrix-zeroes)  | [Matrix](Python/Matrix/set-matrix-zeroes.py)  | Medium   | ```Matrix```  | Get the position of 0s in the matrix and in another iteration update the values  |
 |7   | [Generate spiral matrix](https://leetcode.com/problems/spiral-matrix-ii)  | [Matrix](Python/Matrix/spiral-matrix2.py)  | Medium  | ```Matrix```  | Similar to spiral matrix  |
 | 8| [sort the matrix diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally) |[Matrix](Python/Matrix/sort-the-matrix-diagonally.py) |Medium| | Hint: Any Diagonal elements i-j is 0 |
