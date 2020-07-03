@@ -435,6 +435,7 @@ Enable these extensions [image](Files/jupyter_extensions_screenshot.PNG) for eas
 | 22| [evaluate division](https://leetcode.com/problems/evaluate-division) |[Graphs](Python/Graphs/evaluate-division.py) |Medium | ```NegativeCycle```| |
 | 23  | [Reconstruct itinerary](https://leetcode.com/problems/reconstruct-itinerary) :star: | [Eulerian path](Python/Graphs/reconstruct-itinerary.py)  | Medium  | | [Notes](Files/Reconstruct-itinerary.pdf)  |
 | 24| [path with maximum minimum value](https://leetcode.com/problems/path-with-maximum-minimum-value) |[Graphs](Python/Graphs/path-with-maximum-minimum-value.py) |Medium | ```heap```| |
+| 25| [all paths from source to target](https://leetcode.com/problems/all-paths-from-source-to-target) |[Graphs](Python/Graphs/all-paths-from-source-to-target.py) |Medium | `backtracking`| |
 
 
 ---
