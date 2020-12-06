@@ -1,7 +1,6 @@
 '''
 Approach: 
-Difficulties faced:
-Steps to resolve Difficulties:
+
 Time complexity: O(E/2 * log E/2)
 Space complexity: O(V + 2E)
 
@@ -37,3 +36,4 @@ class Solution:
             self.DFS(nextDest)
 
         self.result.append(origin)
+
